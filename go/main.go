@@ -141,8 +141,12 @@ func getReposInfo(list deviceList) reposInfo {
 func getDeviceDeps(list deviceList) deviceList {
 	res := get(deviceDepsURL)
 	j := make(map[string][]string)
-	json.Unmarshal(res, &j)
+	err := json.Unmarshal(res, &j)
+	if err != nil {
+		log.Fatal(err)
+	}
 	for k, v := range j {
+		k := strings.ToLower(k)
 		d := list[k]
 		d.Deps = v
 		list[k] = d

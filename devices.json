@@ -1,210 +1,4 @@
 {
- "Amber": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_yandex_Amber",
-   "android_kernel_yandex_sdm660",
-   "android_packages_resources_devicesettings"
-  ]
- },
- "DRG": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_nokia_DRG",
-   "android_device_nokia_sdm660-common",
-   "android_kernel_nokia_sdm660"
-  ]
- },
- "FP2": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_fairphone_FP2",
-   "android_kernel_fairphone_msm8974"
-  ]
- },
- "I001D": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_asus_I001D",
-   "android_kernel_asus_I001"
-  ]
- },
- "I01WD": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_asus_I01WD",
-   "android_kernel_asus_sm8150"
-  ]
- },
- "PL2": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_nokia_PL2",
-   "android_device_nokia_sdm660-common",
-   "android_kernel_nokia_sdm660"
-  ]
- },
- "RMX1801": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_realme_RMX1801",
-   "android_kernel_realme_sdm660"
-  ]
- },
- "RMX1851": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_realme_RMX1851",
-   "android_kernel_realme_sdm710",
-   "android_packages_resources_devicesettings"
-  ]
- },
- "TB8703": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_lenovo_TB8703",
-   "android_device_lenovo_tb-common",
-   "android_kernel_lenovo_msm8953"
-  ]
- },
- "TB8704": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_lenovo_TB8704",
-   "android_device_lenovo_tb-common",
-   "android_kernel_lenovo_msm8953"
-  ]
- },
- "TBX704": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_lenovo_TBX704",
-   "android_device_lenovo_tb-common",
-   "android_kernel_lenovo_msm8953"
-  ]
- },
- "X00TD": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_asus_X00TD",
-   "android_kernel_asus_sdm660"
-  ]
- },
- "X01BD": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_asus_X01BD",
-   "android_kernel_asus_sdm660"
-  ]
- },
- "YTX703F": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_lenovo_YTX703-common",
-   "android_device_lenovo_YTX703F",
-   "android_hardware_sony_timekeep",
-   "android_kernel_lenovo_msm8976",
-   "android_packages_resources_devicesettings"
-  ]
- },
- "YTX703L": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_lenovo_YTX703-common",
-   "android_device_lenovo_YTX703L",
-   "android_hardware_sony_timekeep",
-   "android_kernel_lenovo_msm8976",
-   "android_packages_resources_devicesettings"
-  ]
- },
- "Z01R": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_asus_Z01R",
-   "android_kernel_asus_sdm845",
-   "android_packages_resources_devicesettings"
-  ]
- },
  "a3xelte": {
   "Model": "a3xelte",
   "Branch": "lineage-17.1",
@@ -334,7 +128,11 @@
   "Oem": "Yandex",
   "Name": "Phone",
   "lineage_recovery": true,
-  "Deps": null
+  "Deps": [
+   "android_device_yandex_Amber",
+   "android_kernel_yandex_sdm660",
+   "android_packages_resources_devicesettings"
+  ]
  },
  "angler": {
   "Model": "angler",
@@ -985,6 +783,19 @@
   "lineage_recovery": false,
   "Deps": null
  },
+ "drg": {
+  "Model": "",
+  "Branch": "",
+  "Period": 0,
+  "Oem": "",
+  "Name": "",
+  "lineage_recovery": false,
+  "Deps": [
+   "android_device_nokia_DRG",
+   "android_device_nokia_sdm660-common",
+   "android_kernel_nokia_sdm660"
+  ]
+ },
  "dumpling": {
   "Model": "dumpling",
   "Branch": "lineage-16.0",
@@ -1226,7 +1037,10 @@
   "Oem": "Fairphone",
   "Name": "Fairphone 2",
   "lineage_recovery": true,
-  "Deps": null
+  "Deps": [
+   "android_device_fairphone_FP2",
+   "android_kernel_fairphone_msm8974"
+  ]
  },
  "fugu": {
   "Model": "fugu",
@@ -1842,7 +1656,10 @@
   "Oem": "Asus",
   "Name": "ROG Phone 2 (I001D)",
   "lineage_recovery": true,
-  "Deps": null
+  "Deps": [
+   "android_device_asus_I001D",
+   "android_kernel_asus_I001"
+  ]
  },
  "i01wd": {
   "Model": "I01WD",
@@ -1851,7 +1668,10 @@
   "Oem": "Asus",
   "Name": "Zenfone 6 (ZS630KL)",
   "lineage_recovery": true,
-  "Deps": null
+  "Deps": [
+   "android_device_asus_I01WD",
+   "android_kernel_asus_sm8150"
+  ]
  },
  "i9100": {
   "Model": "i9100",
@@ -3096,6 +2916,19 @@
    "android_kernel_sony_sdm660"
   ]
  },
+ "pl2": {
+  "Model": "",
+  "Branch": "",
+  "Period": 0,
+  "Oem": "",
+  "Name": "",
+  "lineage_recovery": false,
+  "Deps": [
+   "android_device_nokia_PL2",
+   "android_device_nokia_sdm660-common",
+   "android_kernel_nokia_sdm660"
+  ]
+ },
  "pme": {
   "Model": "pme",
   "Branch": "",
@@ -3247,7 +3080,10 @@
   "Oem": "Realme",
   "Name": "2 Pro",
   "lineage_recovery": true,
-  "Deps": null
+  "Deps": [
+   "android_device_realme_RMX1801",
+   "android_kernel_realme_sdm660"
+  ]
  },
  "rmx1851": {
   "Model": "RMX1851",
@@ -3256,7 +3092,11 @@
   "Oem": "Realme",
   "Name": "3 Pro",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": [
+   "android_device_realme_RMX1851",
+   "android_kernel_realme_sdm710",
+   "android_packages_resources_devicesettings"
+  ]
  },
  "rosy": {
   "Model": "",
@@ -3669,6 +3509,45 @@
   "Name": "Droid Bionic",
   "lineage_recovery": false,
   "Deps": null
+ },
+ "tb8703": {
+  "Model": "",
+  "Branch": "",
+  "Period": 0,
+  "Oem": "",
+  "Name": "",
+  "lineage_recovery": false,
+  "Deps": [
+   "android_device_lenovo_TB8703",
+   "android_device_lenovo_tb-common",
+   "android_kernel_lenovo_msm8953"
+  ]
+ },
+ "tb8704": {
+  "Model": "",
+  "Branch": "",
+  "Period": 0,
+  "Oem": "",
+  "Name": "",
+  "lineage_recovery": false,
+  "Deps": [
+   "android_device_lenovo_TB8704",
+   "android_device_lenovo_tb-common",
+   "android_kernel_lenovo_msm8953"
+  ]
+ },
+ "tbx704": {
+  "Model": "",
+  "Branch": "",
+  "Period": 0,
+  "Oem": "",
+  "Name": "",
+  "lineage_recovery": false,
+  "Deps": [
+   "android_device_lenovo_TBX704",
+   "android_device_lenovo_tb-common",
+   "android_kernel_lenovo_msm8953"
+  ]
  },
  "tenshi": {
   "Model": "tenshi",
@@ -4089,7 +3968,10 @@
   "Oem": "Asus",
   "Name": "Zenfone Max Pro M1",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": [
+   "android_device_asus_X00TD",
+   "android_kernel_asus_sdm660"
+  ]
  },
  "x01bd": {
   "Model": "X01BD",
@@ -4098,7 +3980,10 @@
   "Oem": "Asus",
   "Name": "Zenfone Max Pro M2",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": [
+   "android_device_asus_X01BD",
+   "android_kernel_asus_sdm660"
+  ]
  },
  "x1q": {
   "Model": "",
@@ -4183,7 +4068,13 @@
   "Oem": "Lenovo",
   "Name": "Yoga Tab 3 Plus Wi-Fi",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": [
+   "android_device_lenovo_YTX703-common",
+   "android_device_lenovo_YTX703F",
+   "android_hardware_sony_timekeep",
+   "android_kernel_lenovo_msm8976",
+   "android_packages_resources_devicesettings"
+  ]
  },
  "ytx703l": {
   "Model": "YTX703L",
@@ -4192,7 +4083,13 @@
   "Oem": "Lenovo",
   "Name": "Yoga Tab 3 Plus LTE",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": [
+   "android_device_lenovo_YTX703-common",
+   "android_device_lenovo_YTX703L",
+   "android_hardware_sony_timekeep",
+   "android_kernel_lenovo_msm8976",
+   "android_packages_resources_devicesettings"
+  ]
  },
  "yuga": {
   "Model": "yuga",
@@ -4255,6 +4152,19 @@
   "Name": "Zenfone 2 Laser/Selfie (1080p)",
   "lineage_recovery": false,
   "Deps": null
+ },
+ "z01r": {
+  "Model": "",
+  "Branch": "",
+  "Period": 0,
+  "Oem": "",
+  "Name": "",
+  "lineage_recovery": false,
+  "Deps": [
+   "android_device_asus_Z01R",
+   "android_kernel_asus_sdm845",
+   "android_packages_resources_devicesettings"
+  ]
  },
  "z2_plus": {
   "Model": "z2_plus",
