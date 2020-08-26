@@ -1,0 +1,3232 @@
+{
+ "android_device_asus_I001D": [],
+ "android_device_asus_I01WD": [],
+ "android_device_asus_X00TD": [],
+ "android_device_asus_X01BD": [],
+ "android_device_asus_Z01R": [],
+ "android_device_asus_deb": [],
+ "android_device_asus_flo": [],
+ "android_device_asus_fugu": [],
+ "android_device_asus_zenfone3": [],
+ "android_device_bq_bardock": [],
+ "android_device_bq_bardockpro": [],
+ "android_device_bq_msm8953-common": [],
+ "android_device_bq_sdm660-common": [],
+ "android_device_bq_zangya": [],
+ "android_device_bq_zangyapro": [],
+ "android_device_cyanogen_msm8916-common": [],
+ "android_device_essential_mata": [],
+ "android_device_fairphone_FP2": [],
+ "android_device_fxtec_pro1": [],
+ "android_device_generic_goldfish": [],
+ "android_device_google_blueline": [],
+ "android_device_google_bonito": [
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-08-21T18:59:13Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-08-21T18:58:24Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-08-21T01:29:03Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-08-19T21:22:49Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-08-19T21:22:27Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-08-19T21:21:08Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-08-19T03:04:25Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-08-19T03:03:09Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-08-19T03:02:54Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-08-19T01:14:02Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-08-19T01:13:43Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-08-17T22:29:22Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-08-12T22:18:27Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-08-08T18:50:08Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-08-08T18:48:48Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-07-13T04:11:04Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-07-13T03:56:36Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-07-13T03:54:01Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-06-24T02:13:57Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-06-10T23:45:21Z",
+     "name": "android-build-team Robot",
+     "Email": "android-build-team-robot@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-06-10T23:41:08Z",
+     "name": "android-build-team Robot",
+     "Email": "android-build-team-robot@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-06-10T00:37:30Z",
+     "name": "android-build-team Robot",
+     "Email": "android-build-team-robot@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-06-10T00:35:04Z",
+     "name": "android-build-team Robot",
+     "Email": "android-build-team-robot@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-05-26T01:26:52Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-05-26T01:26:03Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-05-25T15:34:49Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-05-25T15:32:22Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-05-23T13:32:27Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-05-17T21:10:33Z",
+     "name": "android-build-team Robot",
+     "Email": "android-build-team-robot@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-05-17T21:08:56Z",
+     "name": "android-build-team Robot",
+     "Email": "android-build-team-robot@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-05-17T21:08:51Z",
+     "name": "android-build-team Robot",
+     "Email": "android-build-team-robot@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-05-06T01:38:13Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-05-06T01:37:43Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-13T23:18:34Z",
+     "name": "android-build-team Robot",
+     "Email": "android-build-team-robot@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-13T23:17:51Z",
+     "name": "android-build-team Robot",
+     "Email": "android-build-team-robot@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-09T23:20:10Z",
+     "name": "android-build-team Robot",
+     "Email": "android-build-team-robot@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-09T19:13:58Z",
+     "name": "Android (Google) Code Review",
+     "Email": "android-gerrit@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-09T05:00:19Z",
+     "name": "Android (Google) Code Review",
+     "Email": "android-gerrit@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-07T14:18:30Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-07T14:15:28Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-04T23:18:50Z",
+     "name": "android-build-team Robot",
+     "Email": "android-build-team-robot@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-03T23:58:17Z",
+     "name": "Jibu Joseph",
+     "Email": "jibu@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-02T23:45:01Z",
+     "name": "Blake Kragten",
+     "Email": "kragtenb@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-01T10:34:19Z",
+     "name": "Jason Hsu",
+     "Email": "jasonchhsu@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-30T23:04:44Z",
+     "name": "android-build-team Robot",
+     "Email": "android-build-team-robot@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-29T23:32:00Z",
+     "name": "android-build-team Robot",
+     "Email": "android-build-team-robot@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-29T23:27:46Z",
+     "name": "android-build-team Robot",
+     "Email": "android-build-team-robot@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-28T00:39:11Z",
+     "name": "Paul Scovanner",
+     "Email": "pscovanner@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-20T21:12:25Z",
+     "name": "Nolen Johnson",
+     "Email": "johnsonnolen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-19T23:15:09Z",
+     "name": "android-build-team Robot",
+     "Email": "android-build-team-robot@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-19T04:53:16Z",
+     "name": "android-build-team Robot",
+     "Email": "android-build-team-robot@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-19T04:50:56Z",
+     "name": "android-build-team Robot",
+     "Email": "android-build-team-robot@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-18T22:53:18Z",
+     "name": "Paul Scovanner",
+     "Email": "pscovanner@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-17T23:16:29Z",
+     "name": "android-build-team Robot",
+     "Email": "android-build-team-robot@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-17T02:18:04Z",
+     "name": "Android (Google) Code Review",
+     "Email": "android-gerrit@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-16T11:02:33Z",
+     "name": "Jimmy Chen",
+     "Email": "jimmycmchen@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-15T03:57:51Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-15T03:00:45Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-15T02:57:04Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-13T23:07:14Z",
+     "name": "android-build-team Robot",
+     "Email": "android-build-team-robot@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-06T02:29:00Z",
+     "name": "Yung Ti Su",
+     "Email": "andysu@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-04T00:16:17Z",
+     "name": "android-build-team Robot",
+     "Email": "android-build-team-robot@google.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:33:58Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:33:58Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:33:58Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:33:58Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:33:58Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:33:58Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:33:58Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:33:58Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:33:58Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:33:58Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:33:58Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:33:58Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:33:58Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:33:58Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:33:58Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:33:58Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:33:58Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:33:58Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:33:54Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:31:31Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:31:31Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:31:31Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:31:31Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:31:31Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:31:31Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:31:31Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:31:31Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:31:31Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:31:31Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:31:31Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:31:31Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:31:31Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:31:31Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:31:31Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:31:31Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:31:31Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:31:31Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-03T13:31:31Z",
+     "name": "Dan Pasanen",
+     "Email": "dan.pasanen@gmail.com"
+    }
+   }
+  }
+ ],
+ "android_device_google_coral": [],
+ "android_device_google_crosshatch": [],
+ "android_device_google_flame": [],
+ "android_device_google_marlin": [],
+ "android_device_google_muskie": [],
+ "android_device_google_sailfish": [],
+ "android_device_google_sargo": [],
+ "android_device_google_taimen": [],
+ "android_device_google_wahoo": [],
+ "android_device_google_walleye": [],
+ "android_device_google_yellowstone": [],
+ "android_device_htc_eyeul": [],
+ "android_device_htc_flounder": [],
+ "android_device_htc_hiae": [],
+ "android_device_htc_hima": [],
+ "android_device_htc_m8": [],
+ "android_device_htc_m8-common": [],
+ "android_device_htc_m8d": [],
+ "android_device_htc_msm8974-common": [],
+ "android_device_huawei_angler": [],
+ "android_device_huawei_berkeley": [],
+ "android_device_huawei_charlotte": [],
+ "android_device_huawei_che10": [],
+ "android_device_huawei_cherry": [],
+ "android_device_huawei_kirin970-common": [],
+ "android_device_huawei_kiwi": [],
+ "android_device_huawei_msm8916-common": [],
+ "android_device_leeco_msm8996-common": [],
+ "android_device_leeco_s2": [],
+ "android_device_leeco_x2": [],
+ "android_device_leeco_zl1": [],
+ "android_device_lenovo_TB8703": [],
+ "android_device_lenovo_TB8704": [],
+ "android_device_lenovo_TBX704": [],
+ "android_device_lenovo_YTX703-common": [],
+ "android_device_lenovo_YTX703F": [],
+ "android_device_lenovo_YTX703L": [],
+ "android_device_lenovo_kuntao": [],
+ "android_device_lenovo_tb-common": [],
+ "android_device_lge_bullhead": [],
+ "android_device_lge_common": [],
+ "android_device_lge_d800": [],
+ "android_device_lge_d801": [],
+ "android_device_lge_d802": [],
+ "android_device_lge_d803": [],
+ "android_device_lge_d805": [],
+ "android_device_lge_d806": [],
+ "android_device_lge_d850": [],
+ "android_device_lge_d851": [],
+ "android_device_lge_d852": [],
+ "android_device_lge_d855": [],
+ "android_device_lge_f400": [],
+ "android_device_lge_g2-common": [],
+ "android_device_lge_g3-common": [],
+ "android_device_lge_g5-common": [],
+ "android_device_lge_g6-common": [],
+ "android_device_lge_h830": [],
+ "android_device_lge_h850": [],
+ "android_device_lge_h870": [],
+ "android_device_lge_h872": [],
+ "android_device_lge_h910": [],
+ "android_device_lge_h918": [],
+ "android_device_lge_h990": [],
+ "android_device_lge_hammerhead": [],
+ "android_device_lge_ls980": [],
+ "android_device_lge_ls990": [],
+ "android_device_lge_ls997": [],
+ "android_device_lge_msm8996-common": [],
+ "android_device_lge_rs988": [],
+ "android_device_lge_us996": [],
+ "android_device_lge_us997": [],
+ "android_device_lge_v20-common": [],
+ "android_device_lge_v521": [],
+ "android_device_lge_vs980": [],
+ "android_device_lge_vs985": [],
+ "android_device_lge_vs995": [],
+ "android_device_moto_shamu": [],
+ "android_device_motorola_albus": [],
+ "android_device_motorola_chef": [],
+ "android_device_motorola_clark": [],
+ "android_device_motorola_evert": [],
+ "android_device_motorola_griffin": [],
+ "android_device_motorola_hannah": [],
+ "android_device_motorola_harpia": [],
+ "android_device_motorola_lake": [],
+ "android_device_motorola_lux": [],
+ "android_device_motorola_merlin": [],
+ "android_device_motorola_msm8916-common": [],
+ "android_device_motorola_nash": [],
+ "android_device_motorola_osprey": [],
+ "android_device_motorola_payton": [],
+ "android_device_motorola_river": [],
+ "android_device_motorola_sdm632-common": [],
+ "android_device_motorola_sdm660-common": [],
+ "android_device_motorola_surnia": [],
+ "android_device_motorola_victara": [],
+ "android_device_nextbit_ether": [],
+ "android_device_nokia_DRG": [],
+ "android_device_nokia_PL2": [],
+ "android_device_nokia_sdm660-common": [],
+ "android_device_nubia_msm8998-common": [],
+ "android_device_nubia_nx563j": [],
+ "android_device_nvidia_dalmore": [],
+ "android_device_nvidia_foster": [],
+ "android_device_nvidia_icera": [],
+ "android_device_nvidia_jetson": [],
+ "android_device_nvidia_roth": [],
+ "android_device_nvidia_shieldtablet": [],
+ "android_device_nvidia_t114-common": [],
+ "android_device_nvidia_t124-common": [],
+ "android_device_nvidia_t210-common": [],
+ "android_device_nvidia_tegra-common": [],
+ "android_device_nvidia_touch": [],
+ "android_device_oneplus_bacon": [],
+ "android_device_oneplus_cheeseburger": [],
+ "android_device_oneplus_common": [],
+ "android_device_oneplus_dumpling": [],
+ "android_device_oneplus_enchilada": [],
+ "android_device_oneplus_fajita": [],
+ "android_device_oneplus_guacamole": [],
+ "android_device_oneplus_guacamoleb": [],
+ "android_device_oneplus_hotdog": [],
+ "android_device_oneplus_msm8998-common": [],
+ "android_device_oneplus_oneplus2": [],
+ "android_device_oneplus_oneplus3": [],
+ "android_device_oneplus_sdm845-common": [],
+ "android_device_oneplus_sm8150-common": [],
+ "android_device_oppo_common": [
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-06-06T10:20:25Z",
+     "name": "Wang Han",
+     "Email": "416810799@qq.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-23T13:45:19Z",
+     "name": "Michael Bestas",
+     "Email": "mkbestas@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-03-30T17:27:26Z",
+     "name": "Michael Bestas",
+     "Email": "mkbestas@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-02-01T06:34:08Z",
+     "name": "Wang Han",
+     "Email": "416810799@qq.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-09-20T13:05:08Z",
+     "name": "Wang Han",
+     "Email": "416810799@qq.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-09-18T10:37:24Z",
+     "name": "Wang Han",
+     "Email": "416810799@qq.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-09-05T05:08:09Z",
+     "name": "Han Wang",
+     "Email": "416810799@qq.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-25T16:25:43Z",
+     "name": "Michael Bestas",
+     "Email": "mkbestas@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-07-06T08:57:02Z",
+     "name": "Michael Bestas",
+     "Email": "mkbestas@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-06-19T18:19:24Z",
+     "name": "Michael Bestas",
+     "Email": "mkbestas@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-06-08T15:56:34Z",
+     "name": "Michael Bestas",
+     "Email": "mkbestas@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-04-07T18:57:18Z",
+     "name": "Michael Bestas",
+     "Email": "mkbestas@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-03-10T23:18:51Z",
+     "name": "Michael W",
+     "Email": "baddaemon87@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-02-26T17:00:10Z",
+     "name": "Michael Bestas",
+     "Email": "mkbestas@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-01-12T18:01:43Z",
+     "name": "Michael Bestas",
+     "Email": "mkbestas@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2018-12-22T08:25:47Z",
+     "name": "Han Wang",
+     "Email": "416810799@qq.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2018-09-07T18:40:57Z",
+     "name": "Daniel Hillenbrand",
+     "Email": "daniel.hillenbrand@codeworkx.de"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2018-08-13T12:30:44Z",
+     "name": "YumeMichi",
+     "Email": "do4suki@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2018-07-09T19:04:03Z",
+     "name": "Michael Bestas",
+     "Email": "mkbestas@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2018-05-08T16:47:53Z",
+     "name": "Michael Bestas",
+     "Email": "mkbestas@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2018-04-16T18:34:56Z",
+     "name": "Michael Bestas",
+     "Email": "mkbestas@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2018-04-16T18:34:29Z",
+     "name": "Michael Bestas",
+     "Email": "mkbestas@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2018-02-25T20:04:50Z",
+     "name": "Michael Bestas",
+     "Email": "mkbestas@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2018-02-22T01:50:47Z",
+     "name": "Michael Bestas",
+     "Email": "mkbestas@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2018-02-13T22:20:43Z",
+     "name": "Michael Bestas",
+     "Email": "mkbestas@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2018-02-04T20:10:18Z",
+     "name": "Sam Mortimer",
+     "Email": "sam@mortimer.me.uk"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2018-01-27T03:40:05Z",
+     "name": "Michael Bestas",
+     "Email": "mkbestas@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2018-01-18T01:27:51Z",
+     "name": "Sam Mortimer",
+     "Email": "sam@mortimer.me.uk"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-12-21T21:14:33Z",
+     "name": "Michael Bestas",
+     "Email": "mkbestas@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-12-07T09:31:40Z",
+     "name": "dianlujitao",
+     "Email": "dianlujitao@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-12-07T09:31:40Z",
+     "name": "dianlujitao",
+     "Email": "dianlujitao@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-12-07T09:31:40Z",
+     "name": "dianlujitao",
+     "Email": "dianlujitao@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-12-07T09:31:40Z",
+     "name": "dianlujitao",
+     "Email": "dianlujitao@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-12-07T09:31:40Z",
+     "name": "dianlujitao",
+     "Email": "dianlujitao@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-12-06T14:19:05Z",
+     "name": "Alexander Martinz",
+     "Email": "alex@amartinz.at"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-09-14T13:27:08Z",
+     "name": "Simon Shields",
+     "Email": "simon@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-08-23T12:29:25Z",
+     "name": "Simon Shields",
+     "Email": "simon@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-08-09T03:16:13Z",
+     "name": "Abhisek Devkota",
+     "Email": "ciwrl@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-07-22T19:42:56Z",
+     "name": "Abhisek Devkota",
+     "Email": "ciwrl@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-05-18T05:23:16Z",
+     "name": "Abhisek Devkota",
+     "Email": "ciwrl@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-04-28T19:34:12Z",
+     "name": "Michael Bestas",
+     "Email": "mkbestas@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-04-20T19:11:14Z",
+     "name": "Abhisek Devkota",
+     "Email": "ciwrl@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-03-30T08:18:44Z",
+     "name": "Bruno Martins",
+     "Email": "bgcngm@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-03-29T21:27:21Z",
+     "name": "Abhisek Devkota",
+     "Email": "ciwrl@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-03-26T16:25:30Z",
+     "name": "Michael Bestas",
+     "Email": "mikeioannina@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-03-20T20:56:35Z",
+     "name": "Abhisek Devkota",
+     "Email": "ciwrl@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-03-08T22:06:42Z",
+     "name": "Abhisek Devkota",
+     "Email": "ciwrl@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-03-02T14:48:06Z",
+     "name": "Michael W",
+     "Email": "baddaemon87@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-02-25T02:55:19Z",
+     "name": "Abhisek Devkota",
+     "Email": "ciwrl@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-02-19T23:06:34Z",
+     "name": "Abhisek Devkota",
+     "Email": "ciwrl@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-02-18T12:21:00Z",
+     "name": "Bruno Martins",
+     "Email": "bgcngm@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-02-11T20:43:44Z",
+     "name": "Abhisek Devkota",
+     "Email": "ciwrl@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-02-05T00:22:19Z",
+     "name": "Abhisek Devkota",
+     "Email": "ciwrl@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-02-02T01:59:50Z",
+     "name": "Abhisek Devkota",
+     "Email": "ciwrl@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-02-01T08:12:38Z",
+     "name": "Michael Bestas",
+     "Email": "mikeioannina@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-01-27T15:23:51Z",
+     "name": "dianlujitao",
+     "Email": "dianlujitao@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-01-25T21:49:23Z",
+     "name": "Abhisek Devkota",
+     "Email": "ciwrl@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-01-05T15:38:10Z",
+     "name": "Bruno Martins",
+     "Email": "bgcngm@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2017-01-04T08:09:12Z",
+     "name": "Kilian von Pflugk",
+     "Email": "kilian@nood.tv"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-12-25T02:46:33Z",
+     "name": "pinky@build01",
+     "Email": "jenkins@cyanogenmod.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-12-22T02:29:21Z",
+     "name": "clyde@build01",
+     "Email": "jenkins@cyanogenmod.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-12-18T02:38:56Z",
+     "name": "pinky@build01",
+     "Email": "jenkins@cyanogenmod.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-12-12T05:42:46Z",
+     "name": "Abhisek Devkota",
+     "Email": "ciwrl@cyanogenmod.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-12-08T20:33:43Z",
+     "name": "Willi Ye",
+     "Email": "williye97@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-12-08T03:15:29Z",
+     "name": "Michael Bestas",
+     "Email": "mikeioannina@cyanogenmod.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-12-07T18:54:20Z",
+     "name": "Joey Rizzoli",
+     "Email": "joey@cyanogenmoditalia.it"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-12-03T11:44:35Z",
+     "name": "blinky@build01",
+     "Email": "jenkins@cyanogenmod.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-11-29T18:21:25Z",
+     "name": "inky@build01",
+     "Email": "jenkins@cyanogenmod.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-11-20T22:27:28Z",
+     "name": "clyde@build01",
+     "Email": "jenkins@cyanogenmod.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-10-13T18:11:59Z",
+     "name": "Michael Bestas",
+     "Email": "mikeioannina@cyanogenmod.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-10-05T08:20:53Z",
+     "name": "Steve Kondik",
+     "Email": "steve@cyngn.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-09-10T08:05:56Z",
+     "name": "Michael Bestas",
+     "Email": "mikeioannina@cyanogenmod.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-08-13T20:33:12Z",
+     "name": "blinky@build01",
+     "Email": "jenkins@cyanogenmod.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-08-08T02:27:32Z",
+     "name": "blinky@build01",
+     "Email": "jenkins@cyanogenmod.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-07-30T12:16:05Z",
+     "name": "Raienryu97",
+     "Email": "cherukupallip@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-07-21T18:19:12Z",
+     "name": "pinky@build01",
+     "Email": "jenkins@cyanogenmod.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-07-06T18:59:55Z",
+     "name": "pinky@build01",
+     "Email": "jenkins@cyanogenmod.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-06-29T17:49:56Z",
+     "name": "inky@build01",
+     "Email": "jenkins@cyanogenmod.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-06-13T18:18:57Z",
+     "name": "Michael Bestas",
+     "Email": "mikeioannina@cyanogenmod.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-06-07T00:43:55Z",
+     "name": "inky@build01",
+     "Email": "jenkins@cyanogenmod.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-06-01T19:02:23Z",
+     "name": "inky@build01",
+     "Email": "jenkins@cyanogenmod.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-05-27T01:57:33Z",
+     "name": "Jessica Wagantall",
+     "Email": "jwagantall@cyngn.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-05-24T16:12:41Z",
+     "name": "Gerrit Code Review",
+     "Email": "gerrit@cyanogenmod.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-05-18T07:33:09Z",
+     "name": "Danny Baumann",
+     "Email": "dannybaumann@web.de"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-05-17T20:11:55Z",
+     "name": "Abhisek Devkota",
+     "Email": "ciwrl@cyanogenmod.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-05-10T23:19:52Z",
+     "name": "Abhisek Devkota",
+     "Email": "ciwrl@cyanogenmod.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-05-10T15:33:32Z",
+     "name": "Michael Bestas",
+     "Email": "mikeioannina@cyanogenmod.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-04-28T21:42:38Z",
+     "name": "Michael Bestas",
+     "Email": "mikeioannina@cyanogenmod.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-04-22T15:39:44Z",
+     "name": "Gerrit Code Review",
+     "Email": "gerrit@cyanogenmod.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-04-16T14:43:41Z",
+     "name": "Michael Bestas",
+     "Email": "mikeioannina@cyanogenmod.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-04-05T22:12:51Z",
+     "name": "Michael Bestas",
+     "Email": "mikeioannina@cyanogenmod.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-03-27T21:42:03Z",
+     "name": "Michael Bestas",
+     "Email": "mikeioannina@cyanogenmod.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-03-21T10:51:07Z",
+     "name": "Gerrit Code Review",
+     "Email": "gerrit@cyanogenmod.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-03-17T19:53:52Z",
+     "name": "Michael Bestas",
+     "Email": "mikeioannina@cyanogenmod.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-03-16T14:57:12Z",
+     "name": "Danny Baumann",
+     "Email": "dannybaumann@web.de"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-03-04T22:13:57Z",
+     "name": "Michael Bestas",
+     "Email": "mikeioannina@cyanogenmod.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-03-03T18:54:56Z",
+     "name": "Michael Bestas",
+     "Email": "mikeioannina@cyanogenmod.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-02-27T10:28:06Z",
+     "name": "Gerrit Code Review",
+     "Email": "gerrit@cyanogenmod.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-02-24T16:59:05Z",
+     "name": "Roman Birg",
+     "Email": "roman@cyngn.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2016-02-22T03:10:23Z",
+     "name": "Michael Bestas",
+     "Email": "mikeioannina@cyanogenmod.org"
+    }
+   }
+  }
+ ],
+ "android_device_oppo_f1f": [],
+ "android_device_oppo_find7": [],
+ "android_device_oppo_msm8939-common": [],
+ "android_device_oppo_msm8974-common": [],
+ "android_device_oppo_n3": [],
+ "android_device_oppo_r5": [],
+ "android_device_oppo_r7": [],
+ "android_device_oppo_r7plus": [],
+ "android_device_oppo_r7sf": [],
+ "android_device_qcom_common": [],
+ "android_device_razer_aura": [],
+ "android_device_razer_cheryl": [],
+ "android_device_realme_RMX1801": [],
+ "android_device_realme_RMX1851": [],
+ "android_device_samsung_a3xelte": [],
+ "android_device_samsung_a5xelte": [],
+ "android_device_samsung_a5y17lte": [],
+ "android_device_samsung_a7y17lte": [],
+ "android_device_samsung_apq8084-common": [],
+ "android_device_samsung_crownlte": [],
+ "android_device_samsung_galaxys2-common": [],
+ "android_device_samsung_gts210velte": [],
+ "android_device_samsung_gts210vewifi": [],
+ "android_device_samsung_gts28velte": [],
+ "android_device_samsung_gts28vewifi": [],
+ "android_device_samsung_gts4lv-common": [],
+ "android_device_samsung_gts4lvwifi": [],
+ "android_device_samsung_hlte": [],
+ "android_device_samsung_hlte-common": [],
+ "android_device_samsung_hltechn": [],
+ "android_device_samsung_hltekor": [],
+ "android_device_samsung_hltetmo": [],
+ "android_device_samsung_i9100": [],
+ "android_device_samsung_j7elte": [],
+ "android_device_samsung_jactivelte": [],
+ "android_device_samsung_jf-common": [],
+ "android_device_samsung_jflteatt": [],
+ "android_device_samsung_jfltespr": [],
+ "android_device_samsung_jfltevzw": [],
+ "android_device_samsung_jfltexx": [],
+ "android_device_samsung_jfvelte": [],
+ "android_device_samsung_kccat6": [],
+ "android_device_samsung_klte": [],
+ "android_device_samsung_klte-common": [],
+ "android_device_samsung_klteactivexx": [],
+ "android_device_samsung_kltechn": [],
+ "android_device_samsung_kltechnduo": [],
+ "android_device_samsung_klteduos": [],
+ "android_device_samsung_kltedv": [],
+ "android_device_samsung_kltekdi": [],
+ "android_device_samsung_kltekor": [],
+ "android_device_samsung_lentislte": [],
+ "android_device_samsung_ms01-common": [],
+ "android_device_samsung_ms013g": [],
+ "android_device_samsung_msm8226-common": [],
+ "android_device_samsung_msm8930-common": [],
+ "android_device_samsung_msm8974-common": [],
+ "android_device_samsung_msm8976-common": [],
+ "android_device_samsung_qcom-common": [],
+ "android_device_samsung_s3ve3g-common": [],
+ "android_device_samsung_s3ve3gds": [],
+ "android_device_samsung_s3ve3gjv": [],
+ "android_device_samsung_s3ve3gxx": [],
+ "android_device_samsung_s5neolte": [],
+ "android_device_samsung_serrano-common": [],
+ "android_device_samsung_serrano3gxx": [],
+ "android_device_samsung_serranodsdd": [],
+ "android_device_samsung_serranoltexx": [],
+ "android_device_samsung_slsi_sepolicy": [],
+ "android_device_samsung_sm8250-common": [],
+ "android_device_samsung_star2lte": [
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-14T04:47:36Z",
+     "name": "Erfan Abdi",
+     "Email": "erfangplus@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-12T19:35:01Z",
+     "name": "Erfan Abdi",
+     "Email": "erfangplus@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-12T19:35:01Z",
+     "name": "Erfan Abdi",
+     "Email": "erfangplus@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-12T19:35:01Z",
+     "name": "Erfan Abdi",
+     "Email": "erfangplus@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-12T19:35:01Z",
+     "name": "Erfan Abdi",
+     "Email": "erfangplus@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-12T19:34:53Z",
+     "name": "Erfan Abdi",
+     "Email": "erfangplus@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-12T19:03:11Z",
+     "name": "Erfan Abdi",
+     "Email": "erfangplus@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-12T19:03:11Z",
+     "name": "Erfan Abdi",
+     "Email": "erfangplus@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-12T19:03:04Z",
+     "name": "Erfan Abdi",
+     "Email": "erfangplus@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2020-04-12T18:24:28Z",
+     "name": "Erfan Abdi",
+     "Email": "erfangplus@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2018-10-18T01:20:11Z",
+     "name": "Jesse Chan",
+     "Email": "jc@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2018-04-22T02:11:14Z",
+     "name": "Jesse Chan",
+     "Email": "jc@lineageos.org"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2018-04-20T08:28:43Z",
+     "name": "Jesse Chan",
+     "Email": "jc@lineageos.org"
+    }
+   }
+  }
+ ],
+ "android_device_samsung_starlte": [],
+ "android_device_samsung_universal7580-common": [],
+ "android_device_samsung_universal7880-common": [],
+ "android_device_samsung_universal9810-common": [],
+ "android_device_samsung_x1q": [],
+ "android_device_samsung_y2q": [],
+ "android_device_samsung_z3q": [],
+ "android_device_sony_akari": [],
+ "android_device_sony_blue-common": [],
+ "android_device_sony_common": [],
+ "android_device_sony_discovery": [],
+ "android_device_sony_dogo": [],
+ "android_device_sony_fusion3-common": [],
+ "android_device_sony_hayabusa": [],
+ "android_device_sony_huashan": [],
+ "android_device_sony_kirin": [],
+ "android_device_sony_mermaid": [],
+ "android_device_sony_mint": [],
+ "android_device_sony_msm8974-common": [],
+ "android_device_sony_nile-common": [],
+ "android_device_sony_odin": [],
+ "android_device_sony_pioneer": [],
+ "android_device_sony_pollux": [],
+ "android_device_sony_pollux-common": [],
+ "android_device_sony_pollux_windy": [],
+ "android_device_sony_shinano-common": [],
+ "android_device_sony_tama-common": [],
+ "android_device_sony_tsubasa": [],
+ "android_device_sony_voyager": [],
+ "android_device_sony_xz2c": [],
+ "android_device_sony_yuga": [],
+ "android_device_sony_z3": [],
+ "android_device_sony_z3c": [],
+ "android_device_wileyfox_crackling": [],
+ "android_device_wileyfox_kipper": [],
+ "android_device_wingtech_wt88047": [],
+ "android_device_xiaomi_beryllium": [],
+ "android_device_xiaomi_capricorn": [],
+ "android_device_xiaomi_chiron": [],
+ "android_device_xiaomi_davinci": [],
+ "android_device_xiaomi_dipper": [],
+ "android_device_xiaomi_equuleus": [],
+ "android_device_xiaomi_gemini": [],
+ "android_device_xiaomi_jasmine_sprout": [],
+ "android_device_xiaomi_jason": [],
+ "android_device_xiaomi_land": [],
+ "android_device_xiaomi_lavender": [],
+ "android_device_xiaomi_lithium": [],
+ "android_device_xiaomi_mido": [],
+ "android_device_xiaomi_msm8937-common": [],
+ "android_device_xiaomi_msm8953-common": [],
+ "android_device_xiaomi_msm8996-common": [],
+ "android_device_xiaomi_msm8998-common": [],
+ "android_device_xiaomi_natrium": [],
+ "android_device_xiaomi_onclite": [],
+ "android_device_xiaomi_perseus": [],
+ "android_device_xiaomi_phoenix": [],
+ "android_device_xiaomi_polaris": [],
+ "android_device_xiaomi_rosy": [],
+ "android_device_xiaomi_sagit": [],
+ "android_device_xiaomi_santoni": [],
+ "android_device_xiaomi_scorpio": [],
+ "android_device_xiaomi_sdm660-common": [],
+ "android_device_xiaomi_sdm845-common": [],
+ "android_device_xiaomi_sm6150-common": [],
+ "android_device_xiaomi_tissot": [],
+ "android_device_xiaomi_twolip": [],
+ "android_device_xiaomi_ursa": [],
+ "android_device_xiaomi_violet": [],
+ "android_device_xiaomi_wayne": [],
+ "android_device_xiaomi_wayne-common": [],
+ "android_device_xiaomi_whyred": [],
+ "android_device_yandex_Amber": [],
+ "android_device_yu_jalebi": [],
+ "android_device_yu_lettuce": [],
+ "android_device_yu_tomato": [],
+ "android_device_zuk_ham": [],
+ "android_device_zuk_msm8996-common": [],
+ "android_device_zuk_z2_plus": [],
+ "android_external_bson": [],
+ "android_external_sony_boringssl-compat": [],
+ "android_hardware_broadcom_fm": [],
+ "android_hardware_qcom_audio": [],
+ "android_hardware_qcom_display": [],
+ "android_hardware_qcom_media": [],
+ "android_hardware_samsung": [],
+ "android_hardware_samsung_slsi_exynos": [],
+ "android_hardware_samsung_slsi_exynos5": [],
+ "android_hardware_samsung_slsi_exynos7580": [],
+ "android_hardware_samsung_slsi_openmax": [],
+ "android_hardware_sony_DASH": [],
+ "android_hardware_sony_SonyOpenTelephony": [],
+ "android_hardware_sony_macaddrsetup": [],
+ "android_hardware_sony_simdetect": [],
+ "android_hardware_sony_thermanager": [],
+ "android_hardware_sony_timekeep": [],
+ "android_hardware_xiaomi": [],
+ "android_kernel_asus_I001": [],
+ "android_kernel_asus_fugu": [],
+ "android_kernel_asus_msm8953": [],
+ "android_kernel_asus_sdm660": [],
+ "android_kernel_asus_sdm845": [],
+ "android_kernel_asus_sm8150": [],
+ "android_kernel_bq_msm8953": [],
+ "android_kernel_bq_sdm660": [],
+ "android_kernel_cyanogen_msm8916": [],
+ "android_kernel_cyanogen_msm8974": [],
+ "android_kernel_essential_msm8998": [],
+ "android_kernel_fairphone_msm8974": [],
+ "android_kernel_fxtec_msm8998": [],
+ "android_kernel_google_marlin": [],
+ "android_kernel_google_msm": [],
+ "android_kernel_google_msm-4.9": [],
+ "android_kernel_google_wahoo": [],
+ "android_kernel_htc_flounder": [],
+ "android_kernel_htc_msm8952": [],
+ "android_kernel_htc_msm8974": [],
+ "android_kernel_htc_msm8994": [],
+ "android_kernel_huawei_angler": [],
+ "android_kernel_huawei_kirin970": [],
+ "android_kernel_huawei_kiwi": [],
+ "android_kernel_huawei_msm8916": [],
+ "android_kernel_leeco_msm8976": [],
+ "android_kernel_leeco_msm8996": [],
+ "android_kernel_lenovo_msm8953": [],
+ "android_kernel_lenovo_msm8976": [],
+ "android_kernel_lge_bullhead": [],
+ "android_kernel_lge_g3": [],
+ "android_kernel_lge_hammerhead": [],
+ "android_kernel_lge_msm8952": [],
+ "android_kernel_lge_msm8974": [],
+ "android_kernel_lge_msm8996": [],
+ "android_kernel_moto_shamu": [],
+ "android_kernel_motorola_msm8916": [],
+ "android_kernel_motorola_msm8937": [],
+ "android_kernel_motorola_msm8974": [],
+ "android_kernel_motorola_msm8992": [],
+ "android_kernel_motorola_msm8996": [],
+ "android_kernel_motorola_msm8998": [],
+ "android_kernel_motorola_sdm632": [],
+ "android_kernel_nextbit_msm8992": [],
+ "android_kernel_nokia_sdm660": [],
+ "android_kernel_nubia_msm8998": [],
+ "android_kernel_oneplus_msm8994": [],
+ "android_kernel_oneplus_msm8996": [],
+ "android_kernel_oneplus_msm8998": [],
+ "android_kernel_oneplus_sdm845": [],
+ "android_kernel_oneplus_sm8150": [],
+ "android_kernel_oppo_msm8939": [],
+ "android_kernel_oppo_msm8974": [],
+ "android_kernel_razer_msm8998": [],
+ "android_kernel_realme_sdm660": [],
+ "android_kernel_realme_sdm710": [],
+ "android_kernel_samsung_apq8084": [],
+ "android_kernel_samsung_jf": [],
+ "android_kernel_samsung_msm8226": [
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-10-20T15:23:42Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-10-18T20:26:40Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-10-16T18:10:47Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-10-14T17:58:22Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-10-12T15:00:56Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-10-12T15:00:56Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-10-12T15:00:56Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-10-12T15:00:55Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-10-12T15:00:55Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-10-12T14:58:45Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-10-05T11:41:36Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-10-05T11:41:29Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-10-05T11:40:49Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-23T21:53:10Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-23T11:20:01Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-23T11:20:01Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-23T11:20:01Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-23T11:20:01Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-23T11:20:00Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-23T11:20:00Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-23T11:20:00Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-23T11:20:00Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-23T11:20:00Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-23T11:20:00Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-23T11:20:00Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-20T10:05:26Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:13:59Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:10:37Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:07:21Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:07:15Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:07:06Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:05:56Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:05:47Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:05:40Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:05:35Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:05:27Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:05:18Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:05:11Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:05:04Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:04:57Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:04:49Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:04:40Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:04:33Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:04:26Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:03:31Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:03:24Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:03:12Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:03:11Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:03:10Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:03:09Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:03:08Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:02:59Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:02:50Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:02:27Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T10:02:06Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:49:10Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:48:51Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:48:42Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:48:34Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:48:11Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:48:10Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:48:09Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:47:30Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:44:53Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:44:08Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:44:07Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:44:06Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:44:05Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:44:04Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:44:03Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:44:02Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:44:01Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:44:00Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:43:59Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:43:58Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:43:52Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:42:07Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:42:05Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:42:04Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:42:03Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:42:02Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:42:01Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T09:34:20Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T08:42:02Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T08:26:22Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T08:00:22Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T07:59:25Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T07:38:41Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T07:26:44Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T07:14:21Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T07:14:20Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T07:14:20Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T07:14:19Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T07:14:19Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T07:14:19Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T07:14:18Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T07:14:18Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T07:14:17Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T07:14:16Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  },
+  {
+   "commit": {
+    "committer": {
+     "date": "2019-08-09T07:14:16Z",
+     "name": "Francescodario Cuzzocrea",
+     "Email": "bosconovic@gmail.com"
+    }
+   }
+  }
+ ],
+ "android_kernel_samsung_msm8930-common": [],
+ "android_kernel_samsung_msm8974": [],
+ "android_kernel_samsung_msm8976": [],
+ "android_kernel_samsung_sdm670": [],
+ "android_kernel_samsung_sm8250": [],
+ "android_kernel_samsung_smdk4412": [],
+ "android_kernel_samsung_universal7580": [],
+ "android_kernel_samsung_universal7880": [],
+ "android_kernel_samsung_universal9810": [],
+ "android_kernel_sony_apq8064": [],
+ "android_kernel_sony_msm8960t": [],
+ "android_kernel_sony_msm8974": [],
+ "android_kernel_sony_msm8x60": [],
+ "android_kernel_sony_sdm660": [],
+ "android_kernel_sony_sdm845": [],
+ "android_kernel_wingtech_msm8916": [],
+ "android_kernel_xiaomi_mido": [],
+ "android_kernel_xiaomi_msm8937": [],
+ "android_kernel_xiaomi_msm8953": [],
+ "android_kernel_xiaomi_msm8996": [],
+ "android_kernel_xiaomi_msm8998": [],
+ "android_kernel_xiaomi_onclite": [],
+ "android_kernel_xiaomi_rosy": [],
+ "android_kernel_xiaomi_sdm660": [],
+ "android_kernel_xiaomi_sdm845": [],
+ "android_kernel_xiaomi_sm6150": [],
+ "android_kernel_xiaomi_violet": [],
+ "android_kernel_yandex_sdm660": [],
+ "android_kernel_zuk_msm8996": [],
+ "android_packages_apps_FlipFlap": [],
+ "android_packages_resources_devicesettings": [],
+ "android_system_qcom": []
+}
