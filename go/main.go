@@ -17,6 +17,8 @@ const (
 	commitsAPIURL   = "https://api.github.com/repos/LineageOS/%s/commits?per_page=100"
 )
 
+const sleepTime = 60 * time.Second
+
 type buildPeriod uint
 
 const (
@@ -38,36 +40,58 @@ type deviceData struct {
 
 type deviceList map[string]deviceData
 
-type reposInfo map[string][]string
+type commit struct {
+	Commit struct {
+		Commiter struct {
+			Date  string `json:"date"`
+			Name  string `json:"name"`
+			Email string `json"email"`
+		} `json:"committer"`
+	} `json:"commit"`
+}
+
+type reposInfo map[string][]commit
 
 func doRequest(url string) ([]byte, error) {
-	res, err := http.Get(url)
+	client := &http.Client{}
+	req, err := http.NewRequest("GET", url, nil)
+	if err != nil {
+		log.Fatalln(err)
+	}
+	req.Header.Set("User-Agent", "github/mejgun")
+	res, err := client.Do(req)
 	if err != nil {
 		return []byte(""), err
 	}
-	if res.StatusCode != 200 {
-		return []byte(""), fmt.Errorf("%s ERROR: %s", url, res.Status)
-	}
+	defer res.Body.Close()
 	data, err := ioutil.ReadAll(res.Body)
-	res.Body.Close()
+	if res.StatusCode != 200 {
+		return data, fmt.Errorf("%s ERROR: %s", url, res.Status)
+	}
 	return data, err
 }
 
 func get(url string) []byte {
 	res, err := doRequest(url)
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal(string(res), err)
 	}
 	return res
 }
 
 func main() {
-	fmt.Println("Devies")
+	fmt.Println("Devices")
 	resp := getDevices()
+	time.Sleep(sleepTime)
+
 	fmt.Println("Build targets")
 	resp2 := getBuildTargets(resp)
-	fmt.Println("Devie deps")
+	time.Sleep(sleepTime)
+
+	fmt.Println("Device deps")
 	resp3 := getDeviceDeps(resp2)
+	time.Sleep(sleepTime)
+
 	fmt.Println("Saving devices json")
 	r, err := json.MarshalIndent(resp3, "", " ")
 	if err != nil {
@@ -77,34 +101,29 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+
+	time.Sleep(sleepTime)
 	fmt.Println("Repos")
 	repos := getReposInfo(resp3)
 	fmt.Println("Saving repos json")
 	rj, err := json.MarshalIndent(repos, "", " ")
-	err = ioutil.WriteFile("../devices.json", rj, 0644)
+	err = ioutil.WriteFile("../repos.json", rj, 0644)
 	if err != nil {
 		log.Fatal(err)
 	}
 }
 
 func getReposInfo(list deviceList) reposInfo {
-	type commit struct {
-		Commit struct {
-			Commiter struct {
-				Date string
-			}
-		}
-	}
 	repos := make(reposInfo)
 	for _, v := range list {
 		for _, j := range v.Deps {
-			repos[j] = make([]string, 0)
+			repos[j] = make([]commit, 0)
 		}
 	}
 	c := 0
 	for r := range repos {
 		c++
-		fmt.Println(" ", r)
+		fmt.Printf(" * %d/%d %s\n", c, len(repos), r)
 		q := get(fmt.Sprintf(commitsAPIURL, r))
 		w := make([]commit, 0)
 		err := json.Unmarshal(q, &w)
@@ -112,12 +131,9 @@ func getReposInfo(list deviceList) reposInfo {
 			log.Fatal(err)
 		}
 		for _, v := range w {
-			repos[r] = append(repos[r], v.Commit.Commiter.Date)
+			repos[r] = append(repos[r], v)
 		}
-		if c > 3 {
-			break
-		}
-		time.Sleep(1 * time.Second)
+		time.Sleep(sleepTime)
 	}
 	return repos
 }
