@@ -7,11 +7,14 @@ import (
 	"log"
 	"net/http"
 	"strings"
+	"time"
 )
 
 const (
 	buildTargetsURL = "https://raw.githubusercontent.com/LineageOS/hudson/master/lineage-build-targets"
 	deviceNamesURL  = "https://github.com/LineageOS/hudson/raw/master/updater/devices.json"
+	deviceDepsURL   = "https://raw.githubusercontent.com/LineageOS/hudson/master/updater/device_deps.json"
+	commitsAPIURL   = "https://api.github.com/repos/LineageOS/%s/commits?per_page=100"
 )
 
 type buildPeriod uint
@@ -30,9 +33,12 @@ type deviceData struct {
 	Oem             string
 	Name            string
 	LineageRecovery bool `json:"lineage_recovery"`
+	Deps            []string
 }
 
 type deviceList map[string]deviceData
+
+type reposInfo map[string][]string
 
 func doRequest(url string) ([]byte, error) {
 	res, err := http.Get(url)
@@ -56,11 +62,76 @@ func get(url string) []byte {
 }
 
 func main() {
+	fmt.Println("Devies")
 	resp := getDevices()
+	fmt.Println("Build targets")
 	resp2 := getBuildTargets(resp)
-	// fmt.Printf("%+v\n", resp2)
-	r, _ := json.MarshalIndent(resp2, "", " ")
-	fmt.Printf("%s\n", r)
+	fmt.Println("Devie deps")
+	resp3 := getDeviceDeps(resp2)
+	fmt.Println("Saving devices json")
+	r, err := json.MarshalIndent(resp3, "", " ")
+	if err != nil {
+		log.Fatal(err)
+	}
+	err = ioutil.WriteFile("../devices.json", r, 0644)
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Println("Repos")
+	repos := getReposInfo(resp3)
+	fmt.Println("Saving repos json")
+	rj, err := json.MarshalIndent(repos, "", " ")
+	err = ioutil.WriteFile("../devices.json", rj, 0644)
+	if err != nil {
+		log.Fatal(err)
+	}
+}
+
+func getReposInfo(list deviceList) reposInfo {
+	type commit struct {
+		Commit struct {
+			Commiter struct {
+				Date string
+			}
+		}
+	}
+	repos := make(reposInfo)
+	for _, v := range list {
+		for _, j := range v.Deps {
+			repos[j] = make([]string, 0)
+		}
+	}
+	c := 0
+	for r := range repos {
+		c++
+		fmt.Println(" ", r)
+		q := get(fmt.Sprintf(commitsAPIURL, r))
+		w := make([]commit, 0)
+		err := json.Unmarshal(q, &w)
+		if err != nil {
+			log.Fatal(err)
+		}
+		for _, v := range w {
+			repos[r] = append(repos[r], v.Commit.Commiter.Date)
+		}
+		if c > 3 {
+			break
+		}
+		time.Sleep(1 * time.Second)
+	}
+	return repos
+}
+
+func getDeviceDeps(list deviceList) deviceList {
+	res := get(deviceDepsURL)
+	j := make(map[string][]string)
+	json.Unmarshal(res, &j)
+	for k, v := range j {
+		d := list[k]
+		d.Deps = v
+		list[k] = d
+	}
+	return list
 }
 
 func getDevices() deviceList {
