@@ -17,20 +17,22 @@ const (
 type buildPeriod uint
 
 const (
-	nightly buildPeriod = iota
+	never buildPeriod = iota
+	nightly
 	weekly
 	monthly
 )
 
 type deviceData struct {
-	branch          string
-	period          buildPeriod
-	oem             string
-	name            string
-	lineageRecovery bool
+	Model           string
+	Branch          string
+	Period          buildPeriod
+	Oem             string
+	Name            string
+	LineageRecovery bool `json:"lineage_recovery"`
 }
 
-type buildDeviceList map[string]deviceData
+type deviceList map[string]deviceData
 
 func doRequest(url string) ([]byte, error) {
 	res, err := http.Get(url)
@@ -54,36 +56,28 @@ func get(url string) []byte {
 }
 
 func main() {
-	resp := getBuildTargets()
-	resp2 := getDeviceNames(resp)
-	fmt.Println(resp2)
+	resp := getDevices()
+	resp2 := getBuildTargets(resp)
+	// fmt.Printf("%+v\n", resp2)
+	r, _ := json.MarshalIndent(resp2, "", " ")
+	fmt.Printf("%s\n", r)
 }
 
-func getDeviceNames(list buildDeviceList) buildDeviceList {
-	type deviceInfo struct {
-		Model           string `json:"model"`
-		Oem             string `json:"oem,omitempty"`
-		Name            string `json:"name,omitempty"`
-		LineageRecovery bool   `json:"lineage_recovery,omitempty"`
-	}
+func getDevices() deviceList {
 	res := get(deviceNamesURL)
-	j := make([]deviceInfo, 0)
+	j := make([]deviceData, 0)
 	json.Unmarshal(res, &j)
+	list := make(deviceList)
 	for _, v := range j {
-		d := list[strings.ToLower(v.Model)]
-		d.lineageRecovery = v.LineageRecovery
-		d.oem = v.Oem
-		d.name = v.Name
-		list[strings.ToLower(v.Model)] = d
+		list[strings.ToLower(v.Model)] = v
 	}
 	return list
 }
 
-func getBuildTargets() buildDeviceList {
+func getBuildTargets(list deviceList) deviceList {
 	res := string(get(buildTargetsURL))
 	strList := strings.Split(res, "\n")
 	filteredList := make([]string, 0)
-	list := make(buildDeviceList)
 	for _, s := range strList {
 		s := strings.TrimSpace(s)
 		if len(s) > 0 && !strings.HasPrefix(s, "#") {
@@ -99,14 +93,15 @@ func getBuildTargets() buildDeviceList {
 		if l[1] != "userdebug" {
 			continue
 		}
-		d := deviceData{branch: l[2]}
+		d := list[l[0]]
+		d.Branch = l[2]
 		switch l[3] {
 		case "n":
-			d.period = nightly
+			d.Period = nightly
 		case "w":
-			d.period = weekly
+			d.Period = weekly
 		case "m":
-			d.period = monthly
+			d.Period = monthly
 		default:
 			continue
 		}
