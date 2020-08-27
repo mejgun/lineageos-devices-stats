@@ -164,19 +164,6 @@
   "lineage_recovery": false,
   "Deps": null
  },
- "aura": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_razer_aura",
-   "android_kernel_xiaomi_sdm845",
-   "android_packages_resources_devicesettings"
-  ]
- },
  "axon7": {
   "Model": "axon7",
   "Branch": "",
@@ -263,18 +250,6 @@
   "Deps": [
    "android_device_google_blueline",
    "android_device_google_crosshatch",
-   "android_kernel_google_msm-4.9"
-  ]
- },
- "bonito": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_google_bonito",
    "android_kernel_google_msm-4.9"
   ]
  },
@@ -461,17 +436,6 @@
   "lineage_recovery": false,
   "Deps": null
  },
- "coral": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_google_coral"
-  ]
- },
  "crackling": {
   "Model": "crackling",
   "Branch": "lineage-17.1",
@@ -604,36 +568,6 @@
    "android_kernel_lge_msm8974"
   ]
  },
- "d805": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_lge_d802",
-   "android_device_lge_d805",
-   "android_device_lge_g2-common",
-   "android_external_sony_boringssl-compat",
-   "android_kernel_lge_msm8974"
-  ]
- },
- "d806": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_lge_d802",
-   "android_device_lge_d806",
-   "android_device_lge_g2-common",
-   "android_external_sony_boringssl-compat",
-   "android_kernel_lge_msm8974"
-  ]
- },
  "d850": {
   "Model": "d850",
   "Branch": "lineage-17.1",
@@ -684,34 +618,6 @@
    "android_device_lge_d855",
    "android_device_lge_g3-common",
    "android_kernel_lge_g3"
-  ]
- },
- "dalmore": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_nvidia_dalmore",
-   "android_device_nvidia_roth",
-   "android_device_nvidia_t114-common",
-   "android_device_nvidia_tegra-common"
-  ]
- },
- "davinci": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_xiaomi_davinci",
-   "android_device_xiaomi_sm6150-common",
-   "android_hardware_xiaomi",
-   "android_kernel_xiaomi_sm6150"
   ]
  },
  "deb": {
@@ -783,19 +689,6 @@
   "lineage_recovery": false,
   "Deps": null
  },
- "drg": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_nokia_DRG",
-   "android_device_nokia_sdm660-common",
-   "android_kernel_nokia_sdm660"
-  ]
- },
  "dumpling": {
   "Model": "dumpling",
   "Branch": "lineage-16.0",
@@ -821,20 +714,6 @@
    "android_device_oneplus_enchilada",
    "android_device_oneplus_sdm845-common",
    "android_kernel_oneplus_sdm845"
-  ]
- },
- "equuleus": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_xiaomi_equuleus",
-   "android_device_xiaomi_sdm845-common",
-   "android_hardware_xiaomi",
-   "android_kernel_xiaomi_sdm845"
   ]
  },
  "espresso3g": {
@@ -880,23 +759,6 @@
    "android_external_bson",
    "android_kernel_motorola_msm8998",
    "android_system_qcom"
-  ]
- },
- "eyeul": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_htc_eyeul",
-   "android_device_htc_msm8974-common",
-   "android_external_sony_boringssl-compat",
-   "android_hardware_sony_thermanager",
-   "android_kernel_htc_msm8974",
-   "android_packages_apps_FlipFlap",
-   "android_packages_resources_devicesettings"
   ]
  },
  "f1f": {
@@ -971,18 +833,6 @@
   "Name": "Find 7s",
   "lineage_recovery": false,
   "Deps": null
- },
- "flame": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_google_coral",
-   "android_device_google_flame"
-  ]
  },
  "flo": {
   "Model": "flo",
@@ -1095,17 +945,6 @@
   "lineage_recovery": false,
   "Deps": null
  },
- "goldfish": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_generic_goldfish"
-  ]
- },
  "griffin": {
   "Model": "griffin",
   "Branch": "lineage-17.1",
@@ -1147,21 +986,6 @@
   "lineage_recovery": false,
   "Deps": null
  },
- "gts210velte": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_samsung_gts210velte",
-   "android_device_samsung_msm8976-common",
-   "android_hardware_samsung",
-   "android_hardware_sony_timekeep",
-   "android_kernel_samsung_msm8976"
-  ]
- },
  "gts210vewifi": {
   "Model": "gts210vewifi",
   "Branch": "lineage-16.0",
@@ -1185,21 +1009,6 @@
   "Name": "Galaxy Tab S2 9.7 (Wi-Fi)",
   "lineage_recovery": false,
   "Deps": null
- },
- "gts28velte": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_samsung_gts28velte",
-   "android_device_samsung_msm8976-common",
-   "android_hardware_samsung",
-   "android_hardware_sony_timekeep",
-   "android_kernel_samsung_msm8976"
-  ]
  },
  "gts28vewifi": {
   "Model": "gts28vewifi",
@@ -1322,21 +1131,6 @@
    "android_kernel_lge_msm8996"
   ]
  },
- "h872": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_lge_common",
-   "android_device_lge_g6-common",
-   "android_device_lge_h872",
-   "android_device_lge_msm8996-common",
-   "android_kernel_lge_msm8996"
-  ]
- },
  "h910": {
   "Model": "h910",
   "Branch": "lineage-17.1",
@@ -1414,20 +1208,6 @@
   "Deps": [
    "android_device_lge_hammerhead",
    "android_kernel_lge_hammerhead"
-  ]
- },
- "hannah": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_motorola_hannah",
-   "android_kernel_motorola_msm8937",
-   "android_packages_resources_devicesettings",
-   "android_system_qcom"
   ]
  },
  "harpia": {
@@ -1514,20 +1294,6 @@
   "lineage_recovery": false,
   "Deps": null
  },
- "hima": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_htc_hima",
-   "android_kernel_htc_msm8994",
-   "android_packages_apps_FlipFlap",
-   "android_packages_resources_devicesettings"
-  ]
- },
  "himaul": {
   "Model": "himaul",
   "Branch": "",
@@ -1608,20 +1374,6 @@
    "android_device_samsung_qcom-common",
    "android_hardware_samsung",
    "android_kernel_samsung_msm8974"
-  ]
- },
- "hotdog": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_oneplus_common",
-   "android_device_oneplus_hotdog",
-   "android_device_oneplus_sm8150-common",
-   "android_kernel_oneplus_sm8150"
   ]
  },
  "huashan": {
@@ -1705,17 +1457,6 @@
   "Name": "Galaxy S III (GSM LTE)",
   "lineage_recovery": false,
   "Deps": null
- },
- "icera": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_nvidia_icera"
-  ]
  },
  "ido": {
   "Model": "ido",
@@ -1835,20 +1576,6 @@
    "android_device_xiaomi_jason",
    "android_device_xiaomi_sdm660-common",
    "android_kernel_xiaomi_sdm660"
-  ]
- },
- "jetson": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_nvidia_jetson",
-   "android_device_nvidia_shieldtablet",
-   "android_device_nvidia_t124-common",
-   "android_device_nvidia_tegra-common"
   ]
  },
  "jflteatt": {
@@ -2293,20 +2020,6 @@
    "android_kernel_xiaomi_msm8996"
   ]
  },
- "ls980": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_lge_g2-common",
-   "android_device_lge_ls980",
-   "android_external_sony_boringssl-compat",
-   "android_kernel_lge_msm8974"
-  ]
- },
  "ls990": {
   "Model": "ls990",
   "Branch": "lineage-16.0",
@@ -2590,19 +2303,6 @@
   "lineage_recovery": false,
   "Deps": null
  },
- "muskie": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_google_muskie",
-   "android_device_google_wahoo",
-   "android_kernel_google_wahoo"
-  ]
- },
  "n1awifi": {
   "Model": "n1awifi",
   "Branch": "",
@@ -2863,34 +2563,6 @@
   "lineage_recovery": false,
   "Deps": null
  },
- "perseus": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_xiaomi_perseus",
-   "android_device_xiaomi_sdm845-common",
-   "android_hardware_xiaomi",
-   "android_kernel_xiaomi_sdm845"
-  ]
- },
- "phoenix": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_xiaomi_phoenix",
-   "android_device_xiaomi_sm6150-common",
-   "android_hardware_xiaomi",
-   "android_kernel_xiaomi_sm6150"
-  ]
- },
  "piccolo": {
   "Model": "piccolo",
   "Branch": "",
@@ -2914,19 +2586,6 @@
    "android_hardware_sony_macaddrsetup",
    "android_hardware_sony_simdetect",
    "android_kernel_sony_sdm660"
-  ]
- },
- "pl2": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_nokia_PL2",
-   "android_device_nokia_sdm660-common",
-   "android_kernel_nokia_sdm660"
   ]
  },
  "pme": {
@@ -3016,20 +2675,6 @@
    "android_kernel_oppo_msm8939"
   ]
  },
- "r7": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_oppo_common",
-   "android_device_oppo_msm8939-common",
-   "android_device_oppo_r7",
-   "android_kernel_oppo_msm8939"
-  ]
- },
  "r7plus": {
   "Model": "r7plus",
   "Branch": "lineage-16.0",
@@ -3096,19 +2741,6 @@
    "android_device_realme_RMX1851",
    "android_kernel_realme_sdm710",
    "android_packages_resources_devicesettings"
-  ]
- },
- "rosy": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_xiaomi_msm8953-common",
-   "android_device_xiaomi_rosy",
-   "android_kernel_xiaomi_rosy"
   ]
  },
  "roth": {
@@ -3262,19 +2894,6 @@
    "android_packages_resources_devicesettings"
   ]
  },
- "sargo": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_google_bonito",
-   "android_device_google_sargo",
-   "android_kernel_google_msm-4.9"
-  ]
- },
  "scorpio": {
   "Model": "scorpio",
   "Branch": "lineage-17.1",
@@ -3297,54 +2916,6 @@
   "Name": "Android One 2nd gen",
   "lineage_recovery": false,
   "Deps": null
- },
- "serrano3gxx": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_samsung_msm8930-common",
-   "android_device_samsung_qcom-common",
-   "android_device_samsung_serrano-common",
-   "android_device_samsung_serrano3gxx",
-   "android_hardware_samsung",
-   "android_kernel_samsung_msm8930-common"
-  ]
- },
- "serranodsdd": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_samsung_msm8930-common",
-   "android_device_samsung_qcom-common",
-   "android_device_samsung_serrano-common",
-   "android_device_samsung_serranodsdd",
-   "android_hardware_samsung",
-   "android_kernel_samsung_msm8930-common"
-  ]
- },
- "serranoltexx": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_samsung_msm8930-common",
-   "android_device_samsung_qcom-common",
-   "android_device_samsung_serrano-common",
-   "android_device_samsung_serranoltexx",
-   "android_hardware_samsung",
-   "android_kernel_samsung_msm8930-common"
-  ]
  },
  "shamu": {
   "Model": "shamu",
@@ -3479,19 +3050,6 @@
   "lineage_recovery": false,
   "Deps": null
  },
- "taimen": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_google_taimen",
-   "android_device_google_wahoo",
-   "android_kernel_google_wahoo"
-  ]
- },
  "taoshan": {
   "Model": "taoshan",
   "Branch": "",
@@ -3509,45 +3067,6 @@
   "Name": "Droid Bionic",
   "lineage_recovery": false,
   "Deps": null
- },
- "tb8703": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_lenovo_TB8703",
-   "android_device_lenovo_tb-common",
-   "android_kernel_lenovo_msm8953"
-  ]
- },
- "tb8704": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_lenovo_TB8704",
-   "android_device_lenovo_tb-common",
-   "android_kernel_lenovo_msm8953"
-  ]
- },
- "tbx704": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_lenovo_TBX704",
-   "android_device_lenovo_tb-common",
-   "android_kernel_lenovo_msm8953"
-  ]
  },
  "tenshi": {
   "Model": "tenshi",
@@ -3621,17 +3140,6 @@
   "lineage_recovery": false,
   "Deps": null
  },
- "touch": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_nvidia_touch"
-  ]
- },
  "tsubasa": {
   "Model": "tsubasa",
   "Branch": "",
@@ -3679,20 +3187,6 @@
   "Name": "Razr",
   "lineage_recovery": false,
   "Deps": null
- },
- "ursa": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_xiaomi_sdm845-common",
-   "android_device_xiaomi_ursa",
-   "android_hardware_xiaomi",
-   "android_kernel_xiaomi_sdm845"
-  ]
  },
  "us996": {
   "Model": "us996",
@@ -3834,20 +3328,6 @@
    "android_kernel_sony_sdm660"
   ]
  },
- "vs980": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_lge_g2-common",
-   "android_device_lge_vs980",
-   "android_external_sony_boringssl-compat",
-   "android_kernel_lge_msm8974"
-  ]
- },
  "vs985": {
   "Model": "vs985",
   "Branch": "lineage-17.1",
@@ -3893,32 +3373,6 @@
   "Name": "Optimus L90",
   "lineage_recovery": false,
   "Deps": null
- },
- "wahoo": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_google_wahoo",
-   "android_kernel_google_wahoo"
-  ]
- },
- "walleye": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_google_muskie",
-   "android_device_google_wahoo",
-   "android_device_google_walleye",
-   "android_kernel_google_wahoo"
-  ]
  },
  "wayne": {
   "Model": "wayne",
@@ -3985,21 +3439,6 @@
    "android_kernel_asus_sdm660"
   ]
  },
- "x1q": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_samsung_slsi_sepolicy",
-   "android_device_samsung_sm8250-common",
-   "android_device_samsung_x1q",
-   "android_hardware_samsung",
-   "android_kernel_samsung_sm8250"
-  ]
- },
  "x2": {
   "Model": "x2",
   "Branch": "lineage-17.1",
@@ -4033,32 +3472,6 @@
    "android_device_sony_tama-common",
    "android_device_sony_xz2c",
    "android_kernel_sony_sdm845"
-  ]
- },
- "y2q": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_samsung_slsi_sepolicy",
-   "android_device_samsung_sm8250-common",
-   "android_device_samsung_y2q",
-   "android_hardware_samsung",
-   "android_kernel_samsung_sm8250"
-  ]
- },
- "yellowstone": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_google_yellowstone"
   ]
  },
  "ytx703f": {
@@ -4153,19 +3566,6 @@
   "lineage_recovery": false,
   "Deps": null
  },
- "z01r": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_asus_Z01R",
-   "android_kernel_asus_sdm845",
-   "android_packages_resources_devicesettings"
-  ]
- },
  "z2_plus": {
   "Model": "z2_plus",
   "Branch": "lineage-17.1",
@@ -4216,21 +3616,6 @@
    "android_hardware_sony_thermanager",
    "android_hardware_sony_timekeep",
    "android_kernel_sony_msm8974"
-  ]
- },
- "z3q": {
-  "Model": "",
-  "Branch": "",
-  "Period": 0,
-  "Oem": "",
-  "Name": "",
-  "lineage_recovery": false,
-  "Deps": [
-   "android_device_samsung_slsi_sepolicy",
-   "android_device_samsung_sm8250-common",
-   "android_device_samsung_z3q",
-   "android_hardware_samsung",
-   "android_kernel_samsung_sm8250"
   ]
  },
  "zangya": {

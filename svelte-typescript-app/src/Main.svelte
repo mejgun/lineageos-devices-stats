@@ -1,17 +1,10 @@
 <script lang="ts">
-  interface Device {
-    Model: string;
-    Period: number;
-    Branch: string;
-    Oem: string;
-    Name: string;
-    Lineage_recovery: boolean;
-    Deps: string[] | null;
-  }
+  import DeviceScreen from "./Device.svelte";
+  import type { Device } from "./types/Device";
 
   interface Commit {
     Date: Date;
-    Time: number;
+    Hours: number;
     Name: string;
     Email: string;
   }
@@ -19,10 +12,16 @@
   let devices = new Map<string, Device>();
   let repos = new Map<string, Commit[]>();
 
+  let maxTime = 0;
+  let minTime = 0;
+
   let loadData = () => {
     fetch("/devices.json")
       .then((s) => s.text().then((t) => setDevices(t)))
       .catch(console.log);
+  };
+
+  let loadRepos = () => {
     fetch("/repos.json")
       .then((s) => s.text().then((t) => setRepos(t)))
       .catch(console.log);
@@ -36,6 +35,8 @@
       devices.set(k, d);
       devices = devices;
     }
+    console.log(devices);
+    loadRepos();
   };
 
   let setRepos = (s: string) => {
@@ -48,35 +49,48 @@
         let e = j[k];
         let temp = e[i]["commit"]["committer"];
         let d = new Date(e[i]["commit"]["committer"]["date"]);
-        temp["Time"] = Math.round((now - d.getTime()) / toHours);
+        let time = Math.round((now - d.getTime()) / toHours);
+        temp["Hours"] = time;
         temp["Date"] = d;
         t.push(temp);
+        setMinMaxTime(time);
       }
       repos.set(k.toLowerCase(), t);
       repos = repos;
     }
   };
 
-  let re: Commit[];
-  $: {
-    let t = repos.get("android_device_yandex_amber");
-    if (t) {
-      re = t;
-    } else {
-      re = [];
-    }
-    console.log(re);
-  }
+  let setMinMaxTime = (t: number) => {
+    minTime = Math.min(minTime, t);
+    maxTime = Math.max(maxTime, t);
+  };
 </script>
 
-<button on:click={loadData}>Load data</button>
-<!-- {#each [...devices] as [name, dev]}
-  <p>{name} {dev.Name}</p>
-{/each}-->
+{#if devices.size}
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Code</th>
+        <th scope="col">Build</th>
+        <th scope="col">Branch</th>
+        <th scope="col">OEM</th>
+        <th scope="col">Model</th>
+        <th scope="col">Recovery</th>
+      </tr>
+    </thead>
+    <tbody>
+      {#each [...devices] as [, dev]}
+        <DeviceScreen {dev} />
+      {/each}
+    </tbody>
+  </table>
+{:else}
+  <button on:click={loadData} type="button" class="btn btn-primary">
+    Load data
+  </button>
+  <h1>{Date()}</h1>
+{/if}
+<!-- 
 {#each [...repos] as [name, commits]}
   <p>{name} {commits.length}</p>
-{/each}
-
-{#each re as r}
-  <p>{r.Time}</p>
-{/each}
+{/each} -->

@@ -23,9 +23,9 @@ type buildPeriod uint
 
 const (
 	never buildPeriod = iota
-	nightly
-	weekly
 	monthly
+	weekly
+	nightly
 )
 
 type deviceData struct {
@@ -45,7 +45,7 @@ type commit struct {
 		Commiter struct {
 			Date  string `json:"date"`
 			Name  string `json:"name"`
-			Email string `json"email"`
+			Email string `json:"email"`
 		} `json:"committer"`
 	} `json:"commit"`
 }
@@ -92,6 +92,8 @@ func main() {
 	resp3 := getDeviceDeps(resp2)
 	time.Sleep(sleepTime)
 
+	resp3 = filterUnknownDevices(resp3)
+
 	fmt.Println("Saving devices json")
 	r, err := json.MarshalIndent(resp3, "", " ")
 	if err != nil {
@@ -111,6 +113,16 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+}
+
+func filterUnknownDevices(list deviceList) deviceList {
+	newList := make(deviceList)
+	for k, v := range list {
+		if len(v.Model) > 0 && len(v.Name) > 0 && len(v.Oem) > 0 {
+			newList[k] = v
+		}
+	}
+	return newList
 }
 
 func getReposInfo(list deviceList) reposInfo {
