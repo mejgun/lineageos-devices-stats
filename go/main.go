@@ -17,7 +17,7 @@ const (
 	commitsAPIURL   = "https://api.github.com/repos/LineageOS/%s/commits?per_page=100"
 )
 
-const sleepTime = 60 * time.Second
+const sleepTime = 120 * time.Second
 
 type buildPeriod uint
 
