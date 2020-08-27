@@ -8,11 +8,7 @@ let setDevices = (d, s) => {
         for (let k of Object.keys(j)) {
             devices.set(k, j[k]);
         }
-        ;
-        // console.log(devices);
-        // console.log(devices.get('a5xelte'));
         devices.forEach(e => {
-            // console.log(e);
             let deps = e.Deps ? e.Deps : [];
             d.innerHTML = d.innerHTML.concat(e.Name, " ", deps.join(","), "<br/>");
         });
@@ -30,16 +26,11 @@ let setRepos = (d, s) => {
                 temp['date'] = new Date(e[i]['commit']['committer']['date']);
                 t.push(temp);
             }
-            ;
             repos.set(k.toLowerCase(), t);
         }
-        ;
         for (const [k, v] of repos) {
-            // let e = repos.get(k);
-            // if (!e) { e = []; };
-            d.innerHTML = d.innerHTML.concat(k, v.length.toString(), "<br/>");
+            d.innerHTML = d.innerHTML.concat(k, " ", v.length.toString(), "<br/>");
         }
-        ;
     }
 };
 fetch('/devices.json').then((s) => s.text().then((t) => setDevices(div1, t))).catch(console.log);
