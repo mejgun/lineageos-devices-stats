@@ -1,5 +1,6 @@
 <script lang="ts">
-  export let name: string;
+  import type { now } from "svelte/internal";
+  import MainScreen from "./MainScreen.svelte";
 </script>
 
 <style>
@@ -25,18 +26,6 @@
 </style>
 
 <main>
-  <h1>He11o {name}!</h1>
-  <p>
-    Visit the
-    <a href="https://svelte.d111ev/tutorial">Svelte tutorial</a>
-    to learn how to build Svelte apps.
-  </p>
-  <p>
-    Visit the Visit the Visit the Visit the Visit the Visit the Visit the Visit
-    Visit the Visit the Visit the Visit the Visit the Visit the Visit the Visit
-    Visit the Visit the Visit the Visit the Visit the Visit the Visit the Visit
-    the
-    <a href="https://svelte.dev/tutorial">Svelte tutorial</a>
-    to learn how to build Svelte apps.
-  </p>
+  <MainScreen />
+  <p>{Date()}</p>
 </main>
