@@ -58,7 +58,7 @@
   "Oem": "Lenovo",
   "Name": "Vibe K5 / K5 Plus",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "a7xelte": {
   "Model": "a7xelte",
@@ -67,7 +67,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy A7 (2016)",
   "lineage_recovery": true,
-  "Deps": null
+  "Deps": []
  },
  "a7y17lte": {
   "Model": "a7y17lte",
@@ -90,7 +90,7 @@
   "Oem": "Motorola",
   "Name": "Moto Z Play",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "akari": {
   "Model": "akari",
@@ -153,7 +153,7 @@
   "Oem": "Xiaomi",
   "Name": "Redmi 1S",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "athene": {
   "Model": "athene",
@@ -162,7 +162,7 @@
   "Oem": "Motorola",
   "Name": "Moto G4/G4 Plus",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "axon7": {
   "Model": "axon7",
@@ -171,7 +171,7 @@
   "Oem": "ZTE",
   "Name": "Axon 7",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "bacon": {
   "Model": "bacon",
@@ -272,7 +272,7 @@
   "Oem": "Xiaomi",
   "Name": "Mi 3w and Mi 4",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "capricorn": {
   "Model": "capricorn",
@@ -295,7 +295,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Tab S 10.5 (LTE)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "chagallwifi": {
   "Model": "chagallwifi",
@@ -304,7 +304,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Tab S 10.5 (Wi-Fi)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "chaozu": {
   "Model": "chaozu",
@@ -313,7 +313,7 @@
   "Oem": "BQ",
   "Name": "Aquaris U",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "charlotte": {
   "Model": "charlotte",
@@ -434,7 +434,7 @@
   "Oem": "Motorola",
   "Name": "Moto E",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "crackling": {
   "Model": "crackling",
@@ -483,7 +483,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy S III (AT\u0026T)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "d2spr": {
   "Model": "d2spr",
@@ -492,7 +492,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy S III (Sprint)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "d2tmo": {
   "Model": "d2tmo",
@@ -501,7 +501,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy S III (TMO)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "d2vzw": {
   "Model": "d2vzw",
@@ -510,7 +510,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy S III (VZW)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "d800": {
   "Model": "d800",
@@ -687,7 +687,7 @@
   "Oem": "Google",
   "Name": "Pixel C",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "dumpling": {
   "Model": "dumpling",
@@ -723,7 +723,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Tab 2 7.0 / 10.1 (GSM)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "espressowifi": {
   "Model": "espressowifi",
@@ -732,7 +732,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Tab 2 7.0 / 10.1 (Wi-Fi)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "ether": {
   "Model": "ether",
@@ -809,7 +809,7 @@
   "Oem": "Motorola",
   "Name": "Moto G",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "find7": {
   "Model": "find7",
@@ -832,7 +832,7 @@
   "Oem": "OPPO",
   "Name": "Find 7s",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "flo": {
   "Model": "flo",
@@ -865,7 +865,7 @@
   "Oem": "Google",
   "Name": "Nexus 9 (LTE)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "foster": {
   "Model": "foster",
@@ -911,7 +911,7 @@
   "Oem": "LG",
   "Name": "G2 Mini",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "gemini": {
   "Model": "gemini",
@@ -934,7 +934,7 @@
   "Oem": "Motorola",
   "Name": "Moto X 2013",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "gohan": {
   "Model": "gohan",
@@ -943,7 +943,7 @@
   "Oem": "BQ",
   "Name": "Aquaris X5 Plus",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "griffin": {
   "Model": "griffin",
@@ -966,7 +966,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Tab E 9.6 (Wi-Fi)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "gtesqltespr": {
   "Model": "gtesqltespr",
@@ -975,7 +975,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Tab E 8.0 (LTE)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "gts210ltexx": {
   "Model": "gts210ltexx",
@@ -984,7 +984,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Tab S2 9.7 (LTE)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "gts210vewifi": {
   "Model": "gts210vewifi",
@@ -1008,7 +1008,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Tab S2 9.7 (Wi-Fi)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "gts28vewifi": {
   "Model": "gts28vewifi",
@@ -1075,7 +1075,7 @@
   "Oem": "LG",
   "Name": "G4 (TMO)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "h815": {
   "Model": "h815",
@@ -1084,7 +1084,7 @@
   "Oem": "LG",
   "Name": "G4 (Intl)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "h830": {
   "Model": "h830",
@@ -1183,7 +1183,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Note 3 (International 3G)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "ham": {
   "Model": "ham",
@@ -1251,7 +1251,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy S7 Edge",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "herolte": {
   "Model": "herolte",
@@ -1260,7 +1260,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy S7",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "hiae": {
   "Model": "hiae",
@@ -1283,7 +1283,7 @@
   "Oem": "HTC",
   "Name": "One A9 (GSM International)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "hiaeul": {
   "Model": "hiaeul",
@@ -1292,7 +1292,7 @@
   "Oem": "HTC",
   "Name": "One A9 (GSM US)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "himaul": {
   "Model": "himaul",
@@ -1301,7 +1301,7 @@
   "Oem": "HTC",
   "Name": "One M9 (GSM)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "himawl": {
   "Model": "himawl",
@@ -1310,7 +1310,7 @@
   "Oem": "HTC",
   "Name": "One M9 (VZW)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "hlte": {
   "Model": "hlte",
@@ -1399,7 +1399,7 @@
   "Oem": "Xiaomi",
   "Name": "Mi Max",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "i001d": {
   "Model": "I001D",
@@ -1447,7 +1447,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy S III (Intl)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "i9305": {
   "Model": "i9305",
@@ -1456,7 +1456,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy S III (GSM LTE)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "ido": {
   "Model": "ido",
@@ -1465,7 +1465,7 @@
   "Oem": "Xiaomi",
   "Name": "Redmi 3/Prime",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "ivy": {
   "Model": "ivy",
@@ -1474,7 +1474,7 @@
   "Oem": "Sony",
   "Name": "Xperia Z3+",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "j7elte": {
   "Model": "j7elte",
@@ -1517,7 +1517,7 @@
   "Oem": "LG",
   "Name": "G3 S",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "jagnm": {
   "Model": "jagnm",
@@ -1526,7 +1526,7 @@
   "Oem": "LG",
   "Name": "G3 Beat",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "jalebi": {
   "Model": "jalebi",
@@ -1549,7 +1549,7 @@
   "Oem": "ZTE",
   "Name": "Trek 2 HD",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "jasmine_sprout": {
   "Model": "jasmine_sprout",
@@ -1660,7 +1660,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy S5 (International 3G)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "karin": {
   "Model": "karin",
@@ -1669,7 +1669,7 @@
   "Oem": "Sony",
   "Name": "Xperia Z4 Tablet LTE",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "karin_windy": {
   "Model": "karin_windy",
@@ -1678,7 +1678,7 @@
   "Oem": "Sony",
   "Name": "Xperia Z4 Tablet WiFi",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "kccat6": {
   "Model": "kccat6",
@@ -1703,7 +1703,7 @@
   "Oem": "Xiaomi",
   "Name": "Redmi Note 3",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "kingdom": {
   "Model": "kingdom",
@@ -1712,7 +1712,7 @@
   "Oem": "Lenovo",
   "Name": "Vibe Z2 Pro",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "kipper": {
   "Model": "kipper",
@@ -1765,7 +1765,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Tab S 8.4 (Wi-Fi)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "klte": {
   "Model": "klte",
@@ -1902,7 +1902,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy S5 Sport (SM-G860P)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "ks01lte": {
   "Model": "ks01lte",
@@ -1911,7 +1911,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy S4 LTE-A",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "kuntao": {
   "Model": "kuntao",
@@ -2004,7 +2004,7 @@
   "Oem": "Xiaomi",
   "Name": "Mi 4c",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "lithium": {
   "Model": "lithium",
@@ -2055,7 +2055,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Tab 3 7.0 (Sprint)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "lt03lte": {
   "Model": "lt03lte",
@@ -2064,7 +2064,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Note 10.1 2014 (LTE)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "lux": {
   "Model": "lux",
@@ -2090,7 +2090,7 @@
   "Oem": "LG",
   "Name": "K10",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "m7": {
   "Model": "m7",
@@ -2099,7 +2099,7 @@
   "Oem": "HTC",
   "Name": "One (GSM)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "m7vzw": {
   "Model": "m7vzw",
@@ -2108,7 +2108,7 @@
   "Oem": "HTC",
   "Name": "One (VZW)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "m8": {
   "Model": "m8",
@@ -2151,7 +2151,7 @@
   "Oem": "Google",
   "Name": "Galaxy Nexus (GSM)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "mako": {
   "Model": "mako",
@@ -2160,7 +2160,7 @@
   "Oem": "Google",
   "Name": "Nexus 4",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "manta": {
   "Model": "manta",
@@ -2169,7 +2169,7 @@
   "Oem": "Google",
   "Name": "Nexus 10",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "marlin": {
   "Model": "marlin",
@@ -2190,7 +2190,7 @@
   "Oem": "Motorola",
   "Name": "Droid 4",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "mata": {
   "Model": "mata",
@@ -2275,7 +2275,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Tab Pro 8.4",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "ms013g": {
   "Model": "ms013g",
@@ -2301,7 +2301,7 @@
   "Oem": "Huawei",
   "Name": "Ascend Mate 2",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "n1awifi": {
   "Model": "n1awifi",
@@ -2310,7 +2310,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Note 10.1 2014 (Wi-Fi)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "n2awifi": {
   "Model": "n2awifi",
@@ -2319,7 +2319,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Tab Pro 10.1 (Wi-Fi)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "n3": {
   "Model": "n3",
@@ -2342,7 +2342,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Note 8 (GSM)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "n5110": {
   "Model": "n5110",
@@ -2351,7 +2351,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Note 8 (Wi-Fi)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "n5120": {
   "Model": "n5120",
@@ -2360,7 +2360,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Note 8 (LTE)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "nash": {
   "Model": "nash",
@@ -2397,7 +2397,7 @@
   "Oem": "Sony",
   "Name": "Xperia M",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "nx512j": {
   "Model": "nx512j",
@@ -2406,7 +2406,7 @@
   "Oem": "Nubia",
   "Name": "Nubia Z9 Max",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "nx563j": {
   "Model": "nx563j",
@@ -2484,7 +2484,7 @@
   "Oem": "OnePlus",
   "Name": "X",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "osprey": {
   "Model": "osprey",
@@ -2510,7 +2510,7 @@
   "Oem": "Motorola",
   "Name": "Moto E (2015)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "p024": {
   "Model": "P024",
@@ -2519,7 +2519,7 @@
   "Oem": "Asus",
   "Name": "ZenPad 8.0 (Z380KL)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "paella": {
   "Model": "paella",
@@ -2528,7 +2528,7 @@
   "Oem": "BQ",
   "Name": "Aquaris X5",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "payton": {
   "Model": "payton",
@@ -2552,7 +2552,7 @@
   "Oem": "ARK",
   "Name": "Benefit A3",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "peregrine": {
   "Model": "peregrine",
@@ -2561,7 +2561,7 @@
   "Oem": "Motorola",
   "Name": "Moto G 4G",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "piccolo": {
   "Model": "piccolo",
@@ -2570,7 +2570,7 @@
   "Oem": "BQ",
   "Name": "Aquaris M5",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "pioneer": {
   "Model": "pioneer",
@@ -2595,7 +2595,7 @@
   "Oem": "HTC",
   "Name": "10",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "polaris": {
   "Model": "polaris",
@@ -2915,7 +2915,7 @@
   "Oem": "Google",
   "Name": "Android One 2nd gen",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "shamu": {
   "Model": "shamu",
@@ -2949,7 +2949,7 @@
   "Oem": "Motorola",
   "Name": "Droid Razr",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "star2lte": {
   "Model": "star2lte",
@@ -2986,7 +2986,7 @@
   "Oem": "Sony",
   "Name": "Xperia Z5",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "surnia": {
   "Model": "surnia",
@@ -3012,7 +3012,7 @@
   "Oem": "Sony",
   "Name": "Xperia Z5 Compact",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "t0lte": {
   "Model": "t0lte",
@@ -3021,7 +3021,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Note II (GSM LTE)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "t0ltekor": {
   "Model": "t0ltekor",
@@ -3030,7 +3030,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Note II (Korea)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "t6": {
   "Model": "t6",
@@ -3039,7 +3039,7 @@
   "Oem": "HTC",
   "Name": "One Max",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "t6vzw": {
   "Model": "t6vzw",
@@ -3048,7 +3048,7 @@
   "Oem": "HTC",
   "Name": "One Max (VZW)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "taoshan": {
   "Model": "taoshan",
@@ -3057,7 +3057,7 @@
   "Oem": "Sony",
   "Name": "Xperia L",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "targa": {
   "Model": "targa",
@@ -3066,7 +3066,7 @@
   "Oem": "Motorola",
   "Name": "Droid Bionic",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "tenshi": {
   "Model": "tenshi",
@@ -3075,7 +3075,7 @@
   "Oem": "BQ",
   "Name": "Aquaris U Plus",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "thea": {
   "Model": "thea",
@@ -3084,7 +3084,7 @@
   "Oem": "Motorola",
   "Name": "Moto G 4G 2014",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "tissot": {
   "Model": "tissot",
@@ -3106,7 +3106,7 @@
   "Oem": "Motorola",
   "Name": "Moto G 2014",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "tomato": {
   "Model": "tomato",
@@ -3129,7 +3129,7 @@
   "Oem": "Google",
   "Name": "Galaxy Nexus (VZW)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "toroplus": {
   "Model": "toroplus",
@@ -3138,7 +3138,7 @@
   "Oem": "Google",
   "Name": "Galaxy Nexus (Sprint)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "tsubasa": {
   "Model": "tsubasa",
@@ -3164,7 +3164,7 @@
   "Oem": "ZTE",
   "Name": "Axon 7 Mini",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "twolip": {
   "Model": "twolip",
@@ -3186,7 +3186,7 @@
   "Oem": "Motorola",
   "Name": "Razr",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "us996": {
   "Model": "us996",
@@ -3225,7 +3225,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy Note Pro 12.1 (Wi-Fi)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "v400": {
   "Model": "v400",
@@ -3234,7 +3234,7 @@
   "Oem": "LG",
   "Name": "G Pad 7",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "v410": {
   "Model": "v410",
@@ -3243,7 +3243,7 @@
   "Oem": "LG",
   "Name": "G Pad 7 LTE",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "v480": {
   "Model": "v480",
@@ -3252,7 +3252,7 @@
   "Oem": "LG",
   "Name": "G Pad 8",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "v500": {
   "Model": "v500",
@@ -3261,7 +3261,7 @@
   "Oem": "LG",
   "Name": "G Pad 8.3",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "v521": {
   "Model": "v521",
@@ -3283,7 +3283,7 @@
   "Oem": "BQ",
   "Name": "Aquaris E5 4G",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "victara": {
   "Model": "victara",
@@ -3363,7 +3363,7 @@
   "Oem": "LG",
   "Name": "Optimus L70",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "w7": {
   "Model": "w7",
@@ -3372,7 +3372,7 @@
   "Oem": "LG",
   "Name": "Optimus L90",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "wayne": {
   "Model": "wayne",
@@ -3459,7 +3459,7 @@
   "Oem": "Motorola",
   "Name": "Photon Q",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "xz2c": {
   "Model": "xz2c",
@@ -3528,7 +3528,7 @@
   "Oem": "Asus",
   "Name": "Zenfone 2 (720p)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "z00a": {
   "Model": "Z00A",
@@ -3537,7 +3537,7 @@
   "Oem": "Asus",
   "Name": "Zenfone 2 (1080p)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "z00d": {
   "Model": "Z00D",
@@ -3546,7 +3546,7 @@
   "Oem": "Asus",
   "Name": "Zenfone 2 (Z00D)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "z00l": {
   "Model": "Z00L",
@@ -3555,7 +3555,7 @@
   "Oem": "Asus",
   "Name": "Zenfone 2 Laser (720p)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "z00t": {
   "Model": "Z00T",
@@ -3564,7 +3564,7 @@
   "Oem": "Asus",
   "Name": "Zenfone 2 Laser/Selfie (1080p)",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "z2_plus": {
   "Model": "z2_plus",
@@ -3666,7 +3666,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy S6",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "zeroltexx": {
   "Model": "zeroltexx",
@@ -3675,7 +3675,7 @@
   "Oem": "Samsung",
   "Name": "Galaxy S6 Edge",
   "lineage_recovery": false,
-  "Deps": null
+  "Deps": []
  },
  "zl1": {
   "Model": "zl1",

@@ -17,7 +17,7 @@ const (
 	commitsAPIURL   = "https://api.github.com/repos/LineageOS/%s/commits?per_page=100"
 )
 
-const sleepTime = 120 * time.Second
+const sleepTime = 2 * time.Second
 
 type buildPeriod uint
 
@@ -34,8 +34,8 @@ type deviceData struct {
 	Period          buildPeriod
 	Oem             string
 	Name            string
-	LineageRecovery bool `json:"lineage_recovery"`
-	Deps            []string
+	LineageRecovery bool     `json:"lineage_recovery"`
+	Deps            []string //`json:",omitempty"`
 }
 
 type deviceList map[string]deviceData
@@ -172,6 +172,7 @@ func getDevices() deviceList {
 	json.Unmarshal(res, &j)
 	list := make(deviceList)
 	for _, v := range j {
+		v.Deps = make([]string, 0)
 		list[strings.ToLower(v.Model)] = v
 	}
 	return list
