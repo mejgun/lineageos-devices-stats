@@ -6,6 +6,9 @@
     parseDevices,
     calculateHealth,
     filterDevices,
+    calculateOems,
+    calculateBranches,
+    allSelect,
   } from "./logic/logic";
   import Device from "./Device.svelte";
   import Filters from "./Filters.svelte";
@@ -16,29 +19,20 @@
 
   let filters: FiltersT = {
     build: false,
+    oem: allSelect,
+    branch: allSelect,
   };
 
   const devices = parseDevices(deviceList);
   const repos = parseRepos(repoList);
-  $: {
-    filtered = calculateHealth(filterDevices(devices, filters), repos);
-    console.log(devices);
-  }
+  $: filtered = calculateHealth(filterDevices(devices, filters), repos);
 </script>
 
-<Filters bind:value={filters} />
-
 <table class="table table-dark">
-  <thead>
-    <tr>
-      <th scope="col">Code</th>
-      <th scope="col">Build</th>
-      <th scope="col">Branch</th>
-      <th scope="col">OEM</th>
-      <th scope="col">Model</th>
-      <th style="width: 200px;" scope="col">Repos</th>
-    </tr>
-  </thead>
+  <Filters
+    bind:value={filters}
+    branches={calculateBranches(devices)}
+    oems={calculateOems(devices)} />
   <tbody>
     {#each [...filtered] as [, dev]}
       <Device {dev} />

@@ -68,7 +68,6 @@ export let calculateHealth = (devices: DeviceListT, repos: Map<string, CommitT[]
             sum = sum / commitsCount;
             let percent = (max - min) / 100;
             sum = 100 - Math.round(sum / percent);
-            // console.log(v, sum);
             let q = { health: sum, committersCount: committersCount };
             w.set(v, q);
         });
@@ -78,14 +77,41 @@ export let calculateHealth = (devices: DeviceListT, repos: Map<string, CommitT[]
     return devices;
 }
 
+export const allSelect = "All"
+
 export let filterDevices = (devices: DeviceListT, filters: FiltersT): DeviceListT => {
     let newD: DeviceListT = new Map();
-    console.log("filtering");
     devices.forEach((v, k) => {
         if (filters.build && v.Period == 0) {
+            return
+        }
+        if (filters.branch != allSelect && v.Branch != filters.branch) {
+            return
+        }
+        if (filters.oem != allSelect && v.Oem != filters.oem) {
             return
         }
         newD.set(k, v);
     });
     return newD;
+}
+
+export let calculateBranches = (devices: DeviceListT): string[] => {
+    let branches: string[] = [allSelect];
+    devices.forEach((v) => {
+        if (!branches.includes(v.Branch) && v.Branch.length > 0) {
+            branches.push(v.Branch);
+        }
+    })
+    return branches;
+}
+
+export let calculateOems = (devices: DeviceListT): string[] => {
+    let oems: string[] = [allSelect];
+    devices.forEach((v) => {
+        if (!oems.includes(v.Oem) && v.Oem.length > 0) {
+            oems.push(v.Oem);
+        }
+    })
+    return oems;
 }

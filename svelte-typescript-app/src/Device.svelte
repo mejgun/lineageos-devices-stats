@@ -12,7 +12,9 @@
     </a>
   </td>
   <td>
-    <Badge period={dev.Period} />
+    <a target="_blank" href="https://download.lineageos.org/{dev.Model}">
+      <Badge period={dev.Period} />
+    </a>
     {#if dev.lineage_recovery}
       <span class="badge badge-info">Recovery</span>
     {/if}

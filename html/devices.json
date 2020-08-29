@@ -225,6 +225,21 @@
    "android_kernel_xiaomi_msm8996"
   ]
  },
+ "channel": {
+  "Model": "channel",
+  "Branch": "lineage-17.1",
+  "Period": 2,
+  "Oem": "Motorola",
+  "Name": "Moto G7 Play",
+  "lineage_recovery": true,
+  "Deps": [
+   "android_device_motorola_channel",
+   "android_device_motorola_sdm632-common",
+   "android_external_bson",
+   "android_kernel_motorola_sdm632",
+   "android_system_qcom"
+  ]
+ },
  "charlotte": {
   "Model": "charlotte",
   "Branch": "lineage-16.0",
@@ -1771,6 +1786,21 @@
    "android_device_nubia_msm8998-common",
    "android_device_nubia_nx563j",
    "android_kernel_nubia_msm8998"
+  ]
+ },
+ "ocean": {
+  "Model": "ocean",
+  "Branch": "lineage-17.1",
+  "Period": 2,
+  "Oem": "Motorola",
+  "Name": "Moto G7 Power",
+  "lineage_recovery": true,
+  "Deps": [
+   "android_device_motorola_ocean",
+   "android_device_motorola_sdm632-common",
+   "android_external_bson",
+   "android_kernel_motorola_sdm632",
+   "android_system_qcom"
   ]
  },
  "odin": {

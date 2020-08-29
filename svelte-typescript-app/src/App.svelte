@@ -5,31 +5,47 @@
   let repos: { [index: string]: any };
   let pressed = false;
   let loaded = false;
+  let alerts: string[] = [];
 
   let loadData = () => {
     pressed = true;
     fetch("/devices.json")
       .then((s) =>
-        s.json().then((t) => {
-          devices = t;
-          loadRepos();
-        })
+        s
+          .json()
+          .then((t) => {
+            devices = t;
+            loadRepos();
+          })
+          .catch(addAlert)
       )
-      .catch(console.log);
+      .catch(addAlert);
   };
   let loadRepos = () => {
     fetch("/repos.json")
       .then((s) =>
-        s.json().then((t) => {
-          repos = t;
-          loaded = true;
-        })
+        s
+          .json()
+          .then((t) => {
+            repos = t;
+            loaded = true;
+          })
+          .catch(addAlert)
       )
-      .catch(console.log);
+      .catch(addAlert);
+  };
+  let addAlert = (s: string) => {
+    alerts.push(s);
+    alerts = alerts;
   };
 </script>
 
 <main>
+  {#if alerts}
+    {#each alerts as a}
+      <div class="alert alert-danger" role="alert">{a}</div>
+    {/each}
+  {/if}
   {#if loaded}
     <DeviceList deviceList={devices} repoList={repos} />
   {:else}

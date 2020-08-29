@@ -21,4 +21,6 @@ export interface CommitT {
 
 export interface FiltersT {
     build: boolean;
+    branch: string;
+    oem: string;
 }
