@@ -118,7 +118,7 @@ func main() {
 func filterUnknownDevices(list deviceList) deviceList {
 	newList := make(deviceList)
 	for k, v := range list {
-		if len(v.Model) > 0 && len(v.Name) > 0 && len(v.Oem) > 0 {
+		if len(v.Model) > 0 && len(v.Name) > 0 && len(v.Oem) > 0 && len(v.Deps) > 0 {
 			newList[k] = v
 		}
 	}

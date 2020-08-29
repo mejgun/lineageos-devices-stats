@@ -22,22 +22,21 @@
   <td>{dev.Name}</td>
   <td>
     {#each [...dev.Repos] as [name, repo]}
-      <div>
-        <a target="_blank" href="https://github.com/LineageOS/{name}">
-          <div class="progress" title={name}>
-            <div
-              class="progress-bar bg-success"
-              role="progressbar"
-              style="width: {repo.health}%"
-              aria-valuenow={repo.health}
-              aria-valuemin="0"
-              aria-valuemax="100">
-              {repo.committersCount}
-            </div>
+      <a target="_blank" href="https://github.com/LineageOS/{name}">
+        <div
+          class="progress"
+          title="{name} ({repo.health}%) {repo.committersCount}">
+          <div
+            class="progress-bar bg-success"
+            role="progressbar"
+            style="width: {repo.health}%"
+            aria-valuenow={repo.health}
+            aria-valuemin="0"
+            aria-valuemax="100">
+            {repo.committersCount}
           </div>
-        </a>
-        {repo.health}%
-      </div>
+        </div>
+      </a>
     {/each}
   </td>
   <td />

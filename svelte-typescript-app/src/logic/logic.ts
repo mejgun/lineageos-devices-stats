@@ -1,6 +1,6 @@
 const commitsCount = 100;
 
-import type { DeviceT, CommitT, DeviceListT, RepoListT } from "../types/types";
+import type { DeviceT, CommitT, DeviceListT, RepoListT, FiltersT } from "../types/types";
 
 export let parseDevices = (j: { [index: string]: DeviceT }): DeviceListT => {
     let devices: DeviceListT = new Map();
@@ -11,13 +11,7 @@ export let parseDevices = (j: { [index: string]: DeviceT }): DeviceListT => {
     return devices;
 };
 
-export let parseRepos = (j: { [index: string]: any }): [RepoListT, number, number] => {
-    let maxTime = 0;
-    let minTime = 999999;
-    let setMinMaxTime = (t: number) => {
-        minTime = Math.min(minTime, t);
-        maxTime = Math.max(maxTime, t);
-    };
+export let parseRepos = (j: { [index: string]: any }): RepoListT => {
     let repos = new Map<string, CommitT[]>();
     const toHours = 1000 * 60 * 60;
     let now = Date.now();
@@ -31,19 +25,34 @@ export let parseRepos = (j: { [index: string]: any }): [RepoListT, number, numbe
             temp["Hours"] = time;
             temp["Date"] = d;
             t.push(temp);
-            setMinMaxTime(time);
         }
         repos.set(k.toLowerCase(), t);
         repos = repos;
     }
-    return [repos, minTime, maxTime];
+    return repos;
 };
 
-export let calculateHealth = (devices: DeviceListT, r: Map<string, CommitT[]>, min: number, max: number): DeviceListT => {
+export let calculateHealth = (devices: DeviceListT, repos: Map<string, CommitT[]>): DeviceListT => {
+    let max = 0;
+    let min = 999999;
+    let setMinMaxTime = (t: number) => {
+        min = Math.min(min, t);
+        max = Math.max(max, t);
+    };
+    devices.forEach((v) => {
+        v.Deps.forEach((d) => {
+            let commits = repos.get(d)
+            if (commits) {
+                commits.forEach((commit) => {
+                    setMinMaxTime(commit.Hours);
+                });
+            };
+        });
+    });
     devices.forEach((e, k, map) => {
         let w = new Map();
         e.Deps.forEach((v,) => {
-            let commits = r.get(v);
+            let commits = repos.get(v);
             let count = 0;
             let sum = 0;
             let committersCount: number = 0;
@@ -59,7 +68,7 @@ export let calculateHealth = (devices: DeviceListT, r: Map<string, CommitT[]>, m
             sum = sum / commitsCount;
             let percent = (max - min) / 100;
             sum = 100 - Math.round(sum / percent);
-            console.log(v, sum);
+            // console.log(v, sum);
             let q = { health: sum, committersCount: committersCount };
             w.set(v, q);
         });
@@ -67,4 +76,16 @@ export let calculateHealth = (devices: DeviceListT, r: Map<string, CommitT[]>, m
         map.set(k, e);
     });
     return devices;
+}
+
+export let filterDevices = (devices: DeviceListT, filters: FiltersT): DeviceListT => {
+    let newD: DeviceListT = new Map();
+    console.log("filtering");
+    devices.forEach((v, k) => {
+        if (filters.build && v.Period == 0) {
+            return
+        }
+        newD.set(k, v);
+    });
+    return newD;
 }

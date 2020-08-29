@@ -18,3 +18,7 @@ export interface CommitT {
     Name: string;
     Email: string;
 }
+
+export interface FiltersT {
+    build: boolean;
+}

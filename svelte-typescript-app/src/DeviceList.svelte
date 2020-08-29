@@ -1,21 +1,34 @@
 <script lang="ts">
   // import Device from "./Device.svelte";
-  import type { DeviceT } from "./types/types";
-  import { parseRepos, parseDevices, calculateHealth } from "./logic/logic";
+  import type { DeviceT, DeviceListT, FiltersT } from "./types/types";
+  import {
+    parseRepos,
+    parseDevices,
+    calculateHealth,
+    filterDevices,
+  } from "./logic/logic";
   import Device from "./Device.svelte";
+  import Filters from "./Filters.svelte";
 
   export let deviceList: { [index: string]: DeviceT };
   export let repoList: { [index: string]: any };
+  let filtered: DeviceListT;
 
-  // let calculateHealth = (repos: Map<string, CommitT[]>) => {};
+  let filters: FiltersT = {
+    build: false,
+  };
 
-  let devices = parseDevices(deviceList);
-  let [repos, minTime, maxTime] = parseRepos(repoList);
-  devices = calculateHealth(devices, repos, minTime, maxTime);
-  console.log(devices);
+  const devices = parseDevices(deviceList);
+  const repos = parseRepos(repoList);
+  $: {
+    filtered = calculateHealth(filterDevices(devices, filters), repos);
+    console.log(devices);
+  }
 </script>
 
-<table class="table table-striped">
+<Filters bind:value={filters} />
+
+<table class="table table-dark">
   <thead>
     <tr>
       <th scope="col">Code</th>
@@ -23,11 +36,11 @@
       <th scope="col">Branch</th>
       <th scope="col">OEM</th>
       <th scope="col">Model</th>
-      <th scope="col">Repos</th>
+      <th style="width: 200px;" scope="col">Repos</th>
     </tr>
   </thead>
   <tbody>
-    {#each [...devices] as [, dev]}
+    {#each [...filtered] as [, dev]}
       <Device {dev} />
     {/each}
   </tbody>
