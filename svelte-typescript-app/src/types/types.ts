@@ -1,5 +1,5 @@
 export type DeviceListT = Map<string, DeviceT>
-export type RepoListT = Map<string, CommitT[]>
+export type RepoListT = Map<string, CommitsT>
 
 export interface DeviceT {
     Model: string;
@@ -9,14 +9,19 @@ export interface DeviceT {
     Name: string;
     lineage_recovery: boolean;
     Deps: string[];
-    Repos: Map<string, { committersCount: number, health: number }>;
+    Repos: RepoInfoT;
 }
 
-export interface CommitT {
-    Date: Date;
-    Hours: number;
-    Name: string;
-    Email: string;
+export type RepoInfoT = Map<string, {
+    authorsCount: number,
+    committersCount: number,
+    health: number
+}>
+
+export interface CommitsT {
+    Hours: number[];
+    Authors: number;
+    Committers: number;
 }
 
 export interface FiltersT {

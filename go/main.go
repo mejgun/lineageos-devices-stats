@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"os"
 	"strings"
 	"time"
 )
@@ -17,7 +18,7 @@ const (
 	commitsAPIURL   = "https://api.github.com/repos/LineageOS/%s/commits?per_page=100"
 )
 
-const sleepTime = 2 * time.Second
+const sleepTime = 100 * time.Millisecond
 
 type buildPeriod uint
 
@@ -34,8 +35,8 @@ type deviceData struct {
 	Period          buildPeriod
 	Oem             string
 	Name            string
-	LineageRecovery bool     `json:"lineage_recovery"`
-	Deps            []string //`json:",omitempty"`
+	LineageRecovery bool `json:"lineage_recovery"`
+	Deps            []string
 }
 
 type deviceList map[string]deviceData
@@ -47,34 +48,56 @@ type commit struct {
 			Name  string `json:"name"`
 			Email string `json:"email"`
 		} `json:"committer"`
+		Author struct {
+			Date  string `json:"date"`
+			Name  string `json:"name"`
+			Email string `json:"email"`
+		} `json:"author"`
 	} `json:"commit"`
 }
 
 type reposInfo map[string][]commit
 
-func doRequest(url string) ([]byte, error) {
+type commits struct {
+	Commits       []string `json:"t"`
+	AuthorCount   int      `json:"a"`
+	CommiterCount int      `json:"c"`
+}
+
+type reposCalculated map[string]commits
+
+func doRequest(url string) ([]byte, int, error) {
 	client := &http.Client{}
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
 		log.Fatalln(err)
 	}
+	req.SetBasicAuth(os.Args[1], os.Args[2])
 	req.Header.Set("User-Agent", "github/mejgun")
 	res, err := client.Do(req)
 	if err != nil {
-		return []byte(""), err
+		return []byte(""), 0, err
 	}
 	defer res.Body.Close()
 	data, err := ioutil.ReadAll(res.Body)
 	if res.StatusCode != 200 {
-		return data, fmt.Errorf("%s ERROR: %s", url, res.Status)
+		return data, res.StatusCode, fmt.Errorf("%s ERROR: %s", url, res.Status)
 	}
-	return data, err
+	return data, 0, err
 }
 
 func get(url string) []byte {
-	res, err := doRequest(url)
-	if err != nil {
-		log.Fatal(string(res), err)
+	t := sleepTime
+	res, code, err := doRequest(url)
+	for err != nil {
+		log.Println(string(res), err)
+		if code == 404 {
+			return []byte("{}")
+		}
+		log.Println("Doubling waiting time")
+		t *= 2
+		time.Sleep(t)
+		res, code, err = doRequest(url)
 	}
 	return res
 }
@@ -95,7 +118,7 @@ func main() {
 	resp3 = filterUnknownDevices(resp3)
 
 	fmt.Println("Saving devices json")
-	r, err := json.MarshalIndent(resp3, "", " ")
+	r, err := json.Marshal(resp3)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -107,12 +130,36 @@ func main() {
 	time.Sleep(sleepTime)
 	fmt.Println("Repos")
 	repos := getReposInfo(resp3)
+	repos2 := calculateCommits(repos)
 	fmt.Println("Saving repos json")
-	rj, err := json.MarshalIndent(repos, "", " ")
+	rj, err := json.Marshal(repos2)
 	err = ioutil.WriteFile("../repos.json", rj, 0644)
 	if err != nil {
 		log.Fatal(err)
 	}
+}
+
+func calculateCommits(repos reposInfo) reposCalculated {
+	r := make(reposCalculated)
+	for k, v := range repos {
+		var c commits
+		c.Commits = make([]string, 0)
+		authors := make(map[string]bool)
+		committers := make(map[string]bool)
+		for _, s := range v {
+			c.Commits = append(c.Commits, s.Commit.Commiter.Date)
+			authors[s.Commit.Author.Email] = true
+			committers[s.Commit.Commiter.Email] = true
+		}
+		for range authors {
+			c.AuthorCount++
+		}
+		for range committers {
+			c.CommiterCount++
+		}
+		r[k] = c
+	}
+	return r
 }
 
 func filterUnknownDevices(list deviceList) deviceList {

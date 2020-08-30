@@ -26,6 +26,9 @@
   const devices = parseDevices(deviceList);
   const repos = parseRepos(repoList);
   $: filtered = calculateHealth(filterDevices(devices, filters), repos);
+
+  console.log(devices);
+  console.log(repos);
 </script>
 
 <table class="table table-dark">

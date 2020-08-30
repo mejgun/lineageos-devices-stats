@@ -27,7 +27,7 @@
       <a target="_blank" href="https://github.com/LineageOS/{name}">
         <div
           class="progress"
-          title="{name} ({repo.health}%) {repo.committersCount}">
+          title="{name} ({repo.health}%) {repo.authorsCount} ({repo.committersCount})">
           <div
             class="progress-bar bg-success"
             role="progressbar"
@@ -35,7 +35,7 @@
             aria-valuenow={repo.health}
             aria-valuemin="0"
             aria-valuemax="100">
-            {repo.committersCount}
+            {repo.authorsCount} ({repo.committersCount})
           </div>
         </div>
       </a>

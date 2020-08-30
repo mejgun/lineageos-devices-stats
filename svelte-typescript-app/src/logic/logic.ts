@@ -1,30 +1,32 @@
 const commitsCount = 100;
 
-import type { DeviceT, CommitT, DeviceListT, RepoListT, FiltersT } from "../types/types";
+import type { DeviceT, CommitsT, DeviceListT, RepoListT, FiltersT, RepoInfoT } from "../types/types";
 
 export let parseDevices = (j: { [index: string]: DeviceT }): DeviceListT => {
     let devices: DeviceListT = new Map();
     for (let k of Object.keys(j)) {
         let d: DeviceT = j[k];
+        d.Deps.forEach((s, i, arr) => { arr[i] = s.toLowerCase() });
         devices.set(k, d);
     }
     return devices;
 };
 
 export let parseRepos = (j: { [index: string]: any }): RepoListT => {
-    let repos = new Map<string, CommitT[]>();
+    let repos: RepoListT = new Map();
     const toHours = 1000 * 60 * 60;
     let now = Date.now();
     for (let k of Object.keys(j)) {
-        let t: CommitT[] = [];
-        for (let i in Object.keys(j[k])) {
-            let e = j[k];
-            let temp = e[i]["commit"]["committer"];
-            let d = new Date(e[i]["commit"]["committer"]["date"]);
+        let el = j[k];
+        let t: CommitsT = {
+            Authors: el['a'],
+            Committers: el['c'],
+            Hours: [],
+        }
+        for (let i in Object.keys(el['t'])) {
+            let d = new Date(el['t'][i]);
             let time = Math.round((now - d.getTime()) / toHours);
-            temp["Hours"] = time;
-            temp["Date"] = d;
-            t.push(temp);
+            t.Hours.push(time);
         }
         repos.set(k.toLowerCase(), t);
         repos = repos;
@@ -32,7 +34,7 @@ export let parseRepos = (j: { [index: string]: any }): RepoListT => {
     return repos;
 };
 
-export let calculateHealth = (devices: DeviceListT, repos: Map<string, CommitT[]>): DeviceListT => {
+export let calculateHealth = (devices: DeviceListT, repos: RepoListT): DeviceListT => {
     let max = 0;
     let min = 999999;
     let setMinMaxTime = (t: number) => {
@@ -43,24 +45,25 @@ export let calculateHealth = (devices: DeviceListT, repos: Map<string, CommitT[]
         v.Deps.forEach((d) => {
             let commits = repos.get(d)
             if (commits) {
-                commits.forEach((commit) => {
-                    setMinMaxTime(commit.Hours);
+                commits.Hours.forEach((commit) => {
+                    setMinMaxTime(commit);
                 });
             };
         });
     });
     devices.forEach((e, k, map) => {
-        let w = new Map();
+        let w: RepoInfoT = new Map();
         e.Deps.forEach((v,) => {
             let commits = repos.get(v);
             let count = 0;
             let sum = 0;
-            let committersCount: number = 0;
+            let committersCount = 0;
+            let authorsCount = 0;
             if (commits) {
-                count = commits.length
-                let numbers = commits.map((x) => x.Hours);
-                sum = numbers.reduce((y, x) => x + y - min, 0);
-                committersCount = new Set(commits.map((x) => x.Email)).size;
+                count = commits.Hours.length
+                sum = commits.Hours.reduce((y, x) => x + y - min, 0);
+                committersCount = commits.Committers;
+                authorsCount = commits.Authors;
             }
             if (count < commitsCount) {
                 sum = sum + (commitsCount - count) * (max - min);
@@ -68,7 +71,11 @@ export let calculateHealth = (devices: DeviceListT, repos: Map<string, CommitT[]
             sum = sum / commitsCount;
             let percent = (max - min) / 100;
             sum = 100 - Math.round(sum / percent);
-            let q = { health: sum, committersCount: committersCount };
+            let q = {
+                health: sum,
+                committersCount: committersCount,
+                authorsCount: authorsCount
+            };
             w.set(v, q);
         });
         e.Repos = w;

@@ -60,4 +60,9 @@
       <p>{Date()}</p>
     </div>
   {/if}
+  <p>
+    <a target="_blank" href="https://github.com/mejgun/lineageos-devices-stats">
+      GitHub
+    </a>
+  </p>
 </main>
