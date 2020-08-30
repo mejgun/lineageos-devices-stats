@@ -29,6 +29,6 @@
       </select>
     </th>
     <th scope="col">Model</th>
-    <th style="width: 200px;" scope="col">Repos</th>
+    <th scope="col" style="width: 25%">Repos</th>
   </tr>
 </thead>

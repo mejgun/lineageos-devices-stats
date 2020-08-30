@@ -39,7 +39,7 @@
     branches={calculateBranches(devices)}
     oems={calculateOems(devices)} />
   <tbody>
-    {#each [...filtered] as [, dev]}
+    {#each [...filtered] as [, dev] (dev.Model)}
       <Device {dev} {expandRepos} />
     {/each}
   </tbody>
