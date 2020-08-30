@@ -3,6 +3,12 @@
   import Badge from "./Badge.svelte";
 
   export let dev: DeviceT;
+  export let expandRepos: boolean;
+  const total = (): number => {
+    let t = 0;
+    dev.Repos.forEach((r) => (t = t + r.health));
+    return Math.round(t / dev.Repos.size);
+  };
 </script>
 
 <tr>
@@ -23,23 +29,37 @@
   <td>{dev.Oem}</td>
   <td>{dev.Name}</td>
   <td>
-    {#each [...dev.Repos] as [name, repo]}
-      <a target="_blank" href="https://github.com/LineageOS/{name}">
-        <div
-          class="progress"
-          title="{name} ({repo.health}%) {repo.authorsCount} ({repo.committersCount})">
+    {#if expandRepos}
+      {#each [...dev.Repos] as [name, repo]}
+        <a target="_blank" href="https://github.com/LineageOS/{name}">
+          <div
+            class="progress"
+            title="{name} ({repo.health}%) &#013;unique authors: {repo.authorsCount}&#013;committers:&nbsp;{repo.committersCount}">
+            <div
+              class="progress-bar bg-success"
+              role="progressbar"
+              style="width: {repo.health}%"
+              aria-valuenow={repo.health}
+              aria-valuemin="0"
+              aria-valuemax="100">
+              {repo.authorsCount} ({repo.committersCount})
+            </div>
+          </div>
+        </a>
+      {/each}
+    {:else}
+      <a href="##" on:click={() => (expandRepos = !expandRepos)}>
+        <div class="progress">
           <div
             class="progress-bar bg-success"
             role="progressbar"
-            style="width: {repo.health}%"
-            aria-valuenow={repo.health}
+            style="width: {total()}%"
+            aria-valuenow={total()}
             aria-valuemin="0"
-            aria-valuemax="100">
-            {repo.authorsCount} ({repo.committersCount})
-          </div>
+            aria-valuemax="100" />
         </div>
       </a>
-    {/each}
+    {/if}
   </td>
   <td />
 </tr>
