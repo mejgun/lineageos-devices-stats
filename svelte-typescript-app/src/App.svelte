@@ -48,17 +48,17 @@
   {/if}
   {#if loaded}
     <DeviceList deviceList={devices} repoList={repos} />
+  {:else if pressed}
+    <p>Loading...</p>
   {:else}
-    <div class="container">
-      <button
-        disabled={pressed}
-        on:click={loadData}
-        type="button"
-        class="btn btn-primary">
-        Load data
-      </button>
-      <p>{Date()}</p>
-    </div>
+    <button
+      disabled={pressed}
+      on:click={loadData}
+      type="button"
+      class="btn btn-primary">
+      Load data
+    </button>
+    <p>Now: {Date()}</p>
   {/if}
   <p>
     <a target="_blank" href="https://github.com/mejgun/lineageos-devices-stats">
