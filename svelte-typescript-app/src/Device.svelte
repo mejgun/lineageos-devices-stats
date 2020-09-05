@@ -4,11 +4,21 @@
 
   export let dev: DeviceT;
   export let expandRepos: boolean;
-  const total = (): number => {
-    let t = 0;
-    dev.Repos.forEach((r) => (t = t + r.health));
-    return Math.round(t / dev.Repos.size);
+
+  const t = (): { authors: number; committers: number; health: number } => {
+    console.log("okay");
+    let avg = (x: number): number => Math.round(x / dev.Repos.size);
+    let h = 0;
+    let a = 0;
+    let c = 0;
+    dev.Repos.forEach((r) => {
+      h += r.health;
+      a += r.authorsCount;
+      c += r.committersCount;
+    });
+    return { authors: avg(a), committers: avg(c), health: avg(h) };
   };
+  const total = t();
 </script>
 
 <tr>
@@ -34,7 +44,8 @@
         <a target="_blank" href="https://github.com/LineageOS/{name}">
           <div
             class="progress"
-            title="{name} ({repo.health}%) &#013;unique authors: {repo.authorsCount}&#013;committers:&nbsp;{repo.committersCount}">
+            title="{name} ({repo.health}%) unique authors: {repo.authorsCount}
+            committers: {repo.committersCount}">
             <div
               class="progress-bar bg-success"
               role="progressbar"
@@ -53,10 +64,12 @@
           <div
             class="progress-bar bg-success"
             role="progressbar"
-            style="width: {total()}%"
-            aria-valuenow={total()}
+            style="width: {total.health}%"
+            aria-valuenow={total.health}
             aria-valuemin="0"
-            aria-valuemax="100" />
+            aria-valuemax="100">
+            {total.authors} ({total.committers})
+          </div>
         </div>
       </a>
     {/if}
