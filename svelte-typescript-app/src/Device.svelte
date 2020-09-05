@@ -6,7 +6,6 @@
   export let expandRepos: boolean;
 
   const t = (): { authors: number; committers: number; health: number } => {
-    console.log("okay");
     let avg = (x: number): number => Math.round(x / dev.Repos.size);
     let h = 0;
     let a = 0;
