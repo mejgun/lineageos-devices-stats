@@ -1,4 +1,5 @@
 const commitsCount = 100;
+const hoursInYear = 365 * 24 * 1.1;
 
 import type { DeviceT, CommitsT, DeviceListT, RepoListT, FiltersT, RepoInfoT } from "../types/types";
 
@@ -35,11 +36,9 @@ export let parseRepos = (j: { [index: string]: any }): RepoListT => {
 };
 
 export let calculateHealth = (devices: DeviceListT, repos: RepoListT): DeviceListT => {
-    let max = 0;
-    let min = 999999;
+    let min = hoursInYear;
     let setMinMaxTime = (t: number) => {
         min = Math.min(min, t);
-        max = Math.max(max, t);
     };
     devices.forEach((v) => {
         v.Deps.forEach((d) => {
@@ -51,6 +50,7 @@ export let calculateHealth = (devices: DeviceListT, repos: RepoListT): DeviceLis
             };
         });
     });
+    let max = hoursInYear + min;
     devices.forEach((e, k, map) => {
         let w: RepoInfoT = new Map();
         e.Deps.forEach((v,) => {
@@ -61,7 +61,7 @@ export let calculateHealth = (devices: DeviceListT, repos: RepoListT): DeviceLis
             let authorsCount = 0;
             if (commits) {
                 count = commits.Hours.length
-                sum = commits.Hours.reduce((y, x) => x + y - min, 0);
+                sum = commits.Hours.reduce((y, x) => y + (x > max ? max : x) - min, 0);
                 committersCount = commits.Committers;
                 authorsCount = commits.Authors;
             }
