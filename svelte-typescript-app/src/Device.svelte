@@ -1,23 +1,12 @@
 <script lang="ts">
   import type { DeviceT } from "./types/types";
   import Badge from "./Badge.svelte";
+  import { calculateTotalHP } from "./logic/logic";
 
   export let dev: DeviceT;
   export let expandRepos: boolean;
 
-  const t = (): { authors: number; committers: number; health: number } => {
-    let avg = (x: number): number => Math.round(x / dev.Repos.size);
-    let h = 0;
-    let a = 0;
-    let c = 0;
-    dev.Repos.forEach((r) => {
-      h += r.health;
-      a += r.authorsCount;
-      c += r.committersCount;
-    });
-    return { authors: avg(a), committers: avg(c), health: avg(h) };
-  };
-  const total = t();
+  $: total = calculateTotalHP(dev);
 </script>
 
 <tr>

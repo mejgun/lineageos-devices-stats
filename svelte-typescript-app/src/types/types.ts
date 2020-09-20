@@ -29,3 +29,9 @@ export interface FiltersT {
     branch: string;
     oem: string;
 }
+
+export interface TotalHPT {
+    authors: number;
+    committers: number;
+    health: number;
+}

@@ -1,7 +1,7 @@
 const commitsCount = 100;
-const hoursInYear = 365 * 24 * 1.1;
+const hoursInMonth = 30 * 24;
 
-import type { DeviceT, CommitsT, DeviceListT, RepoListT, FiltersT, RepoInfoT } from "../types/types";
+import type { DeviceT, CommitsT, DeviceListT, RepoListT, FiltersT, RepoInfoT, TotalHPT } from "../types/types";
 
 export let parseDevices = (j: { [index: string]: DeviceT }): DeviceListT => {
     let devices: DeviceListT = new Map();
@@ -35,9 +35,9 @@ export let parseRepos = (j: { [index: string]: any }): RepoListT => {
     return repos;
 };
 
-export let calculateHealth = (devices: DeviceListT, repos: RepoListT): DeviceListT => {
-    let min = hoursInYear;
-    let setMinMaxTime = (t: number) => {
+export let calculateHealth = (devices: DeviceListT, repos: RepoListT, max: number): DeviceListT => {
+    let min = 999999;
+    let setMin = (t: number) => {
         min = Math.min(min, t);
     };
     devices.forEach((v) => {
@@ -45,12 +45,12 @@ export let calculateHealth = (devices: DeviceListT, repos: RepoListT): DeviceLis
             let commits = repos.get(d)
             if (commits) {
                 commits.Hours.forEach((commit) => {
-                    setMinMaxTime(commit);
+                    setMin(commit);
                 });
             };
         });
     });
-    let max = hoursInYear + min;
+    max = max * hoursInMonth + min;
     devices.forEach((e, k, map) => {
         let w: RepoInfoT = new Map();
         e.Deps.forEach((v,) => {
@@ -122,3 +122,16 @@ export let calculateOems = (devices: DeviceListT): string[] => {
     })
     return oems;
 }
+
+export let calculateTotalHP = (dev: DeviceT): TotalHPT => {
+    let avg = (x: number): number => Math.round(x / dev.Repos.size);
+    let h = 0;
+    let a = 0;
+    let c = 0;
+    dev.Repos.forEach((r) => {
+        h += r.health;
+        a += r.authorsCount;
+        c += r.committersCount;
+    });
+    return { authors: avg(a), committers: avg(c), health: avg(h) };
+};

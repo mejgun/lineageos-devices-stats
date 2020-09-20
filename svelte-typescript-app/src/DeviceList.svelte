@@ -22,16 +22,40 @@
     branch: allSelect,
   };
   let expandRepos = false;
+  let maxHoursTime = 12;
 
   const devices = parseDevices(deviceList);
   const repos = parseRepos(repoList);
-  $: filtered = calculateHealth(filterDevices(devices, filters), repos);
+  $: filtered = calculateHealth(
+    filterDevices(devices, filters),
+    repos,
+    maxHoursTime
+  );
 </script>
 
-<label>
-  Expand repos
-  <input type="checkbox" bind:checked={expandRepos} />
-</label>
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col">
+      <label>
+        Max commit time (month)
+        <input
+          type="number"
+          name="quantity"
+          min="1"
+          max="60"
+          bind:value={maxHoursTime}
+          class="w-25" />
+        <input type="range" bind:value={maxHoursTime} min="1" max="60" />
+      </label>
+    </div>
+    <div class="col">
+      <label>
+        Expand repos
+        <input type="checkbox" bind:checked={expandRepos} />
+      </label>
+    </div>
+  </div>
+</div>
 
 <table class="table table-dark">
   <Filters
