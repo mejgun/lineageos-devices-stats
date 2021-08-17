@@ -20,7 +20,7 @@
       <Badge period={dev.Period} />
     </a>
     {#if dev.lineage_recovery}
-      <span class="badge badge-info">Recovery</span>
+      <span class="badge bg-info text-dark">Recovery</span>
     {/if}
   </td>
   <td>{dev.Branch}</td>
@@ -33,14 +33,16 @@
           <div
             class="progress"
             title="{name} ({repo.health}%) unique authors: {repo.authorsCount}
-            committers: {repo.committersCount}">
+            committers: {repo.committersCount}"
+          >
             <div
-              class="progress-bar bg-success"
+              class="progress-bar progress-bar-striped bg-success"
               role="progressbar"
               style="width: {repo.health}%"
               aria-valuenow={repo.health}
               aria-valuemin="0"
-              aria-valuemax="100">
+              aria-valuemax="100"
+            >
               {repo.authorsCount} ({repo.committersCount})
             </div>
           </div>
@@ -55,7 +57,8 @@
             style="width: {total.health}%"
             aria-valuenow={total.health}
             aria-valuemin="0"
-            aria-valuemax="100">
+            aria-valuemax="100"
+          >
             {total.authors} ({total.committers})
           </div>
         </div>

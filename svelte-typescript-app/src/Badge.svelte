@@ -3,11 +3,11 @@
 </script>
 
 {#if period == 1}
-  <span class="badge badge-success">Monthly</span>
+  <span class="badge bg-success">Monthly</span>
 {:else if period == 2}
-  <span class="badge badge-success">Weekly</span>
+  <span class="badge bg-success">Weekly</span>
 {:else if period == 3}
-  <span class="badge badge-success">Nightly</span>
+  <span class="badge bg-success">Nightly</span>
 {:else}
-  <span class="badge badge-warning">Never</span>
+  <span class="badge bg-warning">Never</span>
 {/if}

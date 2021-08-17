@@ -10,11 +10,15 @@
     <th scope="col">Code</th>
     <th scope="col">
       Build
-      <input type="checkbox" bind:checked={value.build} />
+      <input
+        class="form-check-input"
+        type="checkbox"
+        bind:checked={value.build}
+      />
     </th>
     <th scope="col">
       Branch
-      <select bind:value={value.branch}>
+      <select class="form-select" bind:value={value.branch}>
         {#each branches as b}
           <option value={b}>{b}</option>
         {/each}
@@ -22,7 +26,7 @@
     </th>
     <th scope="col">
       OEM
-      <select bind:value={value.oem}>
+      <select class="form-select" bind:value={value.oem}>
         {#each oems as o}
           <option value={o}>{o}</option>
         {/each}

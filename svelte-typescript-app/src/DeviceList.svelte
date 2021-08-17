@@ -44,24 +44,36 @@
           min="1"
           max="60"
           bind:value={maxHoursTime}
-          class="w-25" />
-        <input type="range" bind:value={maxHoursTime} min="1" max="60" />
+          class="form-control w-50"
+        />
+        <input
+          class="form-range"
+          type="range"
+          bind:value={maxHoursTime}
+          min="1"
+          max="60"
+        />
       </label>
     </div>
     <div class="col">
       <label>
         Expand repos
-        <input type="checkbox" bind:checked={expandRepos} />
+        <input
+          class="form-check-input"
+          type="checkbox"
+          bind:checked={expandRepos}
+        />
       </label>
     </div>
   </div>
 </div>
 
-<table class="table table-dark">
+<table class="table table-dark table-striped">
   <Filters
     bind:value={filters}
     branches={calculateBranches(devices)}
-    oems={calculateOems(devices)} />
+    oems={calculateOems(devices)}
+  />
   <tbody>
     {#each [...filtered] as [, dev] (dev.Model)}
       <Device {dev} {expandRepos} />
