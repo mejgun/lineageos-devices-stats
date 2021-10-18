@@ -81,7 +81,15 @@ export let calculateHealth = (devices: DeviceListT, repos: RepoListT, max: numbe
         e.Repos = w;
         map.set(k, e);
     });
-    return devices;
+    return new Map([...devices.entries()]
+        .sort(
+            ([_a, a], [_b, b]) => {
+                if (a.Oem > b.Oem) return 1;
+                if (a.Oem == b.Oem) return (a.Name > b.Name ? 1 : -1)
+                return -1;
+            }
+        )
+    );
 }
 
 export const allSelect = "All"
@@ -113,14 +121,17 @@ export let calculateBranches = (devices: DeviceListT): string[] => {
     return branches;
 }
 
-export let calculateOems = (devices: DeviceListT): string[] => {
-    let oems: string[] = [allSelect];
+export let calculateOems = (devices: DeviceListT, filters: FiltersT): string[] => {
+    let oems: string[] = [];
     devices.forEach((v) => {
-        if (!oems.includes(v.Oem) && v.Oem.length > 0) {
+        if (
+            (filters.branch == allSelect || v.Branch == filters.branch)
+            && !oems.includes(v.Oem) && v.Oem.length > 0) {
             oems.push(v.Oem);
         }
     })
-    return oems;
+    oems = oems.sort((a, b) => (a > b ? 1 : -1));
+    return [allSelect].concat(oems);
 }
 
 export let calculateTotalHP = (dev: DeviceT): TotalHPT => {

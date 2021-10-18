@@ -72,7 +72,7 @@
   <Filters
     bind:value={filters}
     branches={calculateBranches(devices)}
-    oems={calculateOems(devices)}
+    oems={calculateOems(devices, filters)}
   />
   <tbody>
     {#each [...filtered] as [, dev] (dev.Model)}

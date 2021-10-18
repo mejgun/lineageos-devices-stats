@@ -55,7 +55,8 @@
       disabled={pressed}
       on:click={loadData}
       type="button"
-      class="btn btn-primary">
+      class="btn btn-primary"
+    >
       Load data
     </button>
     <p>Now: {Date()}</p>
