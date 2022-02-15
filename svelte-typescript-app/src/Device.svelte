@@ -39,9 +39,6 @@
               class="progress-bar progress-bar-striped bg-success"
               role="progressbar"
               style="width: {repo.health}%"
-              aria-valuenow={repo.health}
-              aria-valuemin="0"
-              aria-valuemax="100"
             >
               {repo.authorsCount} ({repo.committersCount})
             </div>
@@ -55,9 +52,6 @@
             class="progress-bar bg-success"
             role="progressbar"
             style="width: {total.health}%"
-            aria-valuenow={total.health}
-            aria-valuemin="0"
-            aria-valuemax="100"
           >
             {total.authors} ({total.committers})
           </div>
