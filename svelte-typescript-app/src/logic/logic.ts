@@ -97,9 +97,6 @@ export const allSelect = "All"
 export let filterDevices = (devices: DeviceListT, filters: FiltersT): DeviceListT => {
     let newD: DeviceListT = new Map();
     devices.forEach((v, k) => {
-        if (filters.build && v.Period == 0) {
-            return
-        }
         if (filters.branch != allSelect && v.Branch != filters.branch) {
             return
         }

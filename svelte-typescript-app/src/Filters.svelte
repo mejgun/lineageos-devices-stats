@@ -8,14 +8,7 @@
 <thead>
   <tr>
     <th scope="col">Code</th>
-    <th scope="col">
-      Build
-      <input
-        class="form-check-input"
-        type="checkbox"
-        bind:checked={value.build}
-      />
-    </th>
+    <th scope="col">Build</th>
     <th scope="col">
       Branch
       <select class="form-select" bind:value={value.branch}>

@@ -30,13 +30,12 @@ const (
 )
 
 type deviceData struct {
-	Model           string
-	Branch          string
-	Period          buildPeriod
-	Oem             string
-	Name            string
-	LineageRecovery bool `json:"lineage_recovery"`
-	Deps            []string
+	Model  string
+	Branch string
+	Period buildPeriod
+	Oem    string
+	Name   string
+	Deps   []string
 }
 
 type deviceList map[string]deviceData
@@ -108,8 +107,10 @@ func main() {
 	time.Sleep(sleepTime)
 
 	fmt.Println("Build targets")
-	resp2 := getBuildTargets(resp)
+	resp1 := getBuildTargets(resp)
 	time.Sleep(sleepTime)
+
+	resp2 := filterDevicesWithBuilds(resp1)
 
 	fmt.Println("Device deps")
 	resp3 := getDeviceDeps(resp2)
@@ -166,6 +167,16 @@ func filterUnknownDevices(list deviceList) deviceList {
 	newList := make(deviceList)
 	for k, v := range list {
 		if len(v.Model) > 0 && len(v.Name) > 0 && len(v.Oem) > 0 && len(v.Deps) > 0 {
+			newList[k] = v
+		}
+	}
+	return newList
+}
+
+func filterDevicesWithBuilds(list deviceList) deviceList {
+	newList := make(deviceList)
+	for k, v := range list {
+		if v.Branch != "" {
 			newList[k] = v
 		}
 	}

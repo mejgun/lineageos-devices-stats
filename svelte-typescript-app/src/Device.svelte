@@ -19,9 +19,6 @@
     <a target="_blank" href="https://download.lineageos.org/{dev.Model}">
       <Badge period={dev.Period} />
     </a>
-    {#if dev.lineage_recovery}
-      <span class="badge bg-info text-dark">Recovery</span>
-    {/if}
   </td>
   <td>{dev.Branch}</td>
   <td>{dev.Oem}</td>

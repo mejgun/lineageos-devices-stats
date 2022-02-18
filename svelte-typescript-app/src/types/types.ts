@@ -7,7 +7,6 @@ export interface DeviceT {
     Branch: string;
     Oem: string;
     Name: string;
-    lineage_recovery: boolean;
     Deps: string[];
     Repos: RepoInfoT;
 }
@@ -25,7 +24,6 @@ export interface CommitsT {
 }
 
 export interface FiltersT {
-    build: boolean;
     branch: string;
     oem: string;
 }

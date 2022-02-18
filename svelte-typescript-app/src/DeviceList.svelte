@@ -17,7 +17,6 @@
   export let repoList: { [index: string]: any };
   let filtered: DeviceListT;
   let filters: FiltersT = {
-    build: false,
     oem: allSelect,
     branch: allSelect,
   };
@@ -75,7 +74,7 @@
     oems={calculateOems(devices, filters)}
   />
   <tbody>
-    {#each [...filtered] as [, dev] (dev.Model)}
+    {#each [...filtered] as [_, dev]}
       <Device {dev} {expandRepos} />
     {/each}
   </tbody>
