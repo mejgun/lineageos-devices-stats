@@ -6,7 +6,6 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
-	"os"
 	"strings"
 	"time"
 )
@@ -18,21 +17,15 @@ const (
 	commitsAPIURL   = "https://api.github.com/repos/LineageOS/%s/commits?per_page=100"
 )
 
-const sleepTime = 100 * time.Millisecond
-
-type buildPeriod uint
-
 const (
-	never buildPeriod = iota
-	monthly
-	weekly
-	nightly
+	sleepTime    = time.Second * 5
+	apiSleepTime = time.Second * 61
 )
 
 type deviceData struct {
 	Model  string
 	Branch string
-	Period buildPeriod
+	Period string
 	Oem    string
 	Name   string
 	Deps   []string
@@ -57,13 +50,14 @@ type commit struct {
 
 type reposInfo map[string][]commit
 
-type commits struct {
-	Commits       []string `json:"t"`
-	AuthorCount   int      `json:"a"`
-	CommiterCount int      `json:"c"`
+type commitsInfo struct {
+	CommitsCount   uint8  `json:"n"`
+	CommitsAvgHour uint64 `json:"t"`
+	AuthorCount    int    `json:"a"`
+	CommiterCount  int    `json:"c"`
 }
 
-type reposCalculated map[string]commits
+type reposCalculated map[string]commitsInfo
 
 func doRequest(url string) ([]byte, int, error) {
 	client := &http.Client{}
@@ -71,7 +65,6 @@ func doRequest(url string) ([]byte, int, error) {
 	if err != nil {
 		log.Fatalln(err)
 	}
-	req.SetBasicAuth(os.Args[1], os.Args[2])
 	req.Header.Set("User-Agent", "github/mejgun")
 	res, err := client.Do(req)
 	if err != nil {
@@ -142,15 +135,23 @@ func main() {
 
 func calculateCommits(repos reposInfo) reposCalculated {
 	r := make(reposCalculated)
+	now := time.Now()
 	for k, v := range repos {
-		var c commits
-		c.Commits = make([]string, 0)
-		authors := make(map[string]bool)
-		committers := make(map[string]bool)
+		var (
+			c            commitsInfo
+			commitsDates = make([]time.Duration, 0)
+			authors      = make(map[string]struct{})
+			committers   = make(map[string]struct{})
+		)
 		for _, s := range v {
-			c.Commits = append(c.Commits, s.Commit.Commiter.Date)
-			authors[s.Commit.Author.Email] = true
-			committers[s.Commit.Commiter.Email] = true
+			t, err := time.Parse(time.RFC3339, s.Commit.Commiter.Date)
+			if err != nil {
+				log.Printf("time parser error: %s '%s'", err, t)
+				continue
+			}
+			commitsDates = append(commitsDates, now.Sub(t))
+			authors[s.Commit.Author.Email] = struct{}{}
+			committers[s.Commit.Commiter.Email] = struct{}{}
 		}
 		for range authors {
 			c.AuthorCount++
@@ -158,6 +159,16 @@ func calculateCommits(repos reposInfo) reposCalculated {
 		for range committers {
 			c.CommiterCount++
 		}
+		length := len(commitsDates)
+		if length > 0 {
+			var avg time.Duration
+			for _, v := range commitsDates {
+				avg += v
+			}
+			avg = avg / time.Duration(length)
+			c.CommitsAvgHour = uint64(avg.Hours())
+		}
+		c.CommitsCount = uint8(length)
 		r[k] = c
 	}
 	return r
@@ -203,7 +214,7 @@ func getReposInfo(list deviceList) reposInfo {
 		for _, v := range w {
 			repos[r] = append(repos[r], v)
 		}
-		time.Sleep(sleepTime)
+		time.Sleep(apiSleepTime)
 	}
 	return repos
 }
@@ -257,16 +268,7 @@ func getBuildTargets(list deviceList) deviceList {
 		}
 		d := list[l[0]]
 		d.Branch = l[2]
-		switch l[3] {
-		case "n":
-			d.Period = nightly
-		case "w":
-			d.Period = weekly
-		case "m":
-			d.Period = monthly
-		default:
-			continue
-		}
+		d.Period = l[3]
 		list[l[0]] = d
 	}
 	return list
