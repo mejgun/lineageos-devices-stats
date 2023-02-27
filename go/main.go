@@ -51,10 +51,10 @@ type commit struct {
 type reposInfo map[string][]commit
 
 type commitsInfo struct {
-	CommitsCount   uint8  `json:"n"`
-	CommitsAvgHour uint64 `json:"t"`
-	AuthorCount    int    `json:"a"`
-	CommiterCount  int    `json:"c"`
+	CommitsCount      uint8  `json:"n"`
+	CommitsAvgDaysAgo uint64 `json:"t"`
+	AuthorCount       int    `json:"a"`
+	CommiterCount     int    `json:"c"`
 }
 
 type reposCalculated map[string]commitsInfo
@@ -112,7 +112,7 @@ func main() {
 	resp3 = filterUnknownDevices(resp3)
 
 	fmt.Println("Saving devices json")
-	r, err := json.Marshal(resp3)
+	r, err := json.MarshalIndent(resp3, "", "  ")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -126,7 +126,7 @@ func main() {
 	repos := getReposInfo(resp3)
 	repos2 := calculateCommits(repos)
 	fmt.Println("Saving repos json")
-	rj, err := json.Marshal(repos2)
+	rj, err := json.MarshalIndent(repos2, "", "  ")
 	err = ioutil.WriteFile("../repos.json", rj, 0644)
 	if err != nil {
 		log.Fatal(err)
@@ -139,7 +139,7 @@ func calculateCommits(repos reposInfo) reposCalculated {
 	for k, v := range repos {
 		var (
 			c            commitsInfo
-			commitsDates = make([]time.Duration, 0)
+			commitsDates = make([]uint64, 0)
 			authors      = make(map[string]struct{})
 			committers   = make(map[string]struct{})
 		)
@@ -149,7 +149,7 @@ func calculateCommits(repos reposInfo) reposCalculated {
 				log.Printf("time parser error: %s '%s'", err, t)
 				continue
 			}
-			commitsDates = append(commitsDates, now.Sub(t))
+			commitsDates = append(commitsDates, uint64(now.Sub(t).Hours()/24))
 			authors[s.Commit.Author.Email] = struct{}{}
 			committers[s.Commit.Commiter.Email] = struct{}{}
 		}
@@ -161,12 +161,11 @@ func calculateCommits(repos reposInfo) reposCalculated {
 		}
 		length := len(commitsDates)
 		if length > 0 {
-			var avg time.Duration
+			var avg uint64
 			for _, v := range commitsDates {
 				avg += v
 			}
-			avg = avg / time.Duration(length)
-			c.CommitsAvgHour = uint64(avg.Hours())
+			c.CommitsAvgDaysAgo = avg / uint64(length)
 		}
 		c.CommitsCount = uint8(length)
 		r[k] = c
