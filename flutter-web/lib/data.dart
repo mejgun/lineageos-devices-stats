@@ -4,7 +4,10 @@ class AppState {
   List<Device> deviceList = [];
   Map<String, Repo> repos = {};
   bool compactRepos = true;
-  int rnd = Random().nextInt(50);
+  int minDays = 0;
+  int maxDays = 0;
+  int totalMinDays = 0;
+  int totalMaxDays = 0;
 }
 
 class Device {
@@ -14,8 +17,9 @@ class Device {
   final String oem;
   final String name;
   final List<String> deps;
+  int totalDaysAvg = 0;
 
-  const Device({
+  Device({
     required this.model,
     required this.branch,
     required this.period,
@@ -26,7 +30,7 @@ class Device {
 
   factory Device.fromJson(Map<String, dynamic> json) => Device(
         model: json['Model'],
-        branch: json['Branch'],
+        branch: json['Branch'].replaceFirst("lineage-", ""),
         period: json['Period'],
         oem: json['Oem'],
         name: json['Name'],
@@ -36,20 +40,20 @@ class Device {
 
 class Repo {
   final int commitsCount;
-  final int commitsAvgHour;
+  final int commitsAvgDaysAgo;
   final int authorCount;
   final int commiterCount;
 
   const Repo({
     required this.commitsCount,
-    required this.commitsAvgHour,
+    required this.commitsAvgDaysAgo,
     required this.authorCount,
     required this.commiterCount,
   });
 
   factory Repo.fromJson(Map<String, dynamic> json) => Repo(
         commitsCount: json['n'],
-        commitsAvgHour: json['t'],
+        commitsAvgDaysAgo: json['t'],
         authorCount: json['a'],
         commiterCount: json['c'],
       );
