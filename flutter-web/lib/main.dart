@@ -4,6 +4,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:frontend/renders.dart';
 import 'package:http/http.dart' as http;
+import 'package:url_launcher/url_launcher.dart';
 
 import 'data.dart';
 
@@ -31,6 +32,8 @@ class _MyHomePageState extends State<MyHomePage> {
   AppState appstate = AppState();
   int? sortColumn;
   bool sortAsc = true;
+  int currentPageIndex = 0;
+  bool _showFilters = false;
 
   void loadData() {
     http.get(Uri.parse('/devices.json')).then((resp) {
@@ -58,12 +61,45 @@ class _MyHomePageState extends State<MyHomePage> {
               .map((key, value) => MapEntry(key, Repo.fromJson(value)));
           appstate.deviceList = appstate.deviceList.map((el) {
             if (el.deps.isEmpty) return el;
-            int avg = el.deps.fold(
-              0,
-              (prev, el) => prev + (appstate.repos[el]?.commitsAvgDaysAgo ?? 0),
-            );
-            avg = (avg / el.deps.length).round();
-            el.totalDaysAvg = avg;
+            int avgFunc(int? Function(String s) f) => (el.deps.fold(
+                      0,
+                      (prev, el) => prev + (f(el) ?? 0),
+                    ) /
+                    el.deps.length)
+                .round();
+
+            el.totalDaysAvg =
+                avgFunc((s) => appstate.repos[s]?.commitsAvgDaysAgo);
+            el.totalAuthorsAvg = avgFunc((s) => appstate.repos[s]?.authorCount);
+            el.totalCommittersAvg =
+                avgFunc((s) => appstate.repos[s]?.commiterCount);
+            /*
+            () {
+              int avg = el.deps.fold(
+                0,
+                (prev, el) =>
+                    prev + (appstate.repos[el]?.commitsAvgDaysAgo ?? 0),
+              );
+              avg = (avg / el.deps.length).round();
+              el.totalDaysAvg = avg;
+            }();
+            () {
+              int avg = el.deps.fold(
+                0,
+                (prev, el) => prev + (appstate.repos[el]?.authorCount ?? 0),
+              );
+              avg = (avg / el.deps.length).round();
+              el.totalAuthorsAvg = avg;
+            }();
+            () {
+              int avg = el.deps.fold(
+                0,
+                (prev, el) => prev + (appstate.repos[el]?.commiterCount ?? 0),
+              );
+              avg = (avg / el.deps.length).round();
+              el.totalCommittersAvg = avg;
+            }();
+            */
             return el;
           }).toList();
           appstate.maxDays = appstate.repos.entries
@@ -130,6 +166,20 @@ class _MyHomePageState extends State<MyHomePage> {
           return ascending ? x.compareTo(y) : y.compareTo(x);
         });
         break;
+      case 6:
+        appstate.deviceList.sort((a, b) {
+          var x = a.totalAuthorsAvg;
+          var y = b.totalAuthorsAvg;
+          return ascending ? x.compareTo(y) : y.compareTo(x);
+        });
+        break;
+      case 7:
+        appstate.deviceList.sort((a, b) {
+          var x = a.totalCommittersAvg;
+          var y = b.totalCommittersAvg;
+          return ascending ? x.compareTo(y) : y.compareTo(x);
+        });
+        break;
       default:
     }
 
@@ -139,50 +189,164 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
+  Widget filters() {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceAround,
+      children: [
+        SizedBox(
+          width: 150,
+          child: Column(
+            children: appstate.deviceList
+                .fold(Set<String>(), (prev, el) {
+                  prev.add(el.branch);
+                  return prev;
+                })
+                .toList()
+                .map((e) => SwitchListTile(
+                      title: Text(e),
+                      onChanged: (bool value) {
+                        setState(() {
+                          value
+                              ? appstate.hideBranches.remove(e)
+                              : appstate.hideBranches.add(e);
+                        });
+                      },
+                      value: !appstate.hideBranches.contains(e),
+                    ))
+                .toList(),
+          ),
+        ),
+        SizedBox(
+          width: 250,
+          child: Column(
+            children: appstate.deviceList
+                .fold(Set<String>(), (prev, el) {
+                  prev.add(el.oem);
+                  return prev;
+                })
+                .toList()
+                .map((e) => SwitchListTile(
+                      title: Text(e),
+                      onChanged: (bool value) {
+                        setState(() {
+                          value
+                              ? appstate.hideOems.remove(e)
+                              : appstate.hideOems.add(e);
+                        });
+                      },
+                      value: !appstate.hideOems.contains(e),
+                    ))
+                .toList(),
+          ),
+        ),
+      ],
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: DataTable(
-          sortAscending: sortAsc,
-          sortColumnIndex: sortColumn,
-          columns: <DataColumn>[
-            DataColumn(
-              label: Text('Code'),
-              onSort: sort,
-            ),
-            DataColumn(
+      body: ListView(
+        children: [
+          if (_showFilters) filters(),
+          DataTable(
+            sortAscending: sortAsc,
+            sortColumnIndex: sortColumn,
+            columns: <DataColumn>[
+              DataColumn(
+                label: Text('Code'),
+                onSort: sort,
+              ),
+              DataColumn(
                 numeric: true,
-                label: Text(
-                  'Branch',
-                ),
-                onSort: sort),
-            DataColumn(
-              label: Text('OEM'),
-              onSort: sort,
-            ),
-            DataColumn(
-              label: Text('Name'),
-            ),
-            DataColumn(
-              tooltip: 'Last 100 commits average date (days ago)',
-              numeric: true,
-              label: Text('Repos\n(Days)'),
-              onSort: sort,
-            ),
-            DataColumn(
-              numeric: true,
-              label: Text('Repos\n(Count)'),
-              onSort: sort,
-            ),
-          ],
-          rows: appstate.deviceList.map((e) => DeviceRow(e, appstate)).toList(),
-        ),
+                label: Text('Branch'),
+                onSort: sort,
+              ),
+              DataColumn(
+                label: Text('OEM'),
+                onSort: sort,
+              ),
+              DataColumn(
+                label: Text('Name'),
+              ),
+              DataColumn(
+                tooltip: 'Last 100 commits average date (days ago)',
+                numeric: true,
+                label: Text('Days'),
+                onSort: sort,
+              ),
+              DataColumn(
+                numeric: true,
+                tooltip: "Number of device repositories",
+                label: Text('Count'),
+                onSort: sort,
+              ),
+              DataColumn(
+                numeric: true,
+                tooltip: 'Last 100 commits average autors count',
+                label: Text('Autr'),
+                onSort: sort,
+              ),
+              DataColumn(
+                numeric: true,
+                tooltip: 'Last 100 commits average committers count',
+                label: Text('Cmtr'),
+                onSort: sort,
+              ),
+            ],
+            // source: MySource(appstate),
+            rows: appstate.deviceList
+                .where((e) => !appstate.hideBranches.contains(e.branch))
+                .where((e) => !appstate.hideOems.contains(e.oem))
+                .map((e) => DeviceRow(e, appstate))
+                .toList(),
+          ),
+        ],
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: loadData,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
+      //   Container(
+      //     height: 20,
+      //   ),
+      //   ElevatedButton(
+      //     onPressed: () => launchUrl(
+      //         Uri.parse('https://github.com/mejgun/lineageos-devices-stats')),
+      //     child: Text('GitHub'),
+      //   )
+      // ],
+      // ),
+      floatingActionButton: Row(
+        mainAxisAlignment: MainAxisAlignment.end,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
+          FloatingActionButton(
+            onPressed: () {},
+            child: Icon(Icons.format_list_bulleted),
+          ),
+          FloatingActionButton(
+            onPressed: () {},
+            child: Icon(Icons.list),
+          ),
+          FloatingActionButton(
+            onPressed: () {},
+            child: Icon(Icons.view_list),
+          ),
+          FloatingActionButton(
+            onPressed: () {},
+            child: Icon(Icons.format_list_numbered_rtl),
+          ),
+          FloatingActionButton(
+            onPressed: () {},
+            child: Icon(Icons.format_list_numbered),
+          ),
+          FloatingActionButton(
+            onPressed: () {
+              setState(() {
+                _showFilters = !_showFilters;
+              });
+            },
+            child:
+                Icon(_showFilters ? Icons.filter_list_off : Icons.filter_list),
+          ),
+        ],
       ),
     );
   }

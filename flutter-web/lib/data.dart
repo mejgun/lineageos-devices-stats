@@ -1,5 +1,3 @@
-import 'dart:math';
-
 class AppState {
   List<Device> deviceList = [];
   Map<String, Repo> repos = {};
@@ -8,6 +6,8 @@ class AppState {
   int maxDays = 0;
   int totalMinDays = 0;
   int totalMaxDays = 0;
+  List<String> hideBranches = [];
+  List<String> hideOems = [];
 }
 
 class Device {
@@ -18,6 +18,8 @@ class Device {
   final String name;
   final List<String> deps;
   int totalDaysAvg = 0;
+  int totalAuthorsAvg = 0;
+  int totalCommittersAvg = 0;
 
   Device({
     required this.model,

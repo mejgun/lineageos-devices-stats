@@ -105,6 +105,24 @@ import 'package:flutter/material.dart';
 import 'package:frontend/data.dart';
 import 'package:frontend/logic.dart';
 
+class MySource extends DataTableSource {
+  final AppState appstate;
+
+  MySource(this.appstate);
+
+  @override
+  DataRow? getRow(int index) => DeviceRow(appstate.deviceList[index], appstate);
+
+  @override
+  bool get isRowCountApproximate => false;
+
+  @override
+  int get rowCount => appstate.deviceList.length;
+
+  @override
+  int get selectedRowCount => 0;
+}
+
 DataRow DeviceRow(Device d, AppState appState) {
   return DataRow(
       color: appState.totalMaxDays > 0
@@ -142,6 +160,8 @@ DataRow DeviceRow(Device d, AppState appState) {
         // ),
         DataCell(repoSum(d, appState)),
         DataCell(Text(d.deps.length.toString())),
+        DataCell(Text(d.totalAuthorsAvg.toString())),
+        DataCell(Text(d.totalCommittersAvg.toString())),
         /*Text(d.deps
         .map((e) => '$e - ${appState.repos[e]?.commitsAvgDaysAgo}')
         .join("\n")),*/
