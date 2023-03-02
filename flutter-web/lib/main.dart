@@ -244,6 +244,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 .toList(),
           ),
         ),
+        ElevatedButton(
+          onPressed: () => launchUrl(
+              Uri.parse('https://github.com/mejgun/lineageos-devices-stats')),
+          child: Text('GitHub'),
+        )
       ],
     );
   }
@@ -311,10 +316,10 @@ class _MyHomePageState extends State<MyHomePage> {
             },
             child: Icon(Icons.format_list_numbered_rtl),
           ),
-          FloatingActionButton(
-            onPressed: () {},
-            child: Icon(Icons.format_list_numbered),
-          ),
+          // FloatingActionButton(
+          //   onPressed: () {},
+          //   child: Icon(Icons.format_list_numbered),
+          // ),
           FloatingActionButton(
             onPressed: () {
               setState(() {
