@@ -30,10 +30,13 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   AppState appstate = AppState();
-  int? sortColumn;
-  bool sortAsc = true;
+  int sortColumnA = 0;
+  bool sortAscA = true;
+  int? sortColumnB;
+  bool sortAscB = true;
   int currentPageIndex = 0;
   bool _showFilters = false;
+  int _currentScreen = 0;
 
   void loadData() {
     http.get(Uri.parse('/devices.json')).then((resp) {
@@ -129,7 +132,7 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
   }
 
-  void sort(int columnIndex, bool ascending) {
+  void sortA(int columnIndex, bool ascending) {
     switch (columnIndex) {
       case 0:
         appstate.deviceList.sort((a, b) {
@@ -184,10 +187,12 @@ class _MyHomePageState extends State<MyHomePage> {
     }
 
     setState(() {
-      sortColumn = columnIndex;
-      sortAsc = ascending;
+      sortColumnA = columnIndex;
+      sortAscA = ascending;
     });
   }
+
+  void sortB(int columnIndex, bool ascending) {}
 
   Widget filters() {
     return Row(
@@ -243,64 +248,25 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
+  DataTable _showTable() {
+    switch (_currentScreen) {
+      case 2:
+        return ThirdTable(appstate);
+      case 1:
+        return SecondTable(appstate);
+      case 0:
+      default:
+        return FirstTable(appstate, sortAscA, sortColumnA, sortA);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView(
         children: [
           if (_showFilters) filters(),
-          DataTable(
-            sortAscending: sortAsc,
-            sortColumnIndex: sortColumn,
-            columns: <DataColumn>[
-              DataColumn(
-                label: Text('Code'),
-                onSort: sort,
-              ),
-              DataColumn(
-                numeric: true,
-                label: Text('Branch'),
-                onSort: sort,
-              ),
-              DataColumn(
-                label: Text('OEM'),
-                onSort: sort,
-              ),
-              DataColumn(
-                label: Text('Name'),
-              ),
-              DataColumn(
-                tooltip: 'Last 100 commits average date (days ago)',
-                numeric: true,
-                label: Text('Days'),
-                onSort: sort,
-              ),
-              DataColumn(
-                numeric: true,
-                tooltip: "Number of device repositories",
-                label: Text('Count'),
-                onSort: sort,
-              ),
-              DataColumn(
-                numeric: true,
-                tooltip: 'Last 100 commits average autors count',
-                label: Text('Autr'),
-                onSort: sort,
-              ),
-              DataColumn(
-                numeric: true,
-                tooltip: 'Last 100 commits average committers count',
-                label: Text('Cmtr'),
-                onSort: sort,
-              ),
-            ],
-            // source: MySource(appstate),
-            rows: appstate.deviceList
-                .where((e) => !appstate.hideBranches.contains(e.branch))
-                .where((e) => !appstate.hideOems.contains(e.oem))
-                .map((e) => DeviceRow(e, appstate))
-                .toList(),
-          ),
+          _showTable(),
         ],
       ),
       //   Container(
@@ -318,19 +284,31 @@ class _MyHomePageState extends State<MyHomePage> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           FloatingActionButton(
-            onPressed: () {},
-            child: Icon(Icons.format_list_bulleted),
-          ),
-          FloatingActionButton(
-            onPressed: () {},
+            onPressed: () {
+              setState(() {
+                _currentScreen = 0;
+              });
+            },
             child: Icon(Icons.list),
           ),
           FloatingActionButton(
-            onPressed: () {},
-            child: Icon(Icons.view_list),
+            onPressed: () {
+              setState(() {
+                _currentScreen = 1;
+              });
+            },
+            child: Icon(Icons.format_list_bulleted),
           ),
+          // FloatingActionButton(
+          //   onPressed: () {},
+          //   child: Icon(Icons.view_list),
+          // ),
           FloatingActionButton(
-            onPressed: () {},
+            onPressed: () {
+              setState(() {
+                _currentScreen = 2;
+              });
+            },
             child: Icon(Icons.format_list_numbered_rtl),
           ),
           FloatingActionButton(

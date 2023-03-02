@@ -1,4 +1,222 @@
 import 'package:url_launcher/url_launcher.dart';
+import 'package:flutter/material.dart';
+import 'package:frontend/data.dart';
+import 'package:frontend/logic.dart';
+
+DataTable FirstTable(
+  AppState appstate,
+  bool sortAsc,
+  int sortColumn,
+  void Function(int, bool)? sort,
+) =>
+    DataTable(
+      sortAscending: sortAsc,
+      sortColumnIndex: sortColumn,
+      columns: <DataColumn>[
+        DataColumn(
+          label: Text('Code'),
+          onSort: sort,
+        ),
+        DataColumn(
+          numeric: true,
+          label: Text('Branch'),
+          onSort: sort,
+        ),
+        DataColumn(
+          label: Text('OEM'),
+          onSort: sort,
+        ),
+        DataColumn(
+          label: Text('Name'),
+        ),
+        DataColumn(
+          tooltip: 'Last 100 commits average date (days ago)',
+          numeric: true,
+          label: Text('Days'),
+          onSort: sort,
+        ),
+        DataColumn(
+          numeric: true,
+          tooltip: "Number of device repositories",
+          label: Text('Count'),
+          onSort: sort,
+        ),
+        DataColumn(
+          numeric: true,
+          tooltip: 'Last 100 commits average autors count',
+          label: Text('Autr'),
+          onSort: sort,
+        ),
+        DataColumn(
+          numeric: true,
+          tooltip: 'Last 100 commits average committers count',
+          label: Text('Cmtr'),
+          onSort: sort,
+        ),
+      ],
+      // source: MySource(appstate),
+      rows: appstate.deviceList
+          .where((e) => !appstate.hideBranches.contains(e.branch))
+          .where((e) => !appstate.hideOems.contains(e.oem))
+          .map((e) => DeviceRowA(e, appstate))
+          .toList(),
+    );
+
+DataTable SecondTable(
+  AppState appstate,
+) =>
+    DataTable(
+        columns: <DataColumn>[
+          DataColumn(
+            label: Text('Device'),
+          ),
+          DataColumn(
+            label: Text('Repo'),
+          ),
+          DataColumn(
+            tooltip: 'Last 100 commits average date (days ago)',
+            numeric: true,
+            label: Text('Days'),
+          ),
+          DataColumn(
+            numeric: true,
+            tooltip: "Repository commits count",
+            label: Text('Commits'),
+          ),
+          DataColumn(
+            numeric: true,
+            tooltip: 'Last 100 commits average autors count',
+            label: Text('Autr'),
+          ),
+          DataColumn(
+            numeric: true,
+            tooltip: 'Last 100 commits average committers count',
+            label: Text('Cmtr'),
+          ),
+        ],
+        // source: MySource(appstate),
+        rows: appstate.deviceList
+            .where((e) => !appstate.hideBranches.contains(e.branch))
+            .where((e) => !appstate.hideOems.contains(e.oem))
+            .fold(<DataRow>[], (prev, e) {
+          prev.addAll(e.deps.map(
+            (t) => DeviceRowB(e, t, appstate),
+          ));
+          return prev;
+        }).toList());
+
+DataRow DeviceRowB(Device d, String r, AppState appState) {
+  return DataRow(
+      color: appState.maxDays > 0
+          ? MaterialStatePropertyAll(
+              gradient((appState.repos[r]!.commitsAvgDaysAgo -
+                          appState.minDays) /
+                      (appState.maxDays - appState.minDays))
+                  .withAlpha(150),
+            )
+          : null,
+      cells: <DataCell>[
+        DataCell(
+          onTap: () => launchUrl(
+              Uri.parse('https://wiki.lineageos.org/devices/${d.model}/')),
+          Text('${d.oem} ${d.name}'),
+        ),
+        DataCell(
+            onTap: () =>
+                launchUrl(Uri.parse('https://github.com/LineageOS/${r}/')),
+            Text(r)),
+        DataCell(Text(
+          appState.repos[r]!.commitsAvgDaysAgo.toString(),
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+          ),
+        )),
+        DataCell(Text(appState.repos[r]!.commitsCount.toString())),
+        DataCell(Text(appState.repos[r]!.authorCount.toString())),
+        DataCell(Text(appState.repos[r]!.commiterCount.toString())),
+      ]);
+}
+
+DataTable ThirdTable(
+  AppState appstate,
+) =>
+    DataTable(
+        // dataRowMaxHeight: double.infinity, // new property
+        columns: <DataColumn>[
+          DataColumn(
+            label: Text('Repo'),
+          ),
+          DataColumn(
+            tooltip: 'Last 100 commits average date (days ago)',
+            numeric: true,
+            label: Text('Days'),
+          ),
+          DataColumn(
+            numeric: true,
+            tooltip: "Repository commits count",
+            label: Text('Commits'),
+          ),
+          DataColumn(
+            numeric: true,
+            tooltip: 'Last 100 commits average autors count',
+            label: Text('Autr'),
+          ),
+          DataColumn(
+            numeric: true,
+            tooltip: 'Last 100 commits average committers count',
+            label: Text('Cmtr'),
+          ),
+          DataColumn(
+            numeric: true,
+            label: Text('Count'),
+          ),
+          DataColumn(
+            label: Text('Devices'),
+          ),
+        ],
+        // source: MySource(appstate),
+        rows: appstate.repos.entries
+            .map((e) => DeviceRowC(
+                e.key,
+                appstate.deviceList
+                    .where((element) => element.deps.contains(e.key))
+                    .toList(),
+                appstate))
+            .toList());
+
+DataRow DeviceRowC(String r, List<Device> d, AppState appState) {
+  return DataRow(
+      color: appState.maxDays > 0
+          ? MaterialStatePropertyAll(
+              gradient((appState.repos[r]!.commitsAvgDaysAgo -
+                          appState.minDays) /
+                      (appState.maxDays - appState.minDays))
+                  .withAlpha(150),
+            )
+          : null,
+      cells: <DataCell>[
+        DataCell(
+            onTap: () =>
+                launchUrl(Uri.parse('https://github.com/LineageOS/${r}/')),
+            Text(r)),
+        DataCell(Text(
+          appState.repos[r]!.commitsAvgDaysAgo.toString(),
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+          ),
+        )),
+        DataCell(Text(appState.repos[r]!.commitsCount.toString())),
+        DataCell(Text(appState.repos[r]!.authorCount.toString())),
+        DataCell(Text(appState.repos[r]!.commiterCount.toString())),
+        DataCell(Text(d.length.toString())),
+        DataCell(
+          Column(
+            children: d.map((e) => Text('${e.oem} ${e.name}')).toList(),
+          ),
+        ),
+      ]);
+}
+
 /*
 
 // import 'dart:html' as html;
@@ -101,17 +319,14 @@ class _DeviceWidgetState extends State<DeviceWidget> {
 
 */
 
-import 'package:flutter/material.dart';
-import 'package:frontend/data.dart';
-import 'package:frontend/logic.dart';
-
 class MySource extends DataTableSource {
   final AppState appstate;
 
   MySource(this.appstate);
 
   @override
-  DataRow? getRow(int index) => DeviceRow(appstate.deviceList[index], appstate);
+  DataRow? getRow(int index) =>
+      DeviceRowA(appstate.deviceList[index], appstate);
 
   @override
   bool get isRowCountApproximate => false;
@@ -123,7 +338,7 @@ class MySource extends DataTableSource {
   int get selectedRowCount => 0;
 }
 
-DataRow DeviceRow(Device d, AppState appState) {
+DataRow DeviceRowA(Device d, AppState appState) {
   return DataRow(
       color: appState.totalMaxDays > 0
           ? MaterialStatePropertyAll(
