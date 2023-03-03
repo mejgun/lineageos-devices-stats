@@ -202,10 +202,8 @@ class _MyHomePageState extends State<MyHomePage> {
           width: 150,
           child: Column(
             children: appstate.deviceList
-                .fold(Set<String>(), (prev, el) {
-                  prev.add(el.branch);
-                  return prev;
-                })
+                .map((e) => e.branch)
+                .toSet()
                 .toList()
                 .map((e) => SwitchListTile(
                       title: Text(e),
@@ -225,10 +223,8 @@ class _MyHomePageState extends State<MyHomePage> {
           width: 250,
           child: Column(
             children: appstate.deviceList
-                .fold(Set<String>(), (prev, el) {
-                  prev.add(el.oem);
-                  return prev;
-                })
+                .map((e) => e.oem)
+                .toSet()
                 .toList()
                 .map((e) => SwitchListTile(
                       title: Text(e),
@@ -289,19 +285,23 @@ class _MyHomePageState extends State<MyHomePage> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           FloatingActionButton(
-            onPressed: () {
-              setState(() {
-                _currentScreen = 0;
-              });
-            },
+            onPressed: _currentScreen == 0
+                ? null
+                : () {
+                    setState(() {
+                      _currentScreen = 0;
+                    });
+                  },
             child: Icon(Icons.list),
           ),
           FloatingActionButton(
-            onPressed: () {
-              setState(() {
-                _currentScreen = 1;
-              });
-            },
+            onPressed: _currentScreen == 1
+                ? null
+                : () {
+                    setState(() {
+                      _currentScreen = 1;
+                    });
+                  },
             child: Icon(Icons.format_list_bulleted),
           ),
           // FloatingActionButton(
@@ -309,11 +309,13 @@ class _MyHomePageState extends State<MyHomePage> {
           //   child: Icon(Icons.view_list),
           // ),
           FloatingActionButton(
-            onPressed: () {
-              setState(() {
-                _currentScreen = 2;
-              });
-            },
+            onPressed: _currentScreen == 2
+                ? null
+                : () {
+                    setState(() {
+                      _currentScreen = 2;
+                    });
+                  },
             child: Icon(Icons.format_list_numbered_rtl),
           ),
           // FloatingActionButton(
