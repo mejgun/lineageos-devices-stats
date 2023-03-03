@@ -10,6 +10,7 @@ DataTable FirstTable(
   void Function(int, bool)? sort,
 ) =>
     DataTable(
+      dataRowMaxHeight: double.infinity, // new property
       sortAscending: sortAsc,
       sortColumnIndex: sortColumn,
       columns: <DataColumn>[
@@ -66,6 +67,7 @@ DataTable SecondTable(
   AppState appstate,
 ) =>
     DataTable(
+        dataRowMaxHeight: double.infinity, // new property
         columns: <DataColumn>[
           DataColumn(
             label: Text('Device'),
@@ -141,7 +143,7 @@ DataTable ThirdTable(
   AppState appstate,
 ) =>
     DataTable(
-        // dataRowMaxHeight: double.infinity, // new property
+        dataRowMaxHeight: double.infinity, // new property
         columns: <DataColumn>[
           DataColumn(
             label: Text('Repo'),
@@ -211,6 +213,7 @@ DataRow DeviceRowC(String r, List<Device> d, AppState appState) {
         DataCell(Text(d.length.toString())),
         DataCell(
           Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: d.map((e) => Text('${e.oem} ${e.name}')).toList(),
           ),
         ),
