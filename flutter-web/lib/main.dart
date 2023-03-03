@@ -243,7 +243,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ElevatedButton(
           onPressed: () => launchUrl(
               Uri.parse('https://github.com/mejgun/lineageos-devices-stats')),
-          child: Text('GitHub'),
+          child: const Text('GitHub'),
         )
       ],
     );
@@ -292,7 +292,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       _currentScreen = 0;
                     });
                   },
-            child: Icon(Icons.list),
+            child: const Icon(Icons.list),
           ),
           FloatingActionButton(
             onPressed: _currentScreen == 1
@@ -302,7 +302,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       _currentScreen = 1;
                     });
                   },
-            child: Icon(Icons.format_list_bulleted),
+            child: const Icon(Icons.format_list_bulleted),
           ),
           // FloatingActionButton(
           //   onPressed: () {},
@@ -316,7 +316,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       _currentScreen = 2;
                     });
                   },
-            child: Icon(Icons.format_list_numbered_rtl),
+            child: const Icon(Icons.format_list_numbered_rtl),
           ),
           // FloatingActionButton(
           //   onPressed: () {},

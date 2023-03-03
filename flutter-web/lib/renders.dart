@@ -15,43 +15,43 @@ DataTable FirstTable(
       sortColumnIndex: sortColumn,
       columns: <DataColumn>[
         DataColumn(
-          label: Text('Code'),
+          label: const Text('Code'),
           onSort: sort,
         ),
         DataColumn(
           numeric: true,
-          label: Text('Branch'),
+          label: const Text('Branch'),
           onSort: sort,
         ),
         DataColumn(
-          label: Text('OEM'),
+          label: const Text('OEM'),
           onSort: sort,
         ),
-        DataColumn(
+        const DataColumn(
           label: Text('Name'),
         ),
         DataColumn(
           tooltip: 'Last 100 commits average date (days ago)',
           numeric: true,
-          label: Text('Days'),
+          label: const Text('Days'),
           onSort: sort,
         ),
         DataColumn(
           numeric: true,
           tooltip: "Number of device repositories",
-          label: Text('Count'),
+          label: const Text('Count'),
           onSort: sort,
         ),
         DataColumn(
           numeric: true,
           tooltip: 'Last 100 commits average autors count',
-          label: Text('Autr'),
+          label: const Text('Autr'),
           onSort: sort,
         ),
         DataColumn(
           numeric: true,
           tooltip: 'Last 100 commits average committers count',
-          label: Text('Cmtr'),
+          label: const Text('Cmtr'),
           onSort: sort,
         ),
       ],
@@ -68,7 +68,7 @@ DataTable SecondTable(
 ) =>
     DataTable(
         dataRowMaxHeight: double.infinity, // new property
-        columns: <DataColumn>[
+        columns: const <DataColumn>[
           DataColumn(
             label: Text('Device'),
           ),
@@ -129,7 +129,7 @@ DataRow DeviceRowB(Device d, String r, AppState appState) {
             Text(r)),
         DataCell(Text(
           appState.repos[r]!.commitsAvgDaysAgo.toString(),
-          style: TextStyle(
+          style: const TextStyle(
             fontWeight: FontWeight.bold,
           ),
         )),
@@ -144,7 +144,7 @@ DataTable ThirdTable(
 ) =>
     DataTable(
         dataRowMaxHeight: double.infinity, // new property
-        columns: <DataColumn>[
+        columns: const <DataColumn>[
           DataColumn(
             label: Text('Repo'),
           ),
@@ -203,7 +203,7 @@ DataRow DeviceRowC(String r, List<Device> d, AppState appState) {
             Text(r)),
         DataCell(Text(
           appState.repos[r]!.commitsAvgDaysAgo.toString(),
-          style: TextStyle(
+          style: const TextStyle(
             fontWeight: FontWeight.bold,
           ),
         )),
@@ -361,7 +361,7 @@ DataRow DeviceRowA(Device d, AppState appState) {
         DataCell(
           onTap: () => launchUrl(
               Uri.parse('https://wiki.lineageos.org/devices/${d.model}/')),
-          Text(d.name, style: TextStyle(fontWeight: FontWeight.bold)),
+          Text(d.name, style: const TextStyle(fontWeight: FontWeight.bold)),
         ),
         // DataCell(
         //   RichText(
@@ -389,11 +389,11 @@ DataRow DeviceRowA(Device d, AppState appState) {
 
 Widget repoSum(Device d, AppState appState) {
   if (d.deps.isEmpty) {
-    return Text('no repos');
+    return const Text('no repos');
   }
   return Text(
     d.totalDaysAvg.toString(),
-    style: TextStyle(
+    style: const TextStyle(
       fontWeight: FontWeight.bold,
     ),
   );
