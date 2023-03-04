@@ -273,7 +273,7 @@
   },
   "berlna": {
     "Model": "berlna",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Motorola",
     "Name": "edge 2021",
@@ -1163,6 +1163,20 @@
       "android_kernel_lge_msm8996"
     ]
   },
+  "h932": {
+    "Model": "h932",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "LG",
+    "Name": "V30 (T-Mobile)",
+    "Deps": [
+      "android_device_lge_h932",
+      "android_device_lge_joan-common",
+      "android_hardware_lge",
+      "android_hardware_sony_timekeep",
+      "android_kernel_lge_msm8998"
+    ]
+  },
   "h990": {
     "Model": "h990",
     "Branch": "lineage-18.1",
@@ -1420,6 +1434,20 @@
       "android_kernel_samsung_jf"
     ]
   },
+  "joan": {
+    "Model": "joan",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "LG",
+    "Name": "V30 (Unlocked)",
+    "Deps": [
+      "android_device_lge_joan",
+      "android_device_lge_joan-common",
+      "android_hardware_lge",
+      "android_hardware_sony_timekeep",
+      "android_kernel_lge_msm8998"
+    ]
+  },
   "kane": {
     "Model": "kane",
     "Branch": "lineage-20.0",
@@ -1640,6 +1668,21 @@
       "android_system_qcom"
     ]
   },
+  "lancelot": {
+    "Model": "lancelot",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Xiaomi",
+    "Name": "Redmi 9",
+    "Deps": [
+      "android_device_mediatek_sepolicy_vndr",
+      "android_device_xiaomi_lancelot",
+      "android_device_xiaomi_mt6768-common",
+      "android_hardware_mediatek",
+      "android_kernel_xiaomi_mt6768",
+      "android_packages_apps_MtkFMRadio"
+    ]
+  },
   "lemonades": {
     "Model": "lemonades",
     "Branch": "lineage-20.0",
@@ -1764,7 +1807,7 @@
   },
   "mi439": {
     "Model": "Mi439",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Xiaomi",
     "Name": "Redmi 7A / 8 / 8A / 8A Dual",
@@ -1775,7 +1818,7 @@
   },
   "mi8917": {
     "Model": "Mi8917",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Xiaomi",
     "Name": "Redmi 4A / 5A / [Note 5A / Y1 - Lite]",
@@ -1787,7 +1830,7 @@
   },
   "mi8937": {
     "Model": "Mi8937",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Xiaomi",
     "Name": "Redmi 3S / 3X / 4(X) / [Note 5A / Y1 - Prime]",
@@ -2653,7 +2696,7 @@
   },
   "x00td": {
     "Model": "X00TD",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "ASUS",
     "Name": "Zenfone Max Pro M1",
