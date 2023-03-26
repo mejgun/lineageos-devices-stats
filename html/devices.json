@@ -515,7 +515,7 @@
   },
   "cheryl": {
     "Model": "cheryl",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Razer",
     "Name": "Phone",
@@ -923,7 +923,7 @@
   },
   "fp3": {
     "Model": "FP3",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Fairphone",
     "Name": "Fairphone 3",
