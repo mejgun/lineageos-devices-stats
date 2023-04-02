@@ -181,6 +181,18 @@
       "android_kernel_sony_sdm845"
     ]
   },
+  "avicii": {
+    "Model": "avicii",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "OnePlus",
+    "Name": "Nord",
+    "Deps": [
+      "android_device_oneplus_avicii",
+      "android_hardware_oplus",
+      "android_kernel_oneplus_sm7250"
+    ]
+  },
   "axolotl": {
     "Model": "axolotl",
     "Branch": "lineage-20.0",
@@ -943,6 +955,17 @@
       "android_kernel_fairphone_sm7225"
     ]
   },
+  "g": {
+    "Model": "G",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "10.or",
+    "Name": "G",
+    "Deps": [
+      "android_device_10or_G",
+      "android_kernel_10or_G"
+    ]
+  },
   "gauguin": {
     "Model": "gauguin",
     "Branch": "lineage-19.1",
@@ -977,6 +1000,7 @@
     "Deps": [
       "android_device_xiaomi_ginkgo",
       "android_device_xiaomi_sm6125-common",
+      "android_hardware_xiaomi",
       "android_kernel_xiaomi_sm6125"
     ]
   },
@@ -1048,6 +1072,7 @@
     "Name": "Galaxy Tab A 8.0 2019 (Wi-Fi)",
     "Deps": [
       "android_device_samsung_gtowifi",
+      "android_hardware_samsung",
       "android_kernel_samsung_sdm429"
     ]
   },
@@ -1110,10 +1135,10 @@
     "Oem": "LG",
     "Name": "G5 (TMO)",
     "Deps": [
-      "android_device_lge_common",
       "android_device_lge_g5-common",
       "android_device_lge_h830",
       "android_device_lge_msm8996-common",
+      "android_hardware_lge",
       "android_hardware_sony_timekeep",
       "android_kernel_lge_msm8996"
     ]
@@ -1125,10 +1150,10 @@
     "Oem": "LG",
     "Name": "G5 (Intl)",
     "Deps": [
-      "android_device_lge_common",
       "android_device_lge_g5-common",
       "android_device_lge_h850",
       "android_device_lge_msm8996-common",
+      "android_hardware_lge",
       "android_hardware_sony_timekeep",
       "android_kernel_lge_msm8996"
     ]
@@ -1140,10 +1165,10 @@
     "Oem": "LG",
     "Name": "V20 (AT\u0026T)",
     "Deps": [
-      "android_device_lge_common",
       "android_device_lge_h910",
       "android_device_lge_msm8996-common",
       "android_device_lge_v20-common",
+      "android_hardware_lge",
       "android_hardware_sony_timekeep",
       "android_kernel_lge_msm8996"
     ]
@@ -1155,10 +1180,10 @@
     "Oem": "LG",
     "Name": "V20 (TMO)",
     "Deps": [
-      "android_device_lge_common",
       "android_device_lge_h918",
       "android_device_lge_msm8996-common",
       "android_device_lge_v20-common",
+      "android_hardware_lge",
       "android_hardware_sony_timekeep",
       "android_kernel_lge_msm8996"
     ]
@@ -1184,10 +1209,10 @@
     "Oem": "LG",
     "Name": "V20 (Global)",
     "Deps": [
-      "android_device_lge_common",
       "android_device_lge_h990",
       "android_device_lge_msm8996-common",
       "android_device_lge_v20-common",
+      "android_hardware_lge",
       "android_hardware_sony_timekeep",
       "android_kernel_lge_msm8996"
     ]
@@ -1770,10 +1795,10 @@
     "Oem": "LG",
     "Name": "V20 (Sprint)",
     "Deps": [
-      "android_device_lge_common",
       "android_device_lge_ls997",
       "android_device_lge_msm8996-common",
       "android_device_lge_v20-common",
+      "android_hardware_lge",
       "android_hardware_sony_timekeep",
       "android_kernel_lge_msm8996"
     ]
@@ -1839,7 +1864,8 @@
     "Name": "Redmi 7A / 8 / 8A / 8A Dual",
     "Deps": [
       "android_device_xiaomi_Mi439",
-      "android_device_xiaomi_mithorium-common"
+      "android_device_xiaomi_mithorium-common",
+      "android_kernel_xiaomi_sdm439"
     ]
   },
   "mi8917": {
@@ -1851,7 +1877,8 @@
     "Deps": [
       "android_device_xiaomi_Mi8917",
       "android_device_xiaomi_Mi8937",
-      "android_device_xiaomi_mithorium-common"
+      "android_device_xiaomi_mithorium-common",
+      "android_kernel_xiaomi_msm8937"
     ]
   },
   "mi8937": {
@@ -1862,7 +1889,8 @@
     "Name": "Redmi 3S / 3X / 4(X) / [Note 5A / Y1 - Prime]",
     "Deps": [
       "android_device_xiaomi_Mi8937",
-      "android_device_xiaomi_mithorium-common"
+      "android_device_xiaomi_mithorium-common",
+      "android_kernel_xiaomi_msm8937"
     ]
   },
   "miatoll": {
@@ -2385,10 +2413,10 @@
     "Oem": "LG",
     "Name": "G5 (US)",
     "Deps": [
-      "android_device_lge_common",
       "android_device_lge_g5-common",
       "android_device_lge_msm8996-common",
       "android_device_lge_rs988",
+      "android_hardware_lge",
       "android_hardware_sony_timekeep",
       "android_kernel_lge_msm8996"
     ]
@@ -2620,10 +2648,10 @@
     "Oem": "LG",
     "Name": "V20 (GSM Unlocked)",
     "Deps": [
-      "android_device_lge_common",
       "android_device_lge_msm8996-common",
       "android_device_lge_us996",
       "android_device_lge_v20-common",
+      "android_hardware_lge",
       "android_hardware_sony_timekeep",
       "android_kernel_lge_msm8996"
     ]
@@ -2639,6 +2667,19 @@
       "android_device_xiaomi_vayu",
       "android_hardware_xiaomi",
       "android_kernel_xiaomi_sm8150"
+    ]
+  },
+  "vela": {
+    "Model": "vela",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Xiaomi",
+    "Name": "Mi CC9 Meitu Edition",
+    "Deps": [
+      "android_device_xiaomi_sdm710-common",
+      "android_device_xiaomi_vela",
+      "android_hardware_xiaomi",
+      "android_kernel_xiaomi_sdm710"
     ]
   },
   "victara": {
@@ -2677,10 +2718,10 @@
     "Oem": "LG",
     "Name": "V20 (VZW)",
     "Deps": [
-      "android_device_lge_common",
       "android_device_lge_msm8996-common",
       "android_device_lge_v20-common",
       "android_device_lge_vs995",
+      "android_hardware_lge",
       "android_hardware_sony_timekeep",
       "android_kernel_lge_msm8996"
     ]
