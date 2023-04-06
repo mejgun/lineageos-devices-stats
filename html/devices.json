@@ -2078,6 +2078,20 @@
       "android_kernel_google_gs201"
     ]
   },
+  "parker": {
+    "Model": "parker",
+    "Branch": "lineage-19.1",
+    "Period": "w",
+    "Oem": "Motorola",
+    "Name": "one zoom",
+    "Deps": [
+      "android_device_motorola_parker",
+      "android_device_motorola_sm6150-common",
+      "android_hardware_motorola",
+      "android_kernel_motorola_sm6150",
+      "android_system_qcom"
+    ]
+  },
   "payton": {
     "Model": "payton",
     "Branch": "lineage-20.0",
