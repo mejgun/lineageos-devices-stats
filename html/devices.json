@@ -573,6 +573,20 @@
       "android_packages_apps_ElmyraService"
     ]
   },
+  "crownlte": {
+    "Model": "crownlte",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Samsung",
+    "Name": "Galaxy Note 9",
+    "Deps": [
+      "android_device_samsung_crownlte",
+      "android_device_samsung_exynos9810-common",
+      "android_device_samsung_slsi_sepolicy",
+      "android_hardware_samsung",
+      "android_kernel_samsung_exynos9810"
+    ]
+  },
   "d1": {
     "Model": "d1",
     "Branch": "lineage-19.1",
@@ -2560,6 +2574,34 @@
       "android_hardware_sony_thermanager",
       "android_hardware_sony_timekeep",
       "android_kernel_sony_msm8974"
+    ]
+  },
+  "star2lte": {
+    "Model": "star2lte",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Samsung",
+    "Name": "Galaxy S9+",
+    "Deps": [
+      "android_device_samsung_star2lte",
+      "android_device_samsung_exynos9810-common",
+      "android_device_samsung_slsi_sepolicy",
+      "android_hardware_samsung",
+      "android_kernel_samsung_exynos9810"
+    ]
+  },
+  "starlte": {
+    "Model": "starlte",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Samsung",
+    "Name": "Galaxy S9",
+    "Deps": [
+      "android_device_samsung_starlte",
+      "android_device_samsung_exynos9810-common",
+      "android_device_samsung_slsi_sepolicy",
+      "android_hardware_samsung",
+      "android_kernel_samsung_exynos9810"
     ]
   },
   "sunfish": {
