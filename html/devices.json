@@ -2316,11 +2316,22 @@
     "Model": "pro1",
     "Branch": "lineage-20.0",
     "Period": "w",
-    "Oem": "FxTec",
+    "Oem": "F(x)tec",
     "Name": "Pro1",
     "Deps": [
       "android_device_fxtec_pro1",
       "android_kernel_fxtec_msm8998"
+    ]
+  },
+  "pro1x": {
+    "Model": "pro1x",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "F(x)tec",
+    "Name": "Pro1 X",
+    "Deps": [
+      "android_device_fxtec_pro1x",
+      "android_kernel_fxtec_sm6115"
     ]
   },
   "pstar": {
