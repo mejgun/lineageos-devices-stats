@@ -312,7 +312,7 @@
   },
   "beyond0lte": {
     "Model": "beyond0lte",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Samsung",
     "Name": "Galaxy S10e",
@@ -326,7 +326,7 @@
   },
   "beyond1lte": {
     "Model": "beyond1lte",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Samsung",
     "Name": "Galaxy S10",
@@ -340,7 +340,7 @@
   },
   "beyond2lte": {
     "Model": "beyond2lte",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Samsung",
     "Name": "Galaxy S10+",
@@ -354,7 +354,7 @@
   },
   "beyondx": {
     "Model": "beyondx",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Samsung",
     "Name": "Galaxy S10 5G",
@@ -589,7 +589,7 @@
   },
   "d1": {
     "Model": "d1",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Samsung",
     "Name": "Galaxy Note10",
@@ -603,7 +603,7 @@
   },
   "d2s": {
     "Model": "d2s",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Samsung",
     "Name": "Galaxy Note10+",
@@ -617,7 +617,7 @@
   },
   "d2x": {
     "Model": "d2x",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Samsung",
     "Name": "Galaxy Note10+ 5G",
