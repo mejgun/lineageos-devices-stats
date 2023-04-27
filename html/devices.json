@@ -680,13 +680,13 @@
   },
   "dre": {
     "Model": "dre",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "OnePlus",
     "Name": "Nord N200",
     "Deps": [
       "android_device_oneplus_dre",
-      "android_hardware_oneplus",
+      "android_hardware_oplus",
       "android_kernel_oneplus_sm4350"
     ]
   },
@@ -1249,7 +1249,7 @@
   },
   "haydn": {
     "Model": "haydn",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Xiaomi",
     "Name": "Mi 11i / Redmi K40 Pro / Redmi K40 Pro+ / Mi 11X Pro",
@@ -1777,7 +1777,7 @@
   },
   "lisa": {
     "Model": "lisa",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Xiaomi",
     "Name": "11 Lite 5G NE / 11 Lite NE 5G / Mi 11 LE",
@@ -2015,6 +2015,18 @@
       "android_kernel_nubia_msm8998"
     ]
   },
+  "nx609j": {
+    "Model": "nx609j",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Nubia",
+    "Name": "Red Magic",
+    "Deps": [
+      "android_device_nubia_msm8998-common",
+      "android_device_nubia_nx609j",
+      "android_kernel_nubia_msm8998"
+    ]
+  },
   "nx611j": {
     "Model": "nx611j",
     "Branch": "lineage-20.0",
@@ -2046,7 +2058,7 @@
     "Branch": "lineage-19.1",
     "Period": "w",
     "Oem": "Xiaomi",
-    "Name": "Redmi 7",
+    "Name": "Redmi 7 / Y3",
     "Deps": [
       "android_device_xiaomi_onclite",
       "android_kernel_xiaomi_onclite"
@@ -2402,7 +2414,7 @@
   },
   "renoir": {
     "Model": "renoir",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Xiaomi",
     "Name": "Mi 11 Lite 5G",
