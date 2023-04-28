@@ -1,2659 +1,2659 @@
 {
   "android_device_10or_G": {
     "n": 100,
-    "t": 67,
+    "t": 68,
     "a": 46,
     "c": 1
   },
   "android_device_amlogic_common": {
     "n": 21,
-    "t": 159,
+    "t": 160,
     "a": 7,
     "c": 3
   },
   "android_device_amlogic_g12-common": {
     "n": 100,
-    "t": 427,
+    "t": 428,
     "a": 25,
     "c": 7
   },
   "android_device_amlogic_sepolicy": {
     "n": 18,
-    "t": 264,
+    "t": 265,
     "a": 5,
     "c": 4
   },
   "android_device_askey_deadpool": {
     "n": 21,
-    "t": 445,
+    "t": 446,
     "a": 7,
     "c": 4
   },
   "android_device_askey_wade": {
     "n": 28,
-    "t": 441,
+    "t": 442,
     "a": 8,
     "c": 5
   },
   "android_device_asus_X00TD": {
     "n": 33,
-    "t": 836,
+    "t": 837,
     "a": 13,
     "c": 2
   },
   "android_device_asus_Z01R": {
     "n": 100,
-    "t": 373,
+    "t": 374,
     "a": 40,
     "c": 1
   },
   "android_device_asus_flox": {
     "n": 100,
-    "t": 823,
+    "t": 824,
     "a": 35,
     "c": 4
   },
   "android_device_asus_sake": {
     "n": 100,
-    "t": 265,
+    "t": 266,
     "a": 26,
     "c": 3
   },
   "android_device_asus_sdm660-common": {
     "n": 100,
-    "t": 126,
+    "t": 127,
     "a": 47,
     "c": 1
   },
   "android_device_bq_bardock": {
     "n": 100,
-    "t": 1600,
+    "t": 1601,
     "a": 19,
     "c": 5
   },
   "android_device_bq_bardockpro": {
     "n": 100,
-    "t": 1561,
+    "t": 1562,
     "a": 19,
     "c": 5
   },
   "android_device_bq_msm8953-common": {
     "n": 100,
-    "t": 95,
+    "t": 96,
     "a": 52,
     "c": 1
   },
   "android_device_essential_mata": {
     "n": 100,
-    "t": 195,
+    "t": 196,
     "a": 48,
     "c": 5
   },
   "android_device_fairphone_FP2": {
     "n": 100,
-    "t": 876,
+    "t": 877,
     "a": 36,
     "c": 2
   },
   "android_device_fairphone_FP3": {
     "n": 100,
-    "t": 180,
+    "t": 181,
     "a": 33,
     "c": 3
   },
   "android_device_fairphone_FP4": {
     "n": 100,
-    "t": 135,
+    "t": 136,
     "a": 33,
     "c": 1
   },
   "android_device_fxtec_pro1": {
     "n": 100,
-    "t": 215,
+    "t": 216,
     "a": 27,
     "c": 5
   },
   "android_device_fxtec_pro1x": {
     "n": 78,
-    "t": 79,
+    "t": 80,
     "a": 22,
     "c": 4
   },
   "android_device_google_barbet": {
     "n": 100,
-    "t": 164,
+    "t": 165,
     "a": 12,
     "c": 7
   },
   "android_device_google_bluejay": {
     "n": 100,
-    "t": 98,
+    "t": 99,
     "a": 15,
     "c": 11
   },
   "android_device_google_blueline": {
     "n": 5,
-    "t": 1061,
+    "t": 1062,
     "a": 2,
     "c": 2
   },
   "android_device_google_bonito": {
     "n": 100,
-    "t": 279,
+    "t": 280,
     "a": 37,
     "c": 15
   },
   "android_device_google_bramble": {
     "n": 100,
-    "t": 316,
+    "t": 317,
     "a": 19,
     "c": 15
   },
   "android_device_google_cheetah": {
     "n": 4,
-    "t": 192,
+    "t": 193,
     "a": 2,
     "c": 2
   },
   "android_device_google_coral": {
     "n": 100,
-    "t": 201,
+    "t": 202,
     "a": 28,
     "c": 10
   },
   "android_device_google_crosshatch": {
     "n": 100,
-    "t": 292,
+    "t": 293,
     "a": 45,
     "c": 3
   },
   "android_device_google_flame": {
     "n": 5,
-    "t": 711,
+    "t": 712,
     "a": 4,
     "c": 3
   },
   "android_device_google_gs101": {
     "n": 100,
-    "t": 142,
+    "t": 143,
     "a": 32,
     "c": 25
   },
   "android_device_google_gs201": {
     "n": 100,
-    "t": 133,
+    "t": 134,
     "a": 24,
     "c": 19
   },
   "android_device_google_marlin": {
     "n": 100,
-    "t": 427,
+    "t": 428,
     "a": 46,
     "c": 2
   },
   "android_device_google_muskie": {
     "n": 100,
-    "t": 865,
+    "t": 866,
     "a": 31,
     "c": 14
   },
   "android_device_google_oriole": {
     "n": 4,
-    "t": 472,
+    "t": 473,
     "a": 3,
     "c": 2
   },
   "android_device_google_pantah": {
     "n": 100,
-    "t": 117,
+    "t": 118,
     "a": 21,
     "c": 16
   },
   "android_device_google_panther": {
     "n": 4,
-    "t": 192,
+    "t": 193,
     "a": 2,
     "c": 2
   },
   "android_device_google_raven": {
     "n": 4,
-    "t": 472,
+    "t": 473,
     "a": 3,
     "c": 2
   },
   "android_device_google_raviole": {
     "n": 100,
-    "t": 97,
+    "t": 98,
     "a": 16,
     "c": 13
   },
   "android_device_google_redbull": {
     "n": 100,
-    "t": 165,
+    "t": 166,
     "a": 21,
     "c": 9
   },
   "android_device_google_redfin": {
     "n": 100,
-    "t": 308,
+    "t": 309,
     "a": 19,
     "c": 14
   },
   "android_device_google_sailfish": {
     "n": 26,
-    "t": 2003,
+    "t": 2004,
     "a": 7,
     "c": 6
   },
   "android_device_google_sargo": {
     "n": 3,
-    "t": 826,
+    "t": 827,
     "a": 3,
     "c": 2
   },
   "android_device_google_sunfish": {
     "n": 100,
-    "t": 164,
+    "t": 165,
     "a": 17,
     "c": 10
   },
   "android_device_google_taimen": {
     "n": 100,
-    "t": 832,
+    "t": 833,
     "a": 29,
     "c": 13
   },
   "android_device_google_wahoo": {
     "n": 100,
-    "t": 334,
+    "t": 335,
     "a": 52,
     "c": 5
   },
   "android_device_google_walleye": {
     "n": 4,
-    "t": 1051,
+    "t": 1052,
     "a": 4,
     "c": 3
   },
   "android_device_leeco_msm8996-common": {
     "n": 100,
-    "t": 830,
+    "t": 831,
     "a": 39,
     "c": 4
   },
   "android_device_leeco_x2": {
     "n": 100,
-    "t": 1379,
+    "t": 1380,
     "a": 21,
     "c": 5
   },
   "android_device_leeco_zl1": {
     "n": 100,
-    "t": 1272,
+    "t": 1273,
     "a": 26,
     "c": 6
   },
   "android_device_lenovo_heart": {
     "n": 100,
-    "t": 659,
+    "t": 660,
     "a": 35,
     "c": 1
   },
   "android_device_lenovo_sm8150-common": {
     "n": 100,
-    "t": 331,
+    "t": 332,
     "a": 43,
     "c": 1
   },
   "android_device_lenovo_zippo": {
     "n": 100,
-    "t": 636,
+    "t": 637,
     "a": 28,
     "c": 1
   },
   "android_device_lge_g5-common": {
     "n": 100,
-    "t": 1903,
+    "t": 1904,
     "a": 23,
     "c": 9
   },
   "android_device_lge_h830": {
     "n": 46,
-    "t": 1910,
+    "t": 1911,
     "a": 11,
     "c": 4
   },
   "android_device_lge_h850": {
     "n": 45,
-    "t": 1873,
+    "t": 1874,
     "a": 14,
     "c": 8
   },
   "android_device_lge_h910": {
     "n": 57,
-    "t": 1915,
+    "t": 1916,
     "a": 12,
     "c": 5
   },
   "android_device_lge_h918": {
     "n": 55,
-    "t": 1901,
+    "t": 1902,
     "a": 12,
     "c": 5
   },
   "android_device_lge_h932": {
     "n": 100,
-    "t": 93,
+    "t": 94,
     "a": 51,
     "c": 1
   },
   "android_device_lge_h990": {
     "n": 65,
-    "t": 1937,
+    "t": 1938,
     "a": 14,
     "c": 6
   },
   "android_device_lge_joan": {
     "n": 100,
-    "t": 93,
+    "t": 94,
     "a": 51,
     "c": 1
   },
   "android_device_lge_joan-common": {
     "n": 100,
-    "t": 71,
+    "t": 72,
     "a": 41,
     "c": 1
   },
   "android_device_lge_ls997": {
     "n": 56,
-    "t": 1972,
+    "t": 1973,
     "a": 13,
     "c": 5
   },
   "android_device_lge_msm8996-common": {
     "n": 100,
-    "t": 39,
+    "t": 40,
     "a": 40,
     "c": 1
   },
   "android_device_lge_rs988": {
     "n": 49,
-    "t": 1992,
+    "t": 1993,
     "a": 10,
     "c": 5
   },
   "android_device_lge_us996": {
     "n": 55,
-    "t": 1952,
+    "t": 1953,
     "a": 12,
     "c": 5
   },
   "android_device_lge_v20-common": {
     "n": 100,
-    "t": 1751,
+    "t": 1752,
     "a": 23,
     "c": 10
   },
   "android_device_lge_vs995": {
     "n": 55,
-    "t": 1971,
+    "t": 1972,
     "a": 12,
     "c": 5
   },
   "android_device_mediatek_sepolicy_vndr": {
     "n": 62,
-    "t": 111,
+    "t": 112,
     "a": 8,
     "c": 4
   },
   "android_device_moto_shamu": {
     "n": 100,
-    "t": 880,
+    "t": 881,
     "a": 33,
     "c": 2
   },
   "android_device_motorola_addison": {
     "n": 100,
-    "t": 465,
+    "t": 466,
     "a": 29,
     "c": 2
   },
   "android_device_motorola_ahannah": {
     "n": 100,
-    "t": 1109,
+    "t": 1110,
     "a": 33,
     "c": 4
   },
   "android_device_motorola_albus": {
     "n": 100,
-    "t": 536,
+    "t": 537,
     "a": 42,
     "c": 2
   },
   "android_device_motorola_beckham": {
     "n": 100,
-    "t": 684,
+    "t": 685,
     "a": 24,
     "c": 3
   },
   "android_device_motorola_berlin": {
     "n": 100,
-    "t": 309,
+    "t": 310,
     "a": 16,
     "c": 3
   },
   "android_device_motorola_berlna": {
     "n": 100,
-    "t": 188,
+    "t": 189,
     "a": 19,
     "c": 4
   },
   "android_device_motorola_cedric": {
     "n": 100,
-    "t": 832,
+    "t": 833,
     "a": 27,
     "c": 2
   },
   "android_device_motorola_channel": {
     "n": 100,
-    "t": 883,
+    "t": 884,
     "a": 25,
     "c": 5
   },
   "android_device_motorola_chef": {
     "n": 100,
-    "t": 1101,
+    "t": 1102,
     "a": 35,
     "c": 6
   },
   "android_device_motorola_dubai": {
     "n": 100,
-    "t": 169,
+    "t": 170,
     "a": 18,
     "c": 4
   },
   "android_device_motorola_evert": {
     "n": 100,
-    "t": 889,
+    "t": 890,
     "a": 34,
     "c": 4
   },
   "android_device_motorola_exynos9610-common": {
     "n": 100,
-    "t": 295,
+    "t": 296,
     "a": 47,
     "c": 3
   },
   "android_device_motorola_griffin": {
     "n": 100,
-    "t": 533,
+    "t": 534,
     "a": 48,
     "c": 3
   },
   "android_device_motorola_hannah": {
     "n": 100,
-    "t": 1120,
+    "t": 1121,
     "a": 33,
     "c": 4
   },
   "android_device_motorola_hannah-common": {
     "n": 100,
-    "t": 1028,
+    "t": 1029,
     "a": 34,
     "c": 4
   },
   "android_device_motorola_kane": {
     "n": 22,
-    "t": 678,
+    "t": 679,
     "a": 8,
     "c": 2
   },
   "android_device_motorola_kiev": {
     "n": 100,
-    "t": 208,
+    "t": 209,
     "a": 49,
     "c": 2
   },
   "android_device_motorola_lake": {
     "n": 100,
-    "t": 754,
+    "t": 755,
     "a": 30,
     "c": 5
   },
   "android_device_motorola_liber": {
     "n": 96,
-    "t": 550,
+    "t": 551,
     "a": 28,
     "c": 5
   },
   "android_device_motorola_montana": {
     "n": 100,
-    "t": 849,
+    "t": 850,
     "a": 31,
     "c": 1
   },
   "android_device_motorola_msm8937-common": {
     "n": 100,
-    "t": 654,
+    "t": 655,
     "a": 46,
     "c": 1
   },
   "android_device_motorola_nairo": {
     "n": 100,
-    "t": 482,
+    "t": 483,
     "a": 35,
     "c": 4
   },
   "android_device_motorola_nash": {
     "n": 100,
-    "t": 241,
+    "t": 242,
     "a": 38,
     "c": 2
   },
   "android_device_motorola_nio": {
     "n": 100,
-    "t": 332,
+    "t": 333,
     "a": 41,
     "c": 2
   },
   "android_device_motorola_ocean": {
     "n": 83,
-    "t": 878,
+    "t": 879,
     "a": 18,
     "c": 6
   },
   "android_device_motorola_parker": {
     "n": 97,
-    "t": 632,
+    "t": 633,
     "a": 25,
     "c": 6
   },
   "android_device_motorola_payton": {
     "n": 100,
-    "t": 895,
+    "t": 896,
     "a": 31,
     "c": 6
   },
   "android_device_motorola_pstar": {
     "n": 33,
-    "t": 248,
+    "t": 249,
     "a": 9,
     "c": 4
   },
   "android_device_motorola_racer": {
     "n": 100,
-    "t": 472,
+    "t": 473,
     "a": 29,
     "c": 4
   },
   "android_device_motorola_rhannah": {
     "n": 100,
-    "t": 1109,
+    "t": 1110,
     "a": 33,
     "c": 4
   },
   "android_device_motorola_river": {
     "n": 82,
-    "t": 879,
+    "t": 880,
     "a": 21,
     "c": 6
   },
   "android_device_motorola_sdm632-common": {
     "n": 100,
-    "t": 188,
+    "t": 189,
     "a": 33,
     "c": 3
   },
   "android_device_motorola_sdm660-common": {
     "n": 100,
-    "t": 244,
+    "t": 245,
     "a": 46,
     "c": 5
   },
   "android_device_motorola_sm6150-common": {
     "n": 100,
-    "t": 473,
+    "t": 474,
     "a": 33,
     "c": 4
   },
   "android_device_motorola_sm7250-common": {
     "n": 100,
-    "t": 237,
+    "t": 238,
     "a": 47,
     "c": 2
   },
   "android_device_motorola_sm7325-common": {
     "n": 100,
-    "t": 141,
+    "t": 137,
     "a": 38,
     "c": 5
   },
   "android_device_motorola_sm8250-common": {
     "n": 100,
-    "t": 230,
+    "t": 231,
     "a": 42,
     "c": 3
   },
   "android_device_motorola_troika": {
     "n": 23,
-    "t": 674,
+    "t": 675,
     "a": 8,
     "c": 2
   },
   "android_device_motorola_victara": {
     "n": 100,
-    "t": 683,
+    "t": 684,
     "a": 40,
     "c": 3
   },
   "android_device_nextbit_ether": {
     "n": 100,
-    "t": 871,
+    "t": 872,
     "a": 41,
     "c": 3
   },
   "android_device_nokia_DRG": {
     "n": 53,
-    "t": 857,
+    "t": 858,
     "a": 18,
     "c": 3
   },
   "android_device_nokia_PL2": {
     "n": 71,
-    "t": 883,
+    "t": 884,
     "a": 20,
     "c": 3
   },
   "android_device_nokia_sdm660-common": {
     "n": 100,
-    "t": 281,
+    "t": 282,
     "a": 55,
     "c": 2
   },
   "android_device_nubia_TP1803": {
     "n": 100,
-    "t": 324,
+    "t": 325,
     "a": 37,
     "c": 4
   },
   "android_device_nubia_msm8998-common": {
     "n": 100,
-    "t": 58,
+    "t": 59,
     "a": 42,
     "c": 2
   },
   "android_device_nubia_nx563j": {
     "n": 100,
-    "t": 455,
+    "t": 456,
     "a": 27,
     "c": 3
   },
   "android_device_nubia_nx609j": {
     "n": 100,
-    "t": 76,
+    "t": 77,
     "a": 21,
     "c": 2
   },
   "android_device_nubia_nx611j": {
     "n": 100,
-    "t": 130,
+    "t": 131,
     "a": 45,
     "c": 1
   },
   "android_device_nvidia_foster": {
     "n": 100,
-    "t": 292,
+    "t": 293,
     "a": 8,
     "c": 2
   },
   "android_device_nvidia_foster_tab": {
     "n": 8,
-    "t": 803,
+    "t": 804,
     "a": 2,
     "c": 2
   },
   "android_device_nvidia_porg": {
     "n": 27,
-    "t": 423,
+    "t": 424,
     "a": 2,
     "c": 2
   },
   "android_device_nvidia_porg_tab": {
     "n": 2,
-    "t": 358,
+    "t": 359,
     "a": 2,
     "c": 2
   },
   "android_device_nvidia_sepolicy": {
     "n": 100,
-    "t": 300,
+    "t": 301,
     "a": 6,
     "c": 3
   },
   "android_device_nvidia_shield-common": {
     "n": 17,
-    "t": 587,
+    "t": 588,
     "a": 2,
     "c": 2
   },
   "android_device_nvidia_t210-common": {
     "n": 40,
-    "t": 612,
+    "t": 613,
     "a": 5,
     "c": 2
   },
   "android_device_nvidia_tegra-common": {
     "n": 100,
-    "t": 267,
+    "t": 268,
     "a": 12,
     "c": 2
   },
   "android_device_oneplus_avicii": {
     "n": 100,
-    "t": 122,
+    "t": 123,
     "a": 28,
     "c": 5
   },
   "android_device_oneplus_bacon": {
     "n": 100,
-    "t": 1480,
+    "t": 1481,
     "a": 39,
     "c": 5
   },
   "android_device_oneplus_cheeseburger": {
     "n": 100,
-    "t": 1030,
+    "t": 1031,
     "a": 17,
     "c": 4
   },
   "android_device_oneplus_dre": {
     "n": 100,
-    "t": 134,
+    "t": 135,
     "a": 26,
     "c": 1
   },
   "android_device_oneplus_dumpling": {
     "n": 100,
-    "t": 1200,
+    "t": 1201,
     "a": 21,
     "c": 6
   },
   "android_device_oneplus_enchilada": {
     "n": 53,
-    "t": 889,
+    "t": 890,
     "a": 18,
     "c": 5
   },
   "android_device_oneplus_fajita": {
     "n": 60,
-    "t": 788,
+    "t": 789,
     "a": 28,
     "c": 3
   },
   "android_device_oneplus_guacamole": {
     "n": 100,
-    "t": 572,
+    "t": 573,
     "a": 23,
     "c": 5
   },
   "android_device_oneplus_guacamoleb": {
     "n": 100,
-    "t": 532,
+    "t": 533,
     "a": 25,
     "c": 4
   },
   "android_device_oneplus_hotdog": {
     "n": 100,
-    "t": 536,
+    "t": 537,
     "a": 24,
     "c": 4
   },
   "android_device_oneplus_hotdogb": {
     "n": 100,
-    "t": 503,
+    "t": 504,
     "a": 22,
     "c": 4
   },
   "android_device_oneplus_instantnoodle": {
     "n": 95,
-    "t": 488,
+    "t": 489,
     "a": 20,
     "c": 4
   },
   "android_device_oneplus_instantnoodlep": {
     "n": 94,
-    "t": 497,
+    "t": 498,
     "a": 19,
     "c": 5
   },
   "android_device_oneplus_kebab": {
     "n": 99,
-    "t": 506,
+    "t": 507,
     "a": 21,
     "c": 6
   },
   "android_device_oneplus_lemonade": {
     "n": 100,
-    "t": 494,
+    "t": 495,
     "a": 18,
     "c": 6
   },
   "android_device_oneplus_lemonadep": {
     "n": 100,
-    "t": 467,
+    "t": 468,
     "a": 17,
     "c": 5
   },
   "android_device_oneplus_lemonades": {
     "n": 100,
-    "t": 502,
+    "t": 503,
     "a": 21,
     "c": 6
   },
   "android_device_oneplus_msm8998-common": {
     "n": 100,
-    "t": 156,
+    "t": 157,
     "a": 15,
     "c": 2
   },
   "android_device_oneplus_oneplus3": {
     "n": 100,
-    "t": 882,
+    "t": 883,
     "a": 39,
     "c": 2
   },
   "android_device_oneplus_sdm845-common": {
     "n": 100,
-    "t": 284,
+    "t": 285,
     "a": 34,
     "c": 6
   },
   "android_device_oneplus_sm8150-common": {
     "n": 100,
-    "t": 174,
+    "t": 175,
     "a": 29,
     "c": 4
   },
   "android_device_oneplus_sm8250-common": {
     "n": 100,
-    "t": 199,
+    "t": 200,
     "a": 30,
     "c": 4
   },
   "android_device_oneplus_sm8350-common": {
     "n": 100,
-    "t": 175,
-    "a": 35,
+    "t": 173,
+    "a": 36,
     "c": 6
   },
   "android_device_oppo_common": {
     "n": 100,
-    "t": 1970,
+    "t": 1971,
     "a": 35,
     "c": 26
   },
   "android_device_oppo_msm8974-common": {
     "n": 100,
-    "t": 749,
+    "t": 750,
     "a": 42,
     "c": 3
   },
   "android_device_razer_aura": {
     "n": 100,
-    "t": 235,
+    "t": 236,
     "a": 42,
     "c": 2
   },
   "android_device_razer_cheryl": {
     "n": 100,
-    "t": 247,
+    "t": 248,
     "a": 42,
     "c": 2
   },
   "android_device_samsung_a52q": {
     "n": 19,
-    "t": 354,
+    "t": 355,
     "a": 3,
     "c": 1
   },
   "android_device_samsung_a5y17lte": {
     "n": 11,
-    "t": 1667,
+    "t": 1668,
     "a": 5,
     "c": 2
   },
   "android_device_samsung_a72q": {
     "n": 16,
-    "t": 326,
+    "t": 327,
     "a": 3,
     "c": 1
   },
   "android_device_samsung_a7y17lte": {
     "n": 12,
-    "t": 1606,
+    "t": 1607,
     "a": 4,
     "c": 3
   },
   "android_device_samsung_beyond0lte": {
     "n": 49,
-    "t": 478,
+    "t": 479,
     "a": 10,
     "c": 1
   },
   "android_device_samsung_beyond1lte": {
     "n": 49,
-    "t": 484,
+    "t": 485,
     "a": 9,
     "c": 1
   },
   "android_device_samsung_beyond2lte": {
     "n": 49,
-    "t": 484,
+    "t": 485,
     "a": 9,
     "c": 1
   },
   "android_device_samsung_beyondx": {
     "n": 58,
-    "t": 505,
+    "t": 506,
     "a": 11,
     "c": 1
   },
   "android_device_samsung_crownlte": {
     "n": 13,
-    "t": 1140,
+    "t": 1141,
     "a": 5,
     "c": 2
   },
   "android_device_samsung_d1": {
     "n": 56,
-    "t": 485,
+    "t": 486,
     "a": 12,
     "c": 1
   },
   "android_device_samsung_d2s": {
     "n": 62,
-    "t": 479,
+    "t": 480,
     "a": 13,
     "c": 1
   },
   "android_device_samsung_d2x": {
     "n": 65,
-    "t": 491,
+    "t": 492,
     "a": 13,
     "c": 1
   },
   "android_device_samsung_exynos9810-common": {
     "n": 100,
-    "t": 114,
+    "t": 115,
     "a": 43,
     "c": 2
   },
   "android_device_samsung_exynos9820-common": {
     "n": 100,
-    "t": 238,
+    "t": 239,
     "a": 33,
     "c": 1
   },
   "android_device_samsung_gta4xl": {
     "n": 44,
-    "t": 655,
+    "t": 656,
     "a": 11,
     "c": 2
   },
   "android_device_samsung_gta4xl-common": {
     "n": 100,
-    "t": 295,
+    "t": 296,
     "a": 35,
     "c": 2
   },
   "android_device_samsung_gta4xlwifi": {
     "n": 40,
-    "t": 732,
+    "t": 733,
     "a": 7,
     "c": 3
   },
   "android_device_samsung_gtowifi": {
     "n": 100,
-    "t": 100,
+    "t": 101,
     "a": 20,
     "c": 1
   },
   "android_device_samsung_gts4lv": {
     "n": 32,
-    "t": 664,
+    "t": 665,
     "a": 6,
     "c": 2
   },
   "android_device_samsung_gts4lv-common": {
     "n": 100,
-    "t": 321,
+    "t": 322,
     "a": 40,
     "c": 3
   },
   "android_device_samsung_gts4lvwifi": {
     "n": 24,
-    "t": 779,
+    "t": 780,
     "a": 7,
     "c": 2
   },
   "android_device_samsung_hlte": {
     "n": 100,
-    "t": 2279,
+    "t": 2280,
     "a": 24,
     "c": 12
   },
   "android_device_samsung_hlte-common": {
     "n": 100,
-    "t": 1184,
+    "t": 1185,
     "a": 40,
     "c": 4
   },
   "android_device_samsung_hltechn": {
     "n": 100,
-    "t": 2540,
+    "t": 2541,
     "a": 26,
     "c": 14
   },
   "android_device_samsung_hltekor": {
     "n": 100,
-    "t": 2310,
+    "t": 2311,
     "a": 23,
     "c": 11
   },
   "android_device_samsung_hltetmo": {
     "n": 57,
-    "t": 1923,
+    "t": 1924,
     "a": 14,
     "c": 4
   },
   "android_device_samsung_jactivelte": {
     "n": 63,
-    "t": 2814,
+    "t": 2815,
     "a": 11,
     "c": 7
   },
   "android_device_samsung_jf-common": {
     "n": 100,
-    "t": 804,
+    "t": 805,
     "a": 24,
     "c": 2
   },
   "android_device_samsung_jflteatt": {
     "n": 77,
-    "t": 2362,
+    "t": 2363,
     "a": 23,
     "c": 15
   },
   "android_device_samsung_jfltespr": {
     "n": 100,
-    "t": 2650,
+    "t": 2651,
     "a": 28,
     "c": 18
   },
   "android_device_samsung_jfltevzw": {
     "n": 88,
-    "t": 2430,
+    "t": 2431,
     "a": 21,
     "c": 12
   },
   "android_device_samsung_jfltexx": {
     "n": 65,
-    "t": 2109,
+    "t": 2110,
     "a": 16,
     "c": 13
   },
   "android_device_samsung_jfvelte": {
     "n": 100,
-    "t": 2030,
+    "t": 2031,
     "a": 23,
     "c": 4
   },
   "android_device_samsung_klte": {
     "n": 100,
-    "t": 2007,
+    "t": 2008,
     "a": 15,
     "c": 8
   },
   "android_device_samsung_klte-common": {
     "n": 100,
-    "t": 1136,
+    "t": 1137,
     "a": 37,
     "c": 3
   },
   "android_device_samsung_klteactivexx": {
     "n": 100,
-    "t": 2152,
+    "t": 2153,
     "a": 18,
     "c": 8
   },
   "android_device_samsung_klteaio": {
     "n": 100,
-    "t": 1994,
+    "t": 1995,
     "a": 15,
     "c": 8
   },
   "android_device_samsung_kltechn": {
     "n": 65,
-    "t": 2010,
+    "t": 2011,
     "a": 15,
     "c": 5
   },
   "android_device_samsung_kltechnduo": {
     "n": 99,
-    "t": 2140,
+    "t": 2141,
     "a": 20,
     "c": 7
   },
   "android_device_samsung_klteduos": {
     "n": 91,
-    "t": 2088,
+    "t": 2089,
     "a": 16,
     "c": 7
   },
   "android_device_samsung_kltedv": {
     "n": 100,
-    "t": 2230,
+    "t": 2231,
     "a": 21,
     "c": 8
   },
   "android_device_samsung_kltekdi": {
     "n": 100,
-    "t": 2359,
+    "t": 2360,
     "a": 20,
     "c": 10
   },
   "android_device_samsung_kltekor": {
     "n": 100,
-    "t": 2385,
+    "t": 2386,
     "a": 24,
     "c": 11
   },
   "android_device_samsung_msm8226-common": {
     "n": 100,
-    "t": 794,
+    "t": 795,
     "a": 31,
     "c": 1
   },
   "android_device_samsung_msm8974-common": {
     "n": 100,
-    "t": 895,
+    "t": 896,
     "a": 39,
     "c": 2
   },
   "android_device_samsung_qcom-common": {
     "n": 100,
-    "t": 2485,
+    "t": 2486,
     "a": 32,
     "c": 22
   },
   "android_device_samsung_s3ve3g-common": {
     "n": 100,
-    "t": 992,
+    "t": 993,
     "a": 37,
     "c": 2
   },
   "android_device_samsung_s3ve3gds": {
     "n": 100,
-    "t": 1894,
+    "t": 1895,
     "a": 22,
     "c": 7
   },
   "android_device_samsung_s3ve3gjv": {
     "n": 100,
-    "t": 1849,
+    "t": 1850,
     "a": 19,
     "c": 8
   },
   "android_device_samsung_s3ve3gxx": {
     "n": 100,
-    "t": 1877,
+    "t": 1878,
     "a": 19,
     "c": 7
   },
   "android_device_samsung_slsi_sepolicy": {
     "n": 100,
-    "t": 786,
+    "t": 787,
     "a": 17,
     "c": 10
   },
   "android_device_samsung_sm7125-common": {
     "n": 100,
-    "t": 246,
+    "t": 247,
     "a": 31,
     "c": 1
   },
   "android_device_samsung_star2lte": {
     "n": 13,
-    "t": 1261,
+    "t": 1262,
     "a": 5,
     "c": 2
   },
   "android_device_samsung_starlte": {
     "n": 16,
-    "t": 1367,
+    "t": 1368,
     "a": 5,
     "c": 2
   },
   "android_device_samsung_universal7880-common": {
     "n": 100,
-    "t": 619,
+    "t": 620,
     "a": 36,
     "c": 2
   },
   "android_device_shift_axolotl": {
     "n": 100,
-    "t": 117,
+    "t": 118,
     "a": 28,
     "c": 2
   },
   "android_device_sony_akari": {
     "n": 36,
-    "t": 845,
+    "t": 846,
     "a": 11,
     "c": 3
   },
   "android_device_sony_akatsuki": {
     "n": 32,
-    "t": 802,
+    "t": 803,
     "a": 11,
     "c": 3
   },
   "android_device_sony_aurora": {
     "n": 42,
-    "t": 733,
+    "t": 734,
     "a": 11,
     "c": 3
   },
   "android_device_sony_castor": {
     "n": 81,
-    "t": 2355,
+    "t": 2356,
     "a": 16,
     "c": 9
   },
   "android_device_sony_castor_windy": {
     "n": 100,
-    "t": 1716,
+    "t": 1717,
     "a": 20,
     "c": 8
   },
   "android_device_sony_common": {
     "n": 88,
-    "t": 2888,
+    "t": 2889,
     "a": 29,
     "c": 22
   },
   "android_device_sony_discovery": {
     "n": 70,
-    "t": 1398,
+    "t": 1399,
     "a": 15,
     "c": 1
   },
   "android_device_sony_kirin": {
     "n": 82,
-    "t": 1336,
+    "t": 1337,
     "a": 17,
     "c": 1
   },
   "android_device_sony_mermaid": {
     "n": 84,
-    "t": 1331,
+    "t": 1332,
     "a": 17,
     "c": 1
   },
   "android_device_sony_msm8974-common": {
     "n": 100,
-    "t": 973,
+    "t": 974,
     "a": 41,
     "c": 3
   },
   "android_device_sony_nile-common": {
     "n": 100,
-    "t": 829,
+    "t": 830,
     "a": 48,
     "c": 1
   },
   "android_device_sony_pdx203": {
     "n": 100,
-    "t": 334,
+    "t": 335,
     "a": 13,
     "c": 2
   },
   "android_device_sony_pdx206": {
     "n": 100,
-    "t": 280,
+    "t": 281,
     "a": 13,
     "c": 3
   },
   "android_device_sony_pioneer": {
     "n": 67,
-    "t": 1398,
+    "t": 1399,
     "a": 15,
     "c": 1
   },
   "android_device_sony_shinano-common": {
     "n": 100,
-    "t": 1071,
+    "t": 1072,
     "a": 28,
     "c": 4
   },
   "android_device_sony_sirius": {
     "n": 100,
-    "t": 1973,
+    "t": 1974,
     "a": 24,
     "c": 11
   },
   "android_device_sony_sm8250-common": {
     "n": 100,
-    "t": 125,
+    "t": 126,
     "a": 26,
     "c": 3
   },
   "android_device_sony_tama-common": {
     "n": 100,
-    "t": 276,
+    "t": 277,
     "a": 44,
     "c": 1
   },
   "android_device_sony_voyager": {
     "n": 74,
-    "t": 1360,
+    "t": 1361,
     "a": 16,
     "c": 1
   },
   "android_device_sony_xz2c": {
     "n": 34,
-    "t": 794,
+    "t": 795,
     "a": 11,
     "c": 3
   },
   "android_device_sony_z3": {
     "n": 100,
-    "t": 1692,
+    "t": 1693,
     "a": 22,
     "c": 8
   },
   "android_device_sony_z3c": {
     "n": 100,
-    "t": 1699,
+    "t": 1700,
     "a": 24,
     "c": 4
   },
   "android_device_xiaomi_Mi439": {
     "n": 100,
-    "t": 184,
+    "t": 185,
     "a": 26,
     "c": 2
   },
   "android_device_xiaomi_Mi8917": {
     "n": 6,
-    "t": 899,
+    "t": 900,
     "a": 3,
     "c": 3
   },
   "android_device_xiaomi_Mi8937": {
     "n": 100,
-    "t": 87,
+    "t": 88,
     "a": 22,
     "c": 2
   },
   "android_device_xiaomi_alioth": {
     "n": 100,
-    "t": 460,
+    "t": 461,
     "a": 27,
     "c": 6
   },
   "android_device_xiaomi_apollon": {
     "n": 85,
-    "t": 490,
+    "t": 491,
     "a": 18,
     "c": 6
   },
   "android_device_xiaomi_beryllium": {
     "n": 100,
-    "t": 1011,
+    "t": 1012,
     "a": 36,
     "c": 6
   },
   "android_device_xiaomi_chiron": {
     "n": 100,
-    "t": 1539,
+    "t": 1540,
     "a": 24,
     "c": 5
   },
   "android_device_xiaomi_dipper": {
     "n": 100,
-    "t": 975,
+    "t": 976,
     "a": 32,
     "c": 3
   },
   "android_device_xiaomi_equuleus": {
     "n": 100,
-    "t": 756,
+    "t": 757,
     "a": 33,
     "c": 1
   },
   "android_device_xiaomi_gauguin": {
     "n": 100,
-    "t": 204,
+    "t": 205,
     "a": 50,
     "c": 4
   },
   "android_device_xiaomi_gemini": {
     "n": 100,
-    "t": 1372,
+    "t": 1373,
     "a": 23,
     "c": 4
   },
   "android_device_xiaomi_ginkgo": {
     "n": 100,
-    "t": 909,
+    "t": 910,
     "a": 32,
     "c": 6
   },
   "android_device_xiaomi_grus": {
     "n": 27,
-    "t": 249,
+    "t": 250,
     "a": 8,
     "c": 3
   },
   "android_device_xiaomi_haydn": {
     "n": 45,
-    "t": 150,
+    "t": 151,
     "a": 14,
     "c": 2
   },
   "android_device_xiaomi_lancelot": {
     "n": 20,
-    "t": 85,
+    "t": 86,
     "a": 4,
     "c": 2
   },
   "android_device_xiaomi_lisa": {
     "n": 32,
-    "t": 141,
+    "t": 142,
     "a": 14,
     "c": 2
   },
   "android_device_xiaomi_lmi": {
     "n": 95,
-    "t": 494,
+    "t": 495,
     "a": 21,
     "c": 3
   },
   "android_device_xiaomi_merlinx": {
     "n": 26,
-    "t": 198,
+    "t": 199,
     "a": 9,
     "c": 2
   },
   "android_device_xiaomi_miatoll": {
     "n": 36,
-    "t": 419,
+    "t": 420,
     "a": 11,
     "c": 1
   },
   "android_device_xiaomi_mithorium-common": {
     "n": 100,
-    "t": 68,
+    "t": 69,
     "a": 35,
     "c": 1
   },
   "android_device_xiaomi_monet": {
     "n": 44,
-    "t": 435,
+    "t": 436,
     "a": 7,
     "c": 1
   },
   "android_device_xiaomi_msm8953-common": {
     "n": 100,
-    "t": 465,
+    "t": 466,
     "a": 38,
     "c": 2
   },
   "android_device_xiaomi_msm8996-common": {
     "n": 100,
-    "t": 190,
+    "t": 191,
     "a": 37,
     "c": 2
   },
   "android_device_xiaomi_msm8998-common": {
     "n": 100,
-    "t": 265,
+    "t": 266,
     "a": 42,
     "c": 2
   },
   "android_device_xiaomi_mt6768-common": {
     "n": 100,
-    "t": 140,
+    "t": 141,
     "a": 31,
     "c": 3
   },
   "android_device_xiaomi_natrium": {
     "n": 100,
-    "t": 1406,
+    "t": 1407,
     "a": 23,
     "c": 5
   },
   "android_device_xiaomi_onclite": {
     "n": 100,
-    "t": 453,
+    "t": 454,
     "a": 46,
     "c": 1
   },
   "android_device_xiaomi_polaris": {
     "n": 100,
-    "t": 1065,
+    "t": 1066,
     "a": 29,
     "c": 3
   },
   "android_device_xiaomi_pyxis": {
     "n": 49,
-    "t": 201,
+    "t": 202,
     "a": 10,
     "c": 3
   },
   "android_device_xiaomi_renoir": {
     "n": 38,
-    "t": 147,
+    "t": 148,
     "a": 10,
     "c": 1
   },
   "android_device_xiaomi_sagit": {
     "n": 100,
-    "t": 1350,
+    "t": 1351,
     "a": 28,
     "c": 5
   },
   "android_device_xiaomi_sdm710-common": {
     "n": 100,
-    "t": 180,
+    "t": 181,
     "a": 28,
     "c": 5
   },
   "android_device_xiaomi_sdm845-common": {
     "n": 100,
-    "t": 255,
+    "t": 256,
     "a": 33,
     "c": 1
   },
   "android_device_xiaomi_sm6125-common": {
     "n": 100,
-    "t": 274,
+    "t": 275,
     "a": 58,
     "c": 3
   },
   "android_device_xiaomi_sm6250-common": {
     "n": 100,
-    "t": 234,
+    "t": 235,
     "a": 33,
     "c": 3
   },
   "android_device_xiaomi_sm7250-common": {
     "n": 100,
-    "t": 395,
+    "t": 396,
     "a": 27,
     "c": 2
   },
   "android_device_xiaomi_sm8150-common": {
     "n": 100,
-    "t": 296,
+    "t": 297,
     "a": 20,
     "c": 5
   },
   "android_device_xiaomi_sm8250-common": {
     "n": 100,
-    "t": 179,
+    "t": 180,
     "a": 32,
     "c": 5
   },
   "android_device_xiaomi_sm8350-common": {
     "n": 100,
-    "t": 106,
+    "t": 103,
     "a": 36,
     "c": 2
   },
   "android_device_xiaomi_surya": {
     "n": 100,
-    "t": 123,
+    "t": 124,
     "a": 39,
     "c": 4
   },
   "android_device_xiaomi_tissot": {
     "n": 100,
-    "t": 1215,
+    "t": 1216,
     "a": 26,
     "c": 4
   },
   "android_device_xiaomi_ursa": {
     "n": 100,
-    "t": 770,
+    "t": 771,
     "a": 34,
     "c": 1
   },
   "android_device_xiaomi_vayu": {
     "n": 70,
-    "t": 511,
+    "t": 512,
     "a": 15,
     "c": 3
   },
   "android_device_xiaomi_vela": {
     "n": 58,
-    "t": 177,
+    "t": 178,
     "a": 12,
     "c": 3
   },
   "android_device_xiaomi_xmsirius": {
     "n": 31,
-    "t": 197,
+    "t": 198,
     "a": 11,
     "c": 4
   },
   "android_device_zuk_msm8996-common": {
     "n": 100,
-    "t": 411,
+    "t": 412,
     "a": 34,
     "c": 1
   },
   "android_device_zuk_z2_plus": {
     "n": 100,
-    "t": 1856,
+    "t": 1857,
     "a": 22,
     "c": 5
   },
   "android_external_bson": {
     "n": 100,
-    "t": 4812,
+    "t": 4813,
     "a": 6,
     "c": 6
   },
   "android_hardware_amlogic_kernel-modules_dhd-driver": {
     "n": 14,
-    "t": 299,
+    "t": 300,
     "a": 8,
     "c": 5
   },
   "android_hardware_amlogic_kernel-modules_mali-driver": {
     "n": 11,
-    "t": 421,
+    "t": 422,
     "a": 8,
     "c": 5
   },
   "android_hardware_amlogic_kernel-modules_media": {
     "n": 20,
-    "t": 450,
+    "t": 451,
     "a": 12,
     "c": 7
   },
   "android_hardware_amlogic_kernel-modules_optee": {
     "n": 8,
-    "t": 433,
+    "t": 434,
     "a": 6,
     "c": 5
   },
   "android_hardware_amlogic_tools_dtbtool": {
     "n": 16,
-    "t": 2093,
+    "t": 2094,
     "a": 2,
     "c": 2
   },
   "android_hardware_amlogic_tools_imagepacker": {
     "n": 4,
-    "t": 674,
+    "t": 675,
     "a": 1,
     "c": 1
   },
   "android_hardware_amlogic_tools_respacker": {
     "n": 4,
-    "t": 674,
+    "t": 675,
     "a": 1,
     "c": 1
   },
   "android_hardware_broadcom_fm": {
     "n": 25,
-    "t": 1882,
+    "t": 1883,
     "a": 9,
     "c": 3
   },
   "android_hardware_lge": {
     "n": 51,
-    "t": 250,
+    "t": 251,
     "a": 8,
     "c": 4
   },
   "android_hardware_mediatek": {
     "n": 90,
-    "t": 92,
+    "t": 93,
     "a": 19,
     "c": 4
   },
   "android_hardware_motorola": {
     "n": 36,
-    "t": 530,
+    "t": 531,
     "a": 15,
     "c": 10
   },
   "android_hardware_nvidia_interfaces": {
     "n": 21,
-    "t": 650,
+    "t": 651,
     "a": 1,
     "c": 1
   },
   "android_hardware_nvidia_light": {
     "n": 14,
-    "t": 831,
+    "t": 832,
     "a": 2,
     "c": 2
   },
   "android_hardware_nvidia_platform_t210_batuu_kernel-dts": {
     "n": 24,
-    "t": 785,
+    "t": 786,
     "a": 10,
     "c": 3
   },
   "android_hardware_nvidia_platform_t210_common": {
     "n": 100,
-    "t": 2063,
+    "t": 2064,
     "a": 49,
     "c": 5
   },
   "android_hardware_nvidia_platform_t210_foster": {
     "n": 100,
-    "t": 1511,
+    "t": 1512,
     "a": 39,
     "c": 3
   },
   "android_hardware_nvidia_platform_t210_jetson": {
     "n": 100,
-    "t": 1269,
+    "t": 1270,
     "a": 39,
     "c": 2
   },
   "android_hardware_nvidia_platform_t210_porg": {
     "n": 100,
-    "t": 987,
+    "t": 988,
     "a": 32,
     "c": 2
   },
   "android_hardware_nvidia_platform_t210b01_common": {
     "n": 3,
-    "t": 2212,
+    "t": 2213,
     "a": 2,
     "c": 2
   },
   "android_hardware_nvidia_platform_t210b01_darcy": {
     "n": 100,
-    "t": 1543,
+    "t": 1544,
     "a": 38,
     "c": 5
   },
   "android_hardware_nvidia_platform_t210b01_ers": {
     "n": 100,
-    "t": 1924,
+    "t": 1925,
     "a": 31,
     "c": 4
   },
   "android_hardware_nvidia_platform_t210b01_sif": {
     "n": 95,
-    "t": 1417,
+    "t": 1418,
     "a": 26,
     "c": 5
   },
   "android_hardware_nvidia_platform_tegra_common": {
     "n": 64,
-    "t": 1511,
+    "t": 1512,
     "a": 29,
     "c": 4
   },
   "android_hardware_nvidia_power": {
     "n": 21,
-    "t": 1011,
+    "t": 1012,
     "a": 2,
     "c": 2
   },
   "android_hardware_nvidia_soc_t210": {
     "n": 100,
-    "t": 1519,
+    "t": 1520,
     "a": 52,
     "c": 3
   },
   "android_hardware_nvidia_soc_tegra": {
     "n": 100,
-    "t": 1251,
+    "t": 1252,
     "a": 48,
     "c": 3
   },
   "android_hardware_nvidia_thermal": {
     "n": 15,
-    "t": 1365,
+    "t": 1366,
     "a": 2,
     "c": 2
   },
   "android_hardware_oneplus": {
     "n": 100,
-    "t": 464,
+    "t": 465,
     "a": 27,
     "c": 8
   },
   "android_hardware_oplus": {
     "n": 100,
-    "t": 194,
+    "t": 195,
     "a": 20,
     "c": 8
   },
   "android_hardware_samsung": {
     "n": 100,
-    "t": 400,
+    "t": 401,
     "a": 27,
     "c": 14
   },
   "android_hardware_samsung_nfc": {
     "n": 8,
-    "t": 767,
+    "t": 768,
     "a": 7,
     "c": 7
   },
   "android_hardware_samsung_slsi_exynos": {
     "n": 59,
-    "t": 1021,
+    "t": 1022,
     "a": 14,
     "c": 5
   },
   "android_hardware_samsung_slsi_exynos5": {
     "n": 8,
-    "t": 1115,
+    "t": 1116,
     "a": 5,
     "c": 1
   },
   "android_hardware_samsung_slsi_exynos7880": {
     "n": 30,
-    "t": 902,
+    "t": 903,
     "a": 9,
     "c": 3
   },
   "android_hardware_samsung_slsi_fm": {
     "n": 6,
-    "t": 958,
+    "t": 959,
     "a": 3,
     "c": 2
   },
   "android_hardware_samsung_slsi_libbt": {
     "n": 8,
-    "t": 777,
+    "t": 778,
     "a": 4,
     "c": 2
   },
   "android_hardware_samsung_slsi_openmax": {
     "n": 19,
-    "t": 1106,
+    "t": 1107,
     "a": 7,
     "c": 3
   },
   "android_hardware_samsung_slsi_scsc_wifibt_wifi_hal": {
     "n": 95,
-    "t": 1606,
+    "t": 1607,
     "a": 19,
     "c": 8
   },
   "android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib": {
     "n": 4,
-    "t": 880,
+    "t": 881,
     "a": 2,
     "c": 2
   },
   "android_hardware_sony": {
     "n": 11,
-    "t": 158,
+    "t": 159,
     "a": 3,
     "c": 1
   },
   "android_hardware_sony_SonyOpenTelephony": {
     "n": 38,
-    "t": 867,
+    "t": 868,
     "a": 7,
     "c": 8
   },
   "android_hardware_sony_macaddrsetup": {
     "n": 66,
-    "t": 2015,
+    "t": 2016,
     "a": 21,
     "c": 19
   },
   "android_hardware_sony_simdetect": {
     "n": 11,
-    "t": 1341,
+    "t": 1342,
     "a": 4,
     "c": 3
   },
   "android_hardware_sony_thermanager": {
     "n": 17,
-    "t": 2357,
+    "t": 2358,
     "a": 9,
     "c": 6
   },
   "android_hardware_sony_timekeep": {
     "n": 49,
-    "t": 1935,
+    "t": 1936,
     "a": 16,
     "c": 17
   },
   "android_hardware_xiaomi": {
     "n": 100,
-    "t": 311,
+    "t": 312,
     "a": 20,
     "c": 5
   },
   "android_kernel_10or_G": {
     "n": 100,
-    "t": 98,
+    "t": 99,
     "a": 27,
     "c": 3
   },
   "android_kernel_amlogic_linux-4.9": {
     "n": 100,
-    "t": 72,
+    "t": 73,
     "a": 37,
     "c": 2
   },
   "android_kernel_asus_sdm660": {
     "n": 100,
-    "t": 131,
+    "t": 132,
     "a": 42,
     "c": 5
   },
   "android_kernel_asus_sdm845": {
     "n": 100,
-    "t": 400,
+    "t": 401,
     "a": 32,
     "c": 12
   },
   "android_kernel_asus_sm8350": {
     "n": 100,
-    "t": 122,
+    "t": 123,
     "a": 60,
     "c": 10
   },
   "android_kernel_bq_msm8953": {
     "n": 100,
-    "t": 188,
+    "t": 189,
     "a": 46,
     "c": 2
   },
   "android_kernel_essential_msm8998": {
     "n": 100,
-    "t": 297,
+    "t": 298,
     "a": 51,
     "c": 2
   },
   "android_kernel_fairphone_msm8974": {
     "n": 100,
-    "t": 383,
+    "t": 384,
     "a": 60,
     "c": 1
   },
   "android_kernel_fairphone_sdm632": {
     "n": 100,
-    "t": 103,
+    "t": 104,
     "a": 74,
     "c": 6
   },
   "android_kernel_fairphone_sm7225": {
     "n": 100,
-    "t": 34,
+    "t": 35,
     "a": 58,
     "c": 8
   },
   "android_kernel_fxtec_msm8998": {
     "n": 100,
-    "t": 197,
+    "t": 198,
     "a": 43,
     "c": 2
   },
   "android_kernel_fxtec_sm6115": {
     "n": 100,
-    "t": 57,
+    "t": 58,
     "a": 71,
     "c": 8
   },
   "android_kernel_google_gs101": {
     "n": 100,
-    "t": 123,
+    "t": 124,
     "a": 61,
     "c": 26
   },
   "android_kernel_google_gs201": {
     "n": 100,
-    "t": 123,
+    "t": 124,
     "a": 62,
     "c": 27
   },
   "android_kernel_google_marlin": {
     "n": 100,
-    "t": 1249,
+    "t": 1250,
     "a": 65,
     "c": 19
   },
   "android_kernel_google_msm": {
     "n": 100,
-    "t": 673,
+    "t": 674,
     "a": 56,
     "c": 2
   },
   "android_kernel_google_msm-4.14": {
     "n": 100,
-    "t": 190,
+    "t": 191,
     "a": 68,
     "c": 12
   },
   "android_kernel_google_msm-4.9": {
     "n": 100,
-    "t": 104,
+    "t": 105,
     "a": 76,
     "c": 3
   },
   "android_kernel_google_redbull": {
     "n": 100,
-    "t": 182,
+    "t": 183,
     "a": 67,
     "c": 14
   },
   "android_kernel_google_wahoo": {
     "n": 100,
-    "t": 127,
+    "t": 128,
     "a": 66,
     "c": 2
   },
   "android_kernel_leeco_msm8996": {
     "n": 100,
-    "t": 912,
+    "t": 913,
     "a": 33,
     "c": 4
   },
   "android_kernel_lenovo_sm8150": {
     "n": 100,
-    "t": 34,
+    "t": 35,
     "a": 26,
     "c": 1
   },
   "android_kernel_lge_msm8996": {
     "n": 100,
-    "t": 29,
+    "t": 30,
     "a": 43,
     "c": 2
   },
   "android_kernel_lge_msm8998": {
     "n": 100,
-    "t": 93,
+    "t": 94,
     "a": 32,
     "c": 1
   },
   "android_kernel_moto_shamu": {
     "n": 100,
-    "t": 546,
+    "t": 547,
     "a": 61,
     "c": 1
   },
   "android_kernel_motorola_exynos9610": {
     "n": 100,
-    "t": 621,
+    "t": 622,
     "a": 45,
     "c": 5
   },
   "android_kernel_motorola_msm8953": {
     "n": 100,
-    "t": 505,
+    "t": 506,
     "a": 35,
     "c": 3
   },
   "android_kernel_motorola_msm8974": {
     "n": 100,
-    "t": 749,
+    "t": 750,
     "a": 49,
     "c": 3
   },
   "android_kernel_motorola_msm8996": {
     "n": 100,
-    "t": 1028,
+    "t": 1029,
     "a": 35,
     "c": 2
   },
   "android_kernel_motorola_msm8998": {
     "n": 100,
-    "t": 277,
+    "t": 278,
     "a": 64,
     "c": 3
   },
   "android_kernel_motorola_sdm632": {
     "n": 100,
-    "t": 155,
+    "t": 156,
     "a": 58,
     "c": 2
   },
   "android_kernel_motorola_sm6150": {
     "n": 100,
-    "t": 521,
+    "t": 522,
     "a": 44,
     "c": 2
   },
   "android_kernel_motorola_sm7250": {
     "n": 100,
-    "t": 310,
+    "t": 311,
     "a": 45,
     "c": 1
   },
   "android_kernel_motorola_sm7325": {
     "n": 100,
-    "t": 140,
+    "t": 141,
     "a": 21,
     "c": 5
   },
   "android_kernel_motorola_sm8250": {
     "n": 100,
-    "t": 133,
+    "t": 134,
     "a": 47,
     "c": 3
   },
   "android_kernel_nextbit_msm8992": {
     "n": 100,
-    "t": 982,
+    "t": 983,
     "a": 60,
     "c": 4
   },
   "android_kernel_nokia_sdm660": {
     "n": 100,
-    "t": 370,
+    "t": 371,
     "a": 52,
     "c": 1
   },
   "android_kernel_nubia_msm8998": {
     "n": 100,
-    "t": 66,
+    "t": 67,
     "a": 51,
     "c": 6
   },
   "android_kernel_nubia_sdm660": {
     "n": 100,
-    "t": 168,
-    "a": 49,
+    "t": 151,
+    "a": 48,
     "c": 4
   },
   "android_kernel_nubia_sm8150": {
     "n": 100,
-    "t": 37,
+    "t": 38,
     "a": 63,
     "c": 5
   },
   "android_kernel_nvidia_cypress-fmac": {
     "n": 100,
-    "t": 1359,
+    "t": 1360,
     "a": 12,
     "c": 4
   },
   "android_kernel_nvidia_kernel": {
     "n": 100,
-    "t": 56,
+    "t": 57,
     "a": 43,
     "c": 1
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t18x_common": {
     "n": 100,
-    "t": 1517,
+    "t": 1518,
     "a": 42,
     "c": 2
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t18x_lanai": {
     "n": 30,
-    "t": 905,
+    "t": 906,
     "a": 14,
     "c": 4
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t18x_quill": {
     "n": 100,
-    "t": 1762,
+    "t": 1763,
     "a": 54,
     "c": 4
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_common": {
     "n": 100,
-    "t": 1495,
+    "t": 1496,
     "a": 45,
     "c": 1
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_galen_kernel-dts": {
     "n": 100,
-    "t": 1486,
+    "t": 1487,
     "a": 46,
     "c": 3
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_jakku_kernel-dts": {
     "n": 66,
-    "t": 1180,
+    "t": 1181,
     "a": 23,
     "c": 3
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_mccoy_kernel-dts": {
     "n": 38,
-    "t": 1061,
+    "t": 1062,
     "a": 16,
     "c": 3
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_batuu_kernel-dts": {
     "n": 16,
-    "t": 904,
+    "t": 905,
     "a": 7,
     "c": 3
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_common": {
     "n": 100,
-    "t": 2165,
+    "t": 2166,
     "a": 51,
     "c": 4
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_foster": {
     "n": 100,
-    "t": 1698,
+    "t": 1699,
     "a": 42,
     "c": 3
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_jetson": {
     "n": 100,
-    "t": 1519,
+    "t": 1520,
     "a": 46,
     "c": 3
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_porg": {
     "n": 100,
-    "t": 1281,
+    "t": 1282,
     "a": 29,
     "c": 2
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_common": {
     "n": 3,
-    "t": 2212,
+    "t": 2213,
     "a": 2,
     "c": 2
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_darcy": {
     "n": 94,
-    "t": 1651,
+    "t": 1652,
     "a": 41,
     "c": 6
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_ers": {
     "n": 100,
-    "t": 2029,
+    "t": 2030,
     "a": 31,
     "c": 3
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_sif": {
     "n": 89,
-    "t": 1500,
+    "t": 1501,
     "a": 27,
     "c": 5
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_tegra_common": {
     "n": 43,
-    "t": 1886,
+    "t": 1887,
     "a": 24,
     "c": 3
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_t18x": {
     "n": 100,
-    "t": 1749,
+    "t": 1750,
     "a": 51,
     "c": 3
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_t19x": {
     "n": 100,
-    "t": 1513,
+    "t": 1514,
     "a": 54,
     "c": 2
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_t210": {
     "n": 100,
-    "t": 1806,
+    "t": 1807,
     "a": 53,
     "c": 3
   },
   "android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_tegra": {
     "n": 82,
-    "t": 1903,
+    "t": 1904,
     "a": 35,
     "c": 6
   },
   "android_kernel_nvidia_linux-4.9_kernel_nvgpu": {
     "n": 100,
-    "t": 1244,
+    "t": 1245,
     "a": 29,
     "c": 1
   },
   "android_kernel_nvidia_linux-4.9_kernel_nvidia": {
     "n": 100,
-    "t": 889,
+    "t": 890,
     "a": 44,
     "c": 3
   },
   "android_kernel_nvidia_nvgpu": {
     "n": 100,
-    "t": 307,
+    "t": 308,
     "a": 26,
     "c": 3
   },
   "android_kernel_nvidia_nvidia": {
     "n": 100,
-    "t": 28,
+    "t": 29,
     "a": 24,
     "c": 1
   },
   "android_kernel_nvidia_wireguard": {
     "n": 100,
-    "t": 868,
+    "t": 869,
     "a": 13,
     "c": 1
   },
   "android_kernel_oneplus_msm8996": {
     "n": 100,
-    "t": 807,
+    "t": 808,
     "a": 31,
     "c": 1
   },
   "android_kernel_oneplus_msm8998": {
     "n": 100,
-    "t": 202,
+    "t": 203,
     "a": 45,
     "c": 2
   },
   "android_kernel_oneplus_sdm845": {
     "n": 100,
-    "t": 102,
+    "t": 103,
     "a": 37,
     "c": 6
   },
   "android_kernel_oneplus_sm4350": {
     "n": 100,
-    "t": 598,
+    "t": 599,
     "a": 22,
     "c": 6
   },
   "android_kernel_oneplus_sm7250": {
     "n": 100,
-    "t": 56,
+    "t": 57,
     "a": 68,
     "c": 7
   },
   "android_kernel_oneplus_sm8150": {
     "n": 100,
-    "t": 359,
+    "t": 360,
     "a": 39,
     "c": 6
   },
   "android_kernel_oneplus_sm8250": {
     "n": 100,
-    "t": 36,
+    "t": 37,
     "a": 60,
     "c": 8
   },
   "android_kernel_oneplus_sm8350": {
     "n": 100,
-    "t": 50,
+    "t": 51,
     "a": 50,
     "c": 13
   },
   "android_kernel_oppo_msm8974": {
     "n": 100,
-    "t": 666,
+    "t": 667,
     "a": 53,
     "c": 3
   },
   "android_kernel_razer_msm8998": {
     "n": 100,
-    "t": 163,
+    "t": 164,
     "a": 44,
     "c": 4
   },
   "android_kernel_razer_sdm845": {
     "n": 100,
-    "t": 101,
+    "t": 102,
     "a": 76,
     "c": 4
   },
   "android_kernel_samsung_exynos9810": {
     "n": 100,
-    "t": 149,
+    "t": 150,
     "a": 32,
     "c": 2
   },
   "android_kernel_samsung_exynos9820": {
     "n": 100,
-    "t": 42,
+    "t": 43,
     "a": 61,
     "c": 3
   },
   "android_kernel_samsung_gta4xl": {
     "n": 100,
-    "t": 122,
+    "t": 123,
     "a": 41,
     "c": 4
   },
   "android_kernel_samsung_jf": {
     "n": 100,
-    "t": 726,
+    "t": 727,
     "a": 41,
     "c": 2
   },
   "android_kernel_samsung_msm8226": {
     "n": 100,
-    "t": 634,
+    "t": 635,
     "a": 58,
     "c": 2
   },
   "android_kernel_samsung_msm8974": {
     "n": 100,
-    "t": 716,
+    "t": 717,
     "a": 52,
     "c": 1
   },
   "android_kernel_samsung_sdm429": {
     "n": 100,
-    "t": 107,
+    "t": 108,
     "a": 35,
     "c": 2
   },
   "android_kernel_samsung_sdm670": {
     "n": 100,
-    "t": 86,
+    "t": 87,
     "a": 73,
     "c": 3
   },
   "android_kernel_samsung_sm7125": {
     "n": 100,
-    "t": 278,
+    "t": 279,
     "a": 36,
     "c": 2
   },
   "android_kernel_samsung_universal7880": {
     "n": 100,
-    "t": 1053,
+    "t": 1054,
     "a": 49,
     "c": 3
   },
   "android_kernel_shift_sdm845": {
     "n": 100,
-    "t": 102,
+    "t": 103,
     "a": 74,
     "c": 4
   },
   "android_kernel_sony_msm8974": {
     "n": 100,
-    "t": 557,
+    "t": 558,
     "a": 61,
     "c": 3
   },
   "android_kernel_sony_sdm660": {
     "n": 100,
-    "t": 414,
+    "t": 415,
     "a": 48,
     "c": 1
   },
   "android_kernel_sony_sdm845": {
     "n": 100,
-    "t": 433,
+    "t": 434,
     "a": 46,
     "c": 13
   },
   "android_kernel_sony_sm8250": {
     "n": 100,
-    "t": 58,
+    "t": 59,
     "a": 71,
     "c": 7
   },
   "android_kernel_xiaomi_gauguin": {
     "n": 100,
-    "t": 625,
+    "t": 626,
     "a": 46,
     "c": 13
   },
   "android_kernel_xiaomi_msm8937": {
     "n": 100,
-    "t": 13,
+    "t": 14,
     "a": 16,
     "c": 1
   },
   "android_kernel_xiaomi_msm8953": {
     "n": 100,
-    "t": 802,
+    "t": 803,
     "a": 36,
     "c": 1
   },
   "android_kernel_xiaomi_msm8996": {
     "n": 100,
-    "t": 178,
+    "t": 179,
     "a": 41,
     "c": 2
   },
   "android_kernel_xiaomi_msm8998": {
     "n": 100,
-    "t": 161,
+    "t": 162,
     "a": 44,
     "c": 4
   },
   "android_kernel_xiaomi_mt6768": {
     "n": 100,
-    "t": 14,
+    "t": 15,
     "a": 78,
     "c": 5
   },
   "android_kernel_xiaomi_onclite": {
     "n": 100,
-    "t": 109,
+    "t": 110,
     "a": 77,
     "c": 3
   },
   "android_kernel_xiaomi_sdm439": {
     "n": 100,
-    "t": 88,
+    "t": 89,
     "a": 32,
     "c": 5
   },
   "android_kernel_xiaomi_sdm710": {
     "n": 100,
-    "t": 117,
+    "t": 118,
     "a": 19,
     "c": 4
   },
   "android_kernel_xiaomi_sdm845": {
     "n": 100,
-    "t": 100,
+    "t": 101,
     "a": 76,
     "c": 4
   },
   "android_kernel_xiaomi_sm6125": {
     "n": 100,
-    "t": 61,
+    "t": 62,
     "a": 39,
     "c": 1
   },
   "android_kernel_xiaomi_sm6250": {
     "n": 100,
-    "t": 241,
+    "t": 242,
     "a": 34,
     "c": 1
   },
   "android_kernel_xiaomi_sm7250": {
     "n": 100,
-    "t": 510,
+    "t": 511,
     "a": 29,
     "c": 1
   },
   "android_kernel_xiaomi_sm8150": {
     "n": 100,
-    "t": 621,
+    "t": 622,
     "a": 24,
     "c": 1
   },
   "android_kernel_xiaomi_sm8250": {
     "n": 100,
-    "t": 54,
+    "t": 55,
     "a": 22,
     "c": 5
   },
   "android_kernel_xiaomi_sm8350": {
     "n": 100,
-    "t": 176,
+    "t": 177,
     "a": 9,
     "c": 1
   },
   "android_kernel_xiaomi_surya": {
     "n": 100,
-    "t": 209,
+    "t": 210,
     "a": 42,
     "c": 3
   },
   "android_kernel_zuk_msm8996": {
     "n": 100,
-    "t": 272,
+    "t": 273,
     "a": 33,
     "c": 1
   },
   "android_packages_apps_ElmyraService": {
     "n": 57,
-    "t": 703,
+    "t": 704,
     "a": 7,
     "c": 6
   },
   "android_packages_apps_MtkFMRadio": {
     "n": 100,
-    "t": 2093,
+    "t": 2094,
     "a": 37,
     "c": 32
   },
   "android_packages_resources_devicesettings": {
     "n": 88,
-    "t": 1437,
+    "t": 1438,
     "a": 19,
     "c": 14
   },
   "android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.4.1": {
     "n": 4,
-    "t": 1985,
+    "t": 1986,
     "a": 2,
     "c": 3
   },
   "android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-9.3": {
     "n": 1,
-    "t": 148,
+    "t": 149,
     "a": 1,
     "c": 1
   },
   "android_system_qcom": {
     "n": 100,
-    "t": 2343,
+    "t": 2344,
     "a": 36,
     "c": 29
   },
   "android_vendor_qcom_opensource_healthd-ext": {
     "n": 10,
-    "t": 1135,
+    "t": 1136,
     "a": 7,
     "c": 7
   }
