@@ -2159,6 +2159,19 @@
       "android_kernel_sony_sm8250"
     ]
   },
+  "pdx215": {
+    "Model": "pdx215",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Sony",
+    "Name": "Xperia 1 III",
+    "Deps": [
+      "android_device_sony_pdx215",
+      "android_device_sony_sm8350-common",
+      "android_hardware_sony",
+      "android_kernel_sony_sm8350"
+    ]
+  },
   "pioneer": {
     "Model": "pioneer",
     "Branch": "lineage-19.1",
