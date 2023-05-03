@@ -262,7 +262,7 @@
     "Name": "moto z3 play",
     "Deps": [
       "android_device_motorola_beckham",
-      "android_device_motorola_sdm660-common",
+      "android_device_motorola_msm8998-common",
       "android_external_bson",
       "android_hardware_motorola",
       "android_kernel_motorola_msm8998",
@@ -321,6 +321,11 @@
       "android_device_samsung_exynos9820-common",
       "android_device_samsung_slsi_sepolicy",
       "android_hardware_samsung",
+      "android_hardware_samsung_slsi-linaro_config",
+      "android_hardware_samsung_slsi-linaro_exynos",
+      "android_hardware_samsung_slsi-linaro_exynos5",
+      "android_hardware_samsung_slsi-linaro_graphics",
+      "android_hardware_samsung_slsi-linaro_openmax",
       "android_kernel_samsung_exynos9820"
     ]
   },
@@ -335,6 +340,11 @@
       "android_device_samsung_exynos9820-common",
       "android_device_samsung_slsi_sepolicy",
       "android_hardware_samsung",
+      "android_hardware_samsung_slsi-linaro_config",
+      "android_hardware_samsung_slsi-linaro_exynos",
+      "android_hardware_samsung_slsi-linaro_exynos5",
+      "android_hardware_samsung_slsi-linaro_graphics",
+      "android_hardware_samsung_slsi-linaro_openmax",
       "android_kernel_samsung_exynos9820"
     ]
   },
@@ -349,6 +359,11 @@
       "android_device_samsung_exynos9820-common",
       "android_device_samsung_slsi_sepolicy",
       "android_hardware_samsung",
+      "android_hardware_samsung_slsi-linaro_config",
+      "android_hardware_samsung_slsi-linaro_exynos",
+      "android_hardware_samsung_slsi-linaro_exynos5",
+      "android_hardware_samsung_slsi-linaro_graphics",
+      "android_hardware_samsung_slsi-linaro_openmax",
       "android_kernel_samsung_exynos9820"
     ]
   },
@@ -363,6 +378,11 @@
       "android_device_samsung_exynos9820-common",
       "android_device_samsung_slsi_sepolicy",
       "android_hardware_samsung",
+      "android_hardware_samsung_slsi-linaro_config",
+      "android_hardware_samsung_slsi-linaro_exynos",
+      "android_hardware_samsung_slsi-linaro_exynos5",
+      "android_hardware_samsung_slsi-linaro_graphics",
+      "android_hardware_samsung_slsi-linaro_openmax",
       "android_kernel_samsung_exynos9820"
     ]
   },
@@ -518,7 +538,7 @@
     "Name": "one power",
     "Deps": [
       "android_device_motorola_chef",
-      "android_device_motorola_sdm660-common",
+      "android_device_motorola_msm8998-common",
       "android_external_bson",
       "android_hardware_motorola",
       "android_kernel_motorola_msm8998",
@@ -598,6 +618,11 @@
       "android_device_samsung_exynos9820-common",
       "android_device_samsung_slsi_sepolicy",
       "android_hardware_samsung",
+      "android_hardware_samsung_slsi-linaro_config",
+      "android_hardware_samsung_slsi-linaro_exynos",
+      "android_hardware_samsung_slsi-linaro_exynos5",
+      "android_hardware_samsung_slsi-linaro_graphics",
+      "android_hardware_samsung_slsi-linaro_openmax",
       "android_kernel_samsung_exynos9820"
     ]
   },
@@ -612,6 +637,11 @@
       "android_device_samsung_exynos9820-common",
       "android_device_samsung_slsi_sepolicy",
       "android_hardware_samsung",
+      "android_hardware_samsung_slsi-linaro_config",
+      "android_hardware_samsung_slsi-linaro_exynos",
+      "android_hardware_samsung_slsi-linaro_exynos5",
+      "android_hardware_samsung_slsi-linaro_graphics",
+      "android_hardware_samsung_slsi-linaro_openmax",
       "android_kernel_samsung_exynos9820"
     ]
   },
@@ -626,6 +656,11 @@
       "android_device_samsung_exynos9820-common",
       "android_device_samsung_slsi_sepolicy",
       "android_hardware_samsung",
+      "android_hardware_samsung_slsi-linaro_config",
+      "android_hardware_samsung_slsi-linaro_exynos",
+      "android_hardware_samsung_slsi-linaro_exynos5",
+      "android_hardware_samsung_slsi-linaro_graphics",
+      "android_hardware_samsung_slsi-linaro_openmax",
       "android_kernel_samsung_exynos9820"
     ]
   },
@@ -775,7 +810,7 @@
     "Name": "moto g6 plus",
     "Deps": [
       "android_device_motorola_evert",
-      "android_device_motorola_sdm660-common",
+      "android_device_motorola_msm8998-common",
       "android_external_bson",
       "android_hardware_motorola",
       "android_kernel_motorola_msm8998",
@@ -1055,6 +1090,11 @@
       "android_device_samsung_gta4xl-common",
       "android_device_samsung_slsi_sepolicy",
       "android_hardware_samsung",
+      "android_hardware_samsung_slsi-linaro_config",
+      "android_hardware_samsung_slsi-linaro_exynos",
+      "android_hardware_samsung_slsi-linaro_exynos5",
+      "android_hardware_samsung_slsi-linaro_graphics",
+      "android_hardware_samsung_slsi-linaro_openmax",
       "android_hardware_samsung_slsi_libbt",
       "android_hardware_samsung_slsi_scsc_wifibt_wifi_hal",
       "android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib",
@@ -1072,6 +1112,11 @@
       "android_device_samsung_gta4xlwifi",
       "android_device_samsung_slsi_sepolicy",
       "android_hardware_samsung",
+      "android_hardware_samsung_slsi-linaro_config",
+      "android_hardware_samsung_slsi-linaro_exynos",
+      "android_hardware_samsung_slsi-linaro_exynos5",
+      "android_hardware_samsung_slsi-linaro_graphics",
+      "android_hardware_samsung_slsi-linaro_openmax",
       "android_hardware_samsung_slsi_libbt",
       "android_hardware_samsung_slsi_scsc_wifibt_wifi_hal",
       "android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib",
@@ -1257,8 +1302,7 @@
       "android_device_xiaomi_haydn",
       "android_device_xiaomi_sm8350-common",
       "android_hardware_xiaomi",
-      "android_kernel_xiaomi_sm8350",
-      "android_vendor_qcom_opensource_healthd-ext"
+      "android_kernel_xiaomi_sm8350"
     ]
   },
   "heart": {
@@ -1700,7 +1744,7 @@
     "Name": "moto g7 plus",
     "Deps": [
       "android_device_motorola_lake",
-      "android_device_motorola_sdm660-common",
+      "android_device_motorola_msm8998-common",
       "android_external_bson",
       "android_hardware_motorola",
       "android_kernel_motorola_msm8998",
@@ -1718,8 +1762,7 @@
       "android_device_xiaomi_lancelot",
       "android_device_xiaomi_mt6768-common",
       "android_hardware_mediatek",
-      "android_kernel_xiaomi_mt6768",
-      "android_packages_apps_MtkFMRadio"
+      "android_kernel_xiaomi_mt6768"
     ]
   },
   "lemonade": {
@@ -1785,8 +1828,7 @@
       "android_device_xiaomi_lisa",
       "android_device_xiaomi_sm8350-common",
       "android_hardware_xiaomi",
-      "android_kernel_xiaomi_sm8350",
-      "android_vendor_qcom_opensource_healthd-ext"
+      "android_kernel_xiaomi_sm8350"
     ]
   },
   "lmi": {
@@ -1851,8 +1893,7 @@
       "android_device_xiaomi_merlinx",
       "android_device_xiaomi_mt6768-common",
       "android_hardware_mediatek",
-      "android_kernel_xiaomi_mt6768",
-      "android_packages_apps_MtkFMRadio"
+      "android_kernel_xiaomi_mt6768"
     ]
   },
   "mermaid": {
@@ -1969,6 +2010,7 @@
     "Oem": "Motorola",
     "Name": "moto z2 force",
     "Deps": [
+      "android_device_motorola_msm8998-common",
       "android_device_motorola_nash",
       "android_external_bson",
       "android_hardware_motorola",
@@ -2125,8 +2167,8 @@
     "Oem": "Motorola",
     "Name": "moto x4",
     "Deps": [
+      "android_device_motorola_msm8998-common",
       "android_device_motorola_payton",
-      "android_device_motorola_sdm660-common",
       "android_external_bson",
       "android_hardware_motorola",
       "android_kernel_motorola_msm8998",
@@ -2157,6 +2199,19 @@
       "android_device_sony_sm8250-common",
       "android_hardware_sony",
       "android_kernel_sony_sm8250"
+    ]
+  },
+  "pdx214": {
+    "Model": "pdx214",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Sony",
+    "Name": "Xperia 5 III",
+    "Deps": [
+      "android_device_sony_pdx214",
+      "android_device_sony_sm8350-common",
+      "android_hardware_sony",
+      "android_kernel_sony_sm8350"
     ]
   },
   "pdx215": {
@@ -2435,8 +2490,7 @@
       "android_device_xiaomi_renoir",
       "android_device_xiaomi_sm8350-common",
       "android_hardware_xiaomi",
-      "android_kernel_xiaomi_sm8350",
-      "android_vendor_qcom_opensource_healthd-ext"
+      "android_kernel_xiaomi_sm8350"
     ]
   },
   "rhannah": {
@@ -2619,9 +2673,9 @@
     "Oem": "Samsung",
     "Name": "Galaxy S9+",
     "Deps": [
-      "android_device_samsung_star2lte",
       "android_device_samsung_exynos9810-common",
       "android_device_samsung_slsi_sepolicy",
+      "android_device_samsung_star2lte",
       "android_hardware_samsung",
       "android_kernel_samsung_exynos9810"
     ]
@@ -2633,9 +2687,9 @@
     "Oem": "Samsung",
     "Name": "Galaxy S9",
     "Deps": [
-      "android_device_samsung_starlte",
       "android_device_samsung_exynos9810-common",
       "android_device_samsung_slsi_sepolicy",
+      "android_device_samsung_starlte",
       "android_hardware_samsung",
       "android_kernel_samsung_exynos9810"
     ]
@@ -2742,6 +2796,21 @@
     "Deps": [
       "android_device_lge_msm8996-common",
       "android_device_lge_us996",
+      "android_device_lge_v20-common",
+      "android_hardware_lge",
+      "android_hardware_sony_timekeep",
+      "android_kernel_lge_msm8996"
+    ]
+  },
+  "us996d": {
+    "Model": "us996d",
+    "Branch": "lineage-19.1",
+    "Period": "w",
+    "Oem": "LG",
+    "Name": "V20 (GSM Unlocked - DirtySanta)",
+    "Deps": [
+      "android_device_lge_msm8996-common",
+      "android_device_lge_us996d",
       "android_device_lge_v20-common",
       "android_hardware_lge",
       "android_hardware_sony_timekeep",
