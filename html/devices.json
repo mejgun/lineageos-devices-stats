@@ -1217,6 +1217,36 @@
       "android_kernel_lge_msm8996"
     ]
   },
+  "h870": {
+    "Model": "h870",
+    "Branch": "lineage-19.1",
+    "Period": "w",
+    "Oem": "LG",
+    "Name": "G6 (EU Unlocked)",
+    "Deps": [
+      "android_device_lge_g6-common",
+      "android_device_lge_h870",
+      "android_device_lge_msm8996-common",
+      "android_hardware_lge",
+      "android_hardware_sony_timekeep",
+      "android_kernel_lge_msm8996"
+    ]
+  },
+  "h872": {
+    "Model": "h872",
+    "Branch": "lineage-19.1",
+    "Period": "w",
+    "Oem": "LG",
+    "Name": "G6 (T-Mobile)",
+    "Deps": [
+      "android_device_lge_g6-common",
+      "android_device_lge_h872",
+      "android_device_lge_msm8996-common",
+      "android_hardware_lge",
+      "android_hardware_sony_timekeep",
+      "android_kernel_lge_msm8996"
+    ]
+  },
   "h910": {
     "Model": "h910",
     "Branch": "lineage-19.1",
@@ -2812,6 +2842,21 @@
       "android_device_lge_msm8996-common",
       "android_device_lge_us996d",
       "android_device_lge_v20-common",
+      "android_hardware_lge",
+      "android_hardware_sony_timekeep",
+      "android_kernel_lge_msm8996"
+    ]
+  },
+  "us997": {
+    "Model": "us997",
+    "Branch": "lineage-19.1",
+    "Period": "w",
+    "Oem": "LG",
+    "Name": "G6 (US Unlocked)",
+    "Deps": [
+      "android_device_lge_g6-common",
+      "android_device_lge_msm8996-common",
+      "android_device_lge_us997",
       "android_hardware_lge",
       "android_hardware_sony_timekeep",
       "android_kernel_lge_msm8996"
