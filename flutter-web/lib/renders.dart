@@ -125,7 +125,7 @@ DataRow DeviceRowB(Device d, String r, AppState appState) {
         ),
         DataCell(
             onTap: () =>
-                launchUrl(Uri.parse('https://github.com/LineageOS/${r}/')),
+                launchUrl(Uri.parse('https://github.com/LineageOS/$r/')),
             Text(r)),
         DataCell(Text(
           appState.repos[r]!.commitsAvgDaysAgo.toString(),
@@ -199,7 +199,7 @@ DataRow DeviceRowC(String r, List<Device> d, AppState appState) {
       cells: <DataCell>[
         DataCell(
             onTap: () =>
-                launchUrl(Uri.parse('https://github.com/LineageOS/${r}/')),
+                launchUrl(Uri.parse('https://github.com/LineageOS/$r/')),
             Text(r)),
         DataCell(Text(
           appState.repos[r]!.commitsAvgDaysAgo.toString(),
