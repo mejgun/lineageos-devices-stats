@@ -1866,7 +1866,7 @@
     "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Xiaomi",
-    "Name": "POCO F2 Pro / Redmi K30 Pro / Redmi K30 Pro Zoom Edition",
+    "Name": "POCO F2 Pro / Redmi K30 Pro",
     "Deps": [
       "android_device_xiaomi_lmi",
       "android_device_xiaomi_sm8250-common",
