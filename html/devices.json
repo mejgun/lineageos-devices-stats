@@ -1081,7 +1081,7 @@
   },
   "gta4xl": {
     "Model": "gta4xl",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Samsung",
     "Name": "Galaxy Tab S6 Lite (LTE)",
@@ -1103,7 +1103,7 @@
   },
   "gta4xlwifi": {
     "Model": "gta4xlwifi",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Samsung",
     "Name": "Galaxy Tab S6 Lite (Wi-Fi)",
