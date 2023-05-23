@@ -133,7 +133,7 @@
   },
   "alioth": {
     "Model": "alioth",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Xiaomi",
     "Name": "POCO F3 / Redmi K40 / Mi 11X",
@@ -2644,7 +2644,7 @@
   },
   "sake": {
     "Model": "sake",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "ASUS",
     "Name": "ZenFone 8",
