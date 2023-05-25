@@ -1900,6 +1900,19 @@
       "android_kernel_google_marlin"
     ]
   },
+  "martini": {
+    "Model": "martini",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "OnePlus",
+    "Name": "9RT",
+    "Deps": [
+      "android_device_oneplus_martini",
+      "android_device_oneplus_sm8350-common",
+      "android_hardware_oplus",
+      "android_kernel_oneplus_sm8350"
+    ]
+  },
   "mata": {
     "Model": "mata",
     "Branch": "lineage-20.0",
