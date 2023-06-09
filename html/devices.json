@@ -685,6 +685,18 @@
       "android_kernel_amlogic_linux-4.9"
     ]
   },
+  "debx": {
+    "Model": "debx",
+    "Branch": "lineage-18.1",
+    "Period": "m",
+    "Oem": "Google",
+    "Name": "Nexus 7 2013 (LTE, Repartitioned)",
+    "Deps": [
+      "android_device_asus_debx",
+      "android_device_asus_flox",
+      "android_kernel_google_msm"
+    ]
+  },
   "dipper": {
     "Model": "dipper",
     "Branch": "lineage-20.0",
