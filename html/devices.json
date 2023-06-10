@@ -2471,7 +2471,7 @@
   },
   "pstar": {
     "Model": "pstar",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Motorola",
     "Name": "edge 20 pro",
