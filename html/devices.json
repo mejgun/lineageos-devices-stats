@@ -1901,6 +1901,29 @@
       "android_kernel_lge_msm8996"
     ]
   },
+  "m5": {
+    "Model": "m5",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Banana Pi",
+    "Name": "M5",
+    "Deps": [
+      "android_device_amlogic_common",
+      "android_device_amlogic_g12-common",
+      "android_device_amlogic_sepolicy",
+      "android_device_bananapi_m5",
+      "android_hardware_amlogic_kernel-modules_mali-driver",
+      "android_hardware_amlogic_kernel-modules_media",
+      "android_hardware_amlogic_kernel-modules_optee",
+      "android_hardware_amlogic_kernel-modules_rtk_btusb",
+      "android_hardware_amlogic_kernel-modules_rtl8822cs",
+      "android_hardware_amlogic_tools_dtbtool",
+      "android_hardware_amlogic_tools_imagepacker",
+      "android_hardware_amlogic_tools_respacker",
+      "android_hardware_realtek",
+      "android_kernel_amlogic_linux-4.9"
+    ]
+  },
   "marlin": {
     "Model": "marlin",
     "Branch": "lineage-18.1",
@@ -2148,6 +2171,26 @@
       "android_hardware_motorola",
       "android_kernel_motorola_sdm632",
       "android_system_qcom"
+    ]
+  },
+  "odroidc4": {
+    "Model": "odroidc4",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "HardKernel",
+    "Name": "ODROID-C4",
+    "Deps": [
+      "android_device_amlogic_common",
+      "android_device_amlogic_g12-common",
+      "android_device_amlogic_sepolicy",
+      "android_device_hardkernel_odroidc4",
+      "android_hardware_amlogic_kernel-modules_mali-driver",
+      "android_hardware_amlogic_kernel-modules_media",
+      "android_hardware_amlogic_kernel-modules_optee",
+      "android_hardware_amlogic_tools_dtbtool",
+      "android_hardware_amlogic_tools_imagepacker",
+      "android_hardware_amlogic_tools_respacker",
+      "android_kernel_amlogic_linux-4.9"
     ]
   },
   "onclite": {
@@ -2508,6 +2551,27 @@
       "android_hardware_motorola",
       "android_kernel_motorola_sm7250",
       "android_system_qcom"
+    ]
+  },
+  "radxa0": {
+    "Model": "radxa0",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Radxa",
+    "Name": "Zero",
+    "Deps": [
+      "android_device_amlogic_common",
+      "android_device_amlogic_g12-common",
+      "android_device_amlogic_sepolicy",
+      "android_device_radxa_radxa0",
+      "android_hardware_amlogic_kernel-modules_dhd-driver",
+      "android_hardware_amlogic_kernel-modules_mali-driver",
+      "android_hardware_amlogic_kernel-modules_media",
+      "android_hardware_amlogic_kernel-modules_optee",
+      "android_hardware_amlogic_tools_dtbtool",
+      "android_hardware_amlogic_tools_imagepacker",
+      "android_hardware_amlogic_tools_respacker",
+      "android_kernel_amlogic_linux-4.9"
     ]
   },
   "raven": {
