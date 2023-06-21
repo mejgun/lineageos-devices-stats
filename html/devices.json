@@ -12,6 +12,19 @@
       "android_kernel_samsung_sm7125"
     ]
   },
+  "a52sxq": {
+    "Model": "a52sxq",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Samsung",
+    "Name": "Galaxy A52s 5G",
+    "Deps": [
+      "android_device_samsung_a52sxq",
+      "android_device_samsung_sm7325-common",
+      "android_hardware_samsung",
+      "android_kernel_samsung_sm7325"
+    ]
+  },
   "a5y17lte": {
     "Model": "a5y17lte",
     "Branch": "lineage-18.1",
@@ -1924,6 +1937,19 @@
       "android_kernel_amlogic_linux-4.9"
     ]
   },
+  "m52xq": {
+    "Model": "m52xq",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Samsung",
+    "Name": "Galaxy M52 5G",
+    "Deps": [
+      "android_device_samsung_m52xq",
+      "android_device_samsung_sm7325-common",
+      "android_hardware_samsung",
+      "android_kernel_samsung_sm7325"
+    ]
+  },
   "marlin": {
     "Model": "marlin",
     "Branch": "lineage-18.1",
@@ -2156,6 +2182,18 @@
     "Deps": [
       "android_device_nubia_nx611j",
       "android_kernel_nubia_sdm660"
+    ]
+  },
+  "nx619j": {
+    "Model": "nx619j",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Nubia",
+    "Name": "Red Magic Mars",
+    "Deps": [
+      "android_device_nubia_nx619j",
+      "android_device_nubia_sdm845-common",
+      "android_kernel_nubia_sdm845"
     ]
   },
   "ocean": {
@@ -2641,6 +2679,19 @@
       "android_hardware_motorola",
       "android_kernel_motorola_sdm632",
       "android_system_qcom"
+    ]
+  },
+  "rosemary": {
+    "Model": "rosemary",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Xiaomi",
+    "Name": "Redmi Note 10S",
+    "Deps": [
+      "android_device_mediatek_sepolicy_vndr",
+      "android_device_xiaomi_rosemary",
+      "android_hardware_mediatek",
+      "android_kernel_xiaomi_mt6785"
     ]
   },
   "rs988": {
