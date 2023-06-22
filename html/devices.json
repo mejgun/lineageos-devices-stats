@@ -1914,6 +1914,20 @@
       "android_kernel_lge_msm8996"
     ]
   },
+  "lynx": {
+    "Model": "lynx",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Google",
+    "Name": "Pixel 7a",
+    "Deps": [
+      "android_device_google_gs101",
+      "android_device_google_gs201",
+      "android_device_google_lynx",
+      "android_kernel_google_gs101",
+      "android_kernel_google_gs201"
+    ]
+  },
   "m5": {
     "Model": "m5",
     "Branch": "lineage-20.0",
