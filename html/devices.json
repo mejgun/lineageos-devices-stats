@@ -448,6 +448,20 @@
       "android_kernel_google_redbull"
     ]
   },
+  "caprip": {
+    "Model": "caprip",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Motorola",
+    "Name": "moto g30",
+    "Deps": [
+      "android_device_motorola_caprip",
+      "android_device_motorola_sm6225-common",
+      "android_hardware_motorola",
+      "android_kernel_motorola_sm6225",
+      "android_system_qcom"
+    ]
+  },
   "castor": {
     "Model": "castor",
     "Branch": "lineage-18.1",
@@ -708,6 +722,20 @@
       "android_device_asus_debx",
       "android_device_asus_flox",
       "android_kernel_google_msm"
+    ]
+  },
+  "devon": {
+    "Model": "devon",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Motorola",
+    "Name": "moto g32",
+    "Deps": [
+      "android_device_motorola_devon",
+      "android_device_motorola_sm6225-common",
+      "android_hardware_motorola",
+      "android_kernel_motorola_sm6225",
+      "android_system_qcom"
     ]
   },
   "dipper": {
@@ -1344,6 +1372,20 @@
       "android_external_bson",
       "android_hardware_motorola",
       "android_kernel_motorola_msm8953",
+      "android_system_qcom"
+    ]
+  },
+  "hawao": {
+    "Model": "hawao",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Motorola",
+    "Name": "moto g42",
+    "Deps": [
+      "android_device_motorola_hawao",
+      "android_device_motorola_sm6225-common",
+      "android_hardware_motorola",
+      "android_kernel_motorola_sm6225",
       "android_system_qcom"
     ]
   },
@@ -2677,6 +2719,20 @@
       "android_external_bson",
       "android_hardware_motorola",
       "android_kernel_motorola_msm8953",
+      "android_system_qcom"
+    ]
+  },
+  "rhode": {
+    "Model": "rhode",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Motorola",
+    "Name": "moto g52",
+    "Deps": [
+      "android_device_motorola_rhode",
+      "android_device_motorola_sm6225-common",
+      "android_hardware_motorola",
+      "android_kernel_motorola_sm6225",
       "android_system_qcom"
     ]
   },
