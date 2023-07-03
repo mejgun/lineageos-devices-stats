@@ -870,6 +870,25 @@
       "android_system_qcom"
     ]
   },
+  "f62": {
+    "Model": "f62",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Samsung",
+    "Name": "Galaxy F62/M62",
+    "Deps": [
+      "android_device_samsung_exynos9820-common",
+      "android_device_samsung_f62",
+      "android_device_samsung_slsi_sepolicy",
+      "android_hardware_samsung",
+      "android_hardware_samsung_slsi-linaro_config",
+      "android_hardware_samsung_slsi-linaro_exynos",
+      "android_hardware_samsung_slsi-linaro_exynos5",
+      "android_hardware_samsung_slsi-linaro_graphics",
+      "android_hardware_samsung_slsi-linaro_openmax",
+      "android_kernel_samsung_exynos9820"
+    ]
+  },
   "fajita": {
     "Model": "fajita",
     "Branch": "lineage-20.0",
