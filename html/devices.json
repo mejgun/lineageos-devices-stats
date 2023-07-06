@@ -448,20 +448,6 @@
       "android_kernel_google_redbull"
     ]
   },
-  "caprip": {
-    "Model": "caprip",
-    "Branch": "lineage-20.0",
-    "Period": "w",
-    "Oem": "Motorola",
-    "Name": "moto g30",
-    "Deps": [
-      "android_device_motorola_caprip",
-      "android_device_motorola_sm6225-common",
-      "android_hardware_motorola",
-      "android_kernel_motorola_sm6225",
-      "android_system_qcom"
-    ]
-  },
   "castor": {
     "Model": "castor",
     "Branch": "lineage-18.1",
@@ -2308,7 +2294,7 @@
   },
   "onclite": {
     "Model": "onclite",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Xiaomi",
     "Name": "Redmi 7 / Y3",
