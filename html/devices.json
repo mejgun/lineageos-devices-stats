@@ -2222,6 +2222,19 @@
       "android_kernel_nubia_msm8998"
     ]
   },
+  "nx606j": {
+    "Model": "nx606j",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Nubia",
+    "Name": "Z18",
+    "Deps": [
+      "android_device_nubia_nx606j",
+      "android_device_nubia_sdm845-common",
+      "android_hardware_samsung_nfc",
+      "android_kernel_nubia_sdm845"
+    ]
+  },
   "nx609j": {
     "Model": "nx609j",
     "Branch": "lineage-20.0",
