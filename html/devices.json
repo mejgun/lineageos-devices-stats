@@ -408,7 +408,7 @@
     "Deps": [
       "android_device_google_bluejay",
       "android_device_google_gs101",
-      "android_kernel_google_gs101"
+      "android_kernel_google_gs201"
     ]
   },
   "blueline": {
@@ -539,7 +539,6 @@
       "android_device_google_gs101",
       "android_device_google_gs201",
       "android_device_google_pantah",
-      "android_kernel_google_gs101",
       "android_kernel_google_gs201"
     ]
   },
@@ -1971,7 +1970,6 @@
       "android_device_google_gs101",
       "android_device_google_gs201",
       "android_device_google_lynx",
-      "android_kernel_google_gs101",
       "android_kernel_google_gs201"
     ]
   },
@@ -2338,7 +2336,7 @@
       "android_device_google_gs101",
       "android_device_google_oriole",
       "android_device_google_raviole",
-      "android_kernel_google_gs101"
+      "android_kernel_google_gs201"
     ]
   },
   "panther": {
@@ -2352,7 +2350,6 @@
       "android_device_google_gs201",
       "android_device_google_pantah",
       "android_device_google_panther",
-      "android_kernel_google_gs101",
       "android_kernel_google_gs201"
     ]
   },
@@ -2696,7 +2693,7 @@
       "android_device_google_gs101",
       "android_device_google_raven",
       "android_device_google_raviole",
-      "android_kernel_google_gs101"
+      "android_kernel_google_gs201"
     ]
   },
   "redfin": {
