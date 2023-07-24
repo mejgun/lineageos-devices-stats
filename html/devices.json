@@ -2168,7 +2168,7 @@
   },
   "nash": {
     "Model": "nash",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Motorola",
     "Name": "moto z2 force",
