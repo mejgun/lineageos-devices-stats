@@ -2986,6 +2986,19 @@
       "android_packages_apps_ElmyraService"
     ]
   },
+  "tangorpro": {
+    "Model": "tangorpro",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Google",
+    "Name": "Pixel Tablet",
+    "Deps": [
+      "android_device_google_gs101",
+      "android_device_google_gs201",
+      "android_device_google_tangorpro",
+      "android_kernel_google_gs201"
+    ]
+  },
   "tissot": {
     "Model": "tissot",
     "Branch": "lineage-19.1",
