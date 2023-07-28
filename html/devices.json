@@ -2382,32 +2382,6 @@
       "android_system_qcom"
     ]
   },
-  "pdx203": {
-    "Model": "pdx203",
-    "Branch": "lineage-20.0",
-    "Period": "w",
-    "Oem": "Sony",
-    "Name": "Xperia 1 II",
-    "Deps": [
-      "android_device_sony_pdx203",
-      "android_device_sony_sm8250-common",
-      "android_hardware_sony",
-      "android_kernel_sony_sm8250"
-    ]
-  },
-  "pdx206": {
-    "Model": "pdx206",
-    "Branch": "lineage-20.0",
-    "Period": "w",
-    "Oem": "Sony",
-    "Name": "Xperia 5 II",
-    "Deps": [
-      "android_device_sony_pdx206",
-      "android_device_sony_sm8250-common",
-      "android_hardware_sony",
-      "android_kernel_sony_sm8250"
-    ]
-  },
   "pdx214": {
     "Model": "pdx214",
     "Branch": "lineage-20.0",
