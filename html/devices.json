@@ -2017,6 +2017,7 @@
     "Name": "Pixel XL",
     "Deps": [
       "android_device_google_marlin",
+      "android_hardware_sony_timekeep",
       "android_kernel_google_marlin"
     ]
   },
@@ -2839,6 +2840,7 @@
     "Deps": [
       "android_device_google_marlin",
       "android_device_google_sailfish",
+      "android_hardware_sony_timekeep",
       "android_kernel_google_marlin"
     ]
   },
