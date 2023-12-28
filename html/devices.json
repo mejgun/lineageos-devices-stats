@@ -159,7 +159,7 @@
   },
   "apollon": {
     "Model": "apollon",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Xiaomi",
     "Name": "Mi 10T / Mi 10T Pro / Redmi K30S Ultra",
@@ -413,7 +413,7 @@
   },
   "blueline": {
     "Model": "blueline",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Google",
     "Name": "Pixel 3",
@@ -426,7 +426,7 @@
   },
   "bonito": {
     "Model": "bonito",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Google",
     "Name": "Pixel 3a XL",
@@ -542,21 +542,6 @@
       "android_kernel_google_gs201"
     ]
   },
-  "chef": {
-    "Model": "chef",
-    "Branch": "lineage-20.0",
-    "Period": "w",
-    "Oem": "Motorola",
-    "Name": "one power",
-    "Deps": [
-      "android_device_motorola_chef",
-      "android_device_motorola_msm8998-common",
-      "android_external_bson",
-      "android_hardware_motorola",
-      "android_kernel_motorola_msm8998",
-      "android_system_qcom"
-    ]
-  },
   "cheryl": {
     "Model": "cheryl",
     "Branch": "lineage-20.0",
@@ -595,7 +580,7 @@
   },
   "crosshatch": {
     "Model": "crosshatch",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Google",
     "Name": "Pixel 3 XL",
@@ -674,6 +659,19 @@
       "android_hardware_samsung_slsi-linaro_graphics",
       "android_hardware_samsung_slsi-linaro_openmax",
       "android_kernel_samsung_exynos9820"
+    ]
+  },
+  "davinci": {
+    "Model": "davinci",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Xiaomi",
+    "Name": "Redmi K20 / Mi 9T",
+    "Deps": [
+      "android_device_xiaomi_davinci",
+      "android_device_xiaomi_sm6150-common",
+      "android_hardware_xiaomi",
+      "android_kernel_xiaomi_sm6150"
     ]
   },
   "deadpool": {
@@ -1246,7 +1244,7 @@
   },
   "h830": {
     "Model": "h830",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "LG",
     "Name": "G5 (TMO)",
@@ -1261,7 +1259,7 @@
   },
   "h850": {
     "Model": "h850",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "LG",
     "Name": "G5 (Intl)",
@@ -1276,7 +1274,7 @@
   },
   "h870": {
     "Model": "h870",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "LG",
     "Name": "G6 (EU Unlocked)",
@@ -1291,7 +1289,7 @@
   },
   "h872": {
     "Model": "h872",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "LG",
     "Name": "G6 (T-Mobile)",
@@ -1306,7 +1304,7 @@
   },
   "h910": {
     "Model": "h910",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "LG",
     "Name": "V20 (AT\u0026T)",
@@ -1321,7 +1319,7 @@
   },
   "h918": {
     "Model": "h918",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "LG",
     "Name": "V20 (TMO)",
@@ -1350,7 +1348,7 @@
   },
   "h990": {
     "Model": "h990",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "LG",
     "Name": "V20 (Global)",
@@ -1947,7 +1945,7 @@
   },
   "ls997": {
     "Model": "ls997",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "LG",
     "Name": "V20 (Sprint)",
@@ -1978,7 +1976,7 @@
     "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Banana Pi",
-    "Name": "M5",
+    "Name": "M5 (Android TV)",
     "Deps": [
       "android_device_amlogic_common",
       "android_device_amlogic_g12-common",
@@ -2011,14 +2009,27 @@
   },
   "marlin": {
     "Model": "marlin",
-    "Branch": "lineage-18.1",
-    "Period": "m",
+    "Branch": "lineage-20.0",
+    "Period": "w",
     "Oem": "Google",
     "Name": "Pixel XL",
     "Deps": [
       "android_device_google_marlin",
       "android_hardware_sony_timekeep",
       "android_kernel_google_marlin"
+    ]
+  },
+  "mars": {
+    "Model": "mars",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Xiaomi",
+    "Name": "Mi 11 Pro",
+    "Deps": [
+      "android_device_xiaomi_mars",
+      "android_device_xiaomi_sm8350-common",
+      "android_hardware_xiaomi",
+      "android_kernel_xiaomi_sm8350"
     ]
   },
   "martini": {
@@ -2075,6 +2086,21 @@
       "android_kernel_sony_sdm660"
     ]
   },
+  "messi": {
+    "Model": "messi",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Motorola",
+    "Name": "moto z3",
+    "Deps": [
+      "android_device_motorola_messi",
+      "android_device_motorola_msm8998-common",
+      "android_external_bson",
+      "android_hardware_motorola",
+      "android_kernel_motorola_msm8998",
+      "android_system_qcom"
+    ]
+  },
   "mi439": {
     "Model": "Mi439",
     "Branch": "lineage-20.0",
@@ -2084,7 +2110,7 @@
     "Deps": [
       "android_device_xiaomi_Mi439",
       "android_device_xiaomi_mithorium-common",
-      "android_kernel_xiaomi_sdm439"
+      "android_kernel_xiaomi_msm8937"
     ]
   },
   "mi8917": {
@@ -2114,28 +2140,16 @@
   },
   "miatoll": {
     "Model": "miatoll",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Xiaomi",
     "Name": "POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi Note 10 Lite",
     "Deps": [
       "android_device_xiaomi_miatoll",
       "android_device_xiaomi_sm6250-common",
+      "android_hardware_sony_timekeep",
       "android_hardware_xiaomi",
       "android_kernel_xiaomi_sm6250"
-    ]
-  },
-  "monet": {
-    "Model": "monet",
-    "Branch": "lineage-19.1",
-    "Period": "w",
-    "Oem": "Xiaomi",
-    "Name": "Mi 10 Lite 5G",
-    "Deps": [
-      "android_device_xiaomi_monet",
-      "android_device_xiaomi_sm7250-common",
-      "android_hardware_xiaomi",
-      "android_kernel_xiaomi_sm7250"
     ]
   },
   "montana": {
@@ -2230,6 +2244,7 @@
     "Deps": [
       "android_device_nubia_nx606j",
       "android_device_nubia_sdm845-common",
+      "android_hardware_nubia",
       "android_hardware_samsung_nfc",
       "android_kernel_nubia_sdm845"
     ]
@@ -2266,7 +2281,35 @@
     "Deps": [
       "android_device_nubia_nx619j",
       "android_device_nubia_sdm845-common",
+      "android_hardware_nubia",
       "android_kernel_nubia_sdm845"
+    ]
+  },
+  "nx651j": {
+    "Model": "nx651j",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Nubia",
+    "Name": "Play 5G / Red Magic 5G Lite",
+    "Deps": [
+      "android_device_nubia_nx651j",
+      "android_device_nubia_sm7250-common",
+      "android_hardware_nubia",
+      "android_hardware_samsung_nfc",
+      "android_kernel_nubia_sm7250"
+    ]
+  },
+  "nx659j": {
+    "Model": "nx659j",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Nubia",
+    "Name": "Red Magic 5G / 5S",
+    "Deps": [
+      "android_device_nubia_nx659j",
+      "android_hardware_nubia",
+      "android_hardware_samsung_nfc",
+      "android_kernel_nubia_sm8250"
     ]
   },
   "ocean": {
@@ -2289,7 +2332,7 @@
     "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "HardKernel",
-    "Name": "ODROID-C4",
+    "Name": "ODROID-C4 (Android TV)",
     "Deps": [
       "android_device_amlogic_common",
       "android_device_amlogic_g12-common",
@@ -2642,7 +2685,7 @@
     "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Radxa",
-    "Name": "Zero",
+    "Name": "Zero (Android TV)",
     "Deps": [
       "android_device_amlogic_common",
       "android_device_amlogic_g12-common",
@@ -2746,7 +2789,7 @@
     "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Xiaomi",
-    "Name": "Redmi Note 10S",
+    "Name": "Redmi Note 10S / Redmi Note 10S NFC / Redmi Note 10S Latin America",
     "Deps": [
       "android_device_mediatek_sepolicy_vndr",
       "android_device_xiaomi_rosemary",
@@ -2757,7 +2800,7 @@
   },
   "rs988": {
     "Model": "rs988",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "LG",
     "Name": "G5 (US)",
@@ -2833,8 +2876,8 @@
   },
   "sailfish": {
     "Model": "sailfish",
-    "Branch": "lineage-18.1",
-    "Period": "m",
+    "Branch": "lineage-20.0",
+    "Period": "w",
     "Oem": "Google",
     "Name": "Pixel",
     "Deps": [
@@ -2857,7 +2900,7 @@
   },
   "sargo": {
     "Model": "sargo",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Google",
     "Name": "Pixel 3a",
@@ -2896,6 +2939,18 @@
       "android_hardware_sony_thermanager",
       "android_hardware_sony_timekeep",
       "android_kernel_sony_msm8974"
+    ]
+  },
+  "spacewar": {
+    "Model": "Spacewar",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Nothing",
+    "Name": "Phone (1)",
+    "Deps": [
+      "android_device_nothing_Spacewar",
+      "android_hardware_nothing",
+      "android_kernel_nothing_sm7325"
     ]
   },
   "star2lte": {
@@ -2949,6 +3004,19 @@
       "android_kernel_xiaomi_surya"
     ]
   },
+  "sweet": {
+    "Model": "sweet",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Xiaomi",
+    "Name": "Redmi Note 10 Pro / Redmi Note 10 Pro Max",
+    "Deps": [
+      "android_device_xiaomi_sm6150-common",
+      "android_device_xiaomi_sweet",
+      "android_hardware_xiaomi",
+      "android_kernel_xiaomi_sm6150"
+    ]
+  },
   "taimen": {
     "Model": "taimen",
     "Branch": "lineage-20.0",
@@ -2977,7 +3045,7 @@
   },
   "tissot": {
     "Model": "tissot",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Xiaomi",
     "Name": "Mi A1",
@@ -3034,7 +3102,7 @@
   },
   "us996": {
     "Model": "us996",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "LG",
     "Name": "V20 (GSM Unlocked)",
@@ -3049,7 +3117,7 @@
   },
   "us996d": {
     "Model": "us996d",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "LG",
     "Name": "V20 (GSM Unlocked - DirtySanta)",
@@ -3064,7 +3132,7 @@
   },
   "us997": {
     "Model": "us997",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "LG",
     "Name": "G6 (US Unlocked)",
@@ -3117,6 +3185,19 @@
       "android_system_qcom"
     ]
   },
+  "violet": {
+    "Model": "violet",
+    "Branch": "lineage-20.0",
+    "Period": "w",
+    "Oem": "Xiaomi",
+    "Name": "Redmi Note 7 Pro",
+    "Deps": [
+      "android_device_xiaomi_sm6150-common",
+      "android_device_xiaomi_violet",
+      "android_hardware_xiaomi",
+      "android_kernel_xiaomi_sm6150"
+    ]
+  },
   "voyager": {
     "Model": "voyager",
     "Branch": "lineage-19.1",
@@ -3134,7 +3215,7 @@
   },
   "vs995": {
     "Model": "vs995",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "LG",
     "Name": "V20 (VZW)",
@@ -3245,7 +3326,7 @@
   },
   "z2_plus": {
     "Model": "z2_plus",
-    "Branch": "lineage-19.1",
+    "Branch": "lineage-20.0",
     "Period": "w",
     "Oem": "Zuk",
     "Name": "Zuk Z2 Plus",
